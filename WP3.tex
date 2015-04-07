@@ -1,0 +1,11 @@
+
+\subsubsection{WP3. Performance authoring and real-time execution. }
+
+This work package will elaborate a common conceptual framework for assembling all the behaviors, goals and animations of all actors into a coordinated, real time performance. Based on this framework, we will develop software tools for authoring the performance and controlling it in real-time. Authoring of performances will be based on traditional cue sheet, which are familiar to theatre directors (Gagner\'e 2012, Ronfard 2012). Cue-sheet are multi-modal documents consisting of blocking notations  written in a pseudo-natural language of verbs and adverbs, together with a graphical annotation providing spatial and temporal cue signals  for all actor movements, using stage views and floor plan views. A cue-sheet provides a convenient notation of stage directions, which can be easily created and edited by directors, and used a specification for a virtual performance. Internally, we will compile the cue sheet into a hierarchical finite-state machine, which is a de-facto standard in real-time game engines. 
+
+We will take advantage of the motion models created in WP1 and WP2 to create finite-state machines with a rich vo-cabulary of high-level actor behaviors, suitable for generating complex performances. Following (Mateas 2002), we will decompose the input cue-sheet into minimal units of behaviors (beats ) organized as one state-machine per actor, all connected together, and one state-machine for a stage manager  controlling the advancement of the storyline. Depending on their current states, virtual actors will update their positions, orientations and gaze directions using be-haviors from WP2, and their other animation parameters using procedural models from WP1. 
+
+All software tools developed in WP1 and WP2 will thus be integrated into a common runtime, playable in the Unity game engine, and used in WP4 for evaluation and validation. This task will be led by Inria, with contributions from all partners.
+
+\endinput
+
