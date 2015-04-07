@@ -1,0 +1,32 @@
+
+
+\subsubsection{WP1 Kinesics}
+
+
+
+
+\paragraph{Task11} Bidimensional models
+
+
+
+\paragraph{Task12} Gesture and dialogue
+
+
+
+\paragraph{Task13} Melange et extrapolation
+
+
+\paragraph{Task11}  Choosing representations for full body motion ; representation learning ; transfer learning ; parameterisation of kinesic components. This can include neuro-muscular variables ; also the choice of kinematic trees rooted at the head ; also the grouping of kinematic variables into synergies ; etc. 
+
+One classical distinction is between world-frame positions and joint angle variables In our case, we are making a strong statement that we will  study kinesic variables for all joints relative to the rigid body frame associated with the actor. This could be the ground floor position of the actor plus a rigid body position associated with the actor?s head.  Thus proxemic variables could be footsteps and head movements ; kinesic variables could be all other joint angles or joint positions in world coordinates.
+
+\paragraph{Task12} Learning bi-dimensional models of actions and moods from a mocap dataset of six actions (walk, carry object, knock on door, throw object, lift object, move object) in 8 moods (neutral, happy, afraid, angry, anxious, sad, proud, shameful). Ideally, we would like to separate the action components from the mood components of motion and extrapolate the moods to other actions, and the actions to other moods. 
+
+\paragraph{Task13} Learning models of gesture and facial expressions in dialogue situations.
+Based on previous work on  visual prosody, we would like to learn joint models of gesture and  speech prosody. Ideally, this should be done without MOCAP data, using only audio and video processing, possibly enhanced with depth (kinect).
+
+\paragraph{Task14}  Learning parameterized kinesic models. 
+
+Bbecause our models are contextual, conditioned by the proxemic components, we should be able to change their velocity,  amplitude, direction and phase (in the way of parametric HMM models). This is challenging and needs to be investigated. 
+
+\endinput
