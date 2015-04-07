@@ -12,78 +12,16 @@ les risques et les solutions de repli envisag\'ees.
 \end{xcomment}
 
 
-\subsubsection{WP1 Kinesics}
-
-\paragraph{Task11}  Choosing representations for full body motion ; representation learning ; transfer learning ; parameterisation of kinesic components. This can include neuro-muscular variables ; also the choice of kinematic trees rooted at the head ; also the grouping of kinematic variables into synergies ; etc. 
-
-One classical distinction is between world-frame positions and joint angle variables In our case, we are making a strong statement that we will  study kinesic variables for all joints relative to the rigid body frame associated with the actor. This could be the ground floor position of the actor plus a rigid body position associated with the actor?s head.  Thus proxemic variables could be footsteps and head movements ; kinesic variables could be all other joint angles or joint positions in world coordinates.
-
-\paragraph{Task12} Learning bi-dimensional models of actions and moods from a mocap dataset of six actions (walk, carry object, knock on door, throw object, lift object, move object) in 8 moods (neutral, happy, afraid, angry, anxious, sad, proud, shameful). Ideally, we would like to separate the action components from the mood components of motion and extrapolate the moods to other actions, and the actions to other moods. 
-
-\paragraph{Task13} Learning models of gesture and facial expressions in dialogue situations.
-Based on previous work on  visual prosody, we would like to learn joint models of gesture and  speech prosody. Ideally, this should be done without MOCAP data, using only audio and video processing, possibly enhanced with depth (kinect).
-
-\paragraph{Task14}  Learning parameterized kinesic models. 
-
-Bbecause our models are contextual, conditioned by the proxemic components, we should be able to change their velocity,  amplitude, direction and phase (in the way of parametric HMM models). This is challenging and needs to be investigated. 
 
 
-\subsubsection{WP2 Proxemics}
-
-\paragraph{Task 21} Group behaviors during multi-way conversation ; turn-taking ; synchronization of actors in dialogue ; implementation of conversational phenomena (interruption, pause, re-run, repetition, etc.)
-
-\paragraph{Task 22} Group behaviors during stage movements ? implementation of advanced steering behaviors  such as follow, flee, separate, join, merge, enter stage, exit stage, etc. 
-
-Create better models by taking gaze and head movement into account ; Physical models of social interactions ; implementation of action-reaction chains between actors ; 
-
-\paragraph{Task 23} High level models of actions and reactions, timing, implementation of theatrical effects. Provoke surprise and/or expectation, etc. Models of tri-partite interaction between two actors and the audience in dialogue and in movement. Theatrical cheating techniques. '
-
-\paragraph{Task 24}  Combination of statistical and procedural models ; smooth transitions between action keeping the same mood; between moods keeping the same action ; smooth transitions between dialogue and action ; adaptation to proxemic contexts.
+\input{Taches_WP1}
+\input{Taches_WP2}
+\input{Taches_WP3}
+\input{Taches_WP4}
 
 
-\subsubsection{WP3 Authoring}
-
-\paragraph{Task31} Specification of a dramatic language of verbs (actions, speech acts, movements) and adverbs (moods, attitudes, dramatic effects) for directing actors ; define cues as synchronisation points between actors ; define parallel and sequential behaviors ; etc.
-
-Part of this language will be devoted to stage blocking / movement
-
-Part of this language wil be devoted to dialogue
-
-\paragraph{Task32}  Compilation of the language into a finite state machine and/or Petri net ; allowing real-time execution of the dramatic score ; user interface for directing actors by sketching stage floor plans and composing the dramatic score ; one line per actor per motion component (proxemic behaviors, kinesic actions, kinesic moods, speech acts, etc.)
-
-\paragraph{Task33} Real-time execution of the dramatic score ; real-time combination of proxemic (procedural) and kinesic components of motion ; non-deterministic motion generation ; synchronization to cues ; real-time skinning and advanced 3D animation ; integration of physically-based secondary animation (skin, hair, clothes, etc.)
-
-This includes integration of the GRETA BML realizer with IMAGINE animation ; and real-time integration of the statistical models of motion with the procedural animation components.
 
 
-\paragraph{Task 34} User adaptation.
-Allow director to add corrections and let system learn the differences using imitation learning or active learning or other related techniques ; etc.
-
-
-\subsubsection{WP4 User evaluation and validation}
-
-\paragraph{Task41} Scenarios.
-
-Writing scenes with didascalia 
-Dialogue scenes with groups of 2, 3 and 4 actors using a choice of didascalia
-Silent stage movements, as in opera synched to music, using a choice of didascalia
-Alternations of dialogue and stage movements in theatre scenes with 2 actors
-
-\paragraph{Task42} Validation of the interaction.
-
-Is the dramatic language adequate ? useful ?  efficient  ? 
-
-Is the dramatic score interface  adequate ? useful ?  efficient  ? 
-
-Is the stage floor plan sketching tool adequate ? useful ?  efficient  ? 
-
-\paragraph{Task43} Validation of the animation
-
-Dialogue scenes  with groups of 2, 3 and 4 actors.
-
-Silent stage movements of groups of 2, 3 and 4 actors, as in opera synched to music
-
-Combination of dialogue and action for scenes with 2 actors
 
 
 
