@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dada_science.aux
+The style file: abbrv.bst
+Database file #1: dada_science.bib
+Warning--I didn't find a database entry for "Graves"
+Warning--empty journal in O'Reilly2012
+Warning--empty journal in Wiggins1979
+You've used 25 entries,
+            2118 wiz_defined-function locations,
+            660 strings with 8062 characters,
+and the built_in function-call counts, 8266 in all, are:
+= -- 759
+> -- 427
+< -- 5
++ -- 170
+- -- 141
+* -- 526
+:= -- 1375
+add.period$ -- 78
+call.type$ -- 25
+change.case$ -- 141
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 358
+empty$ -- 681
+format.name$ -- 141
+if$ -- 1766
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 28
+newline$ -- 128
+num.names$ -- 52
+pop$ -- 194
+preamble$ -- 1
+purify$ -- 119
+quote$ -- 0
+skip$ -- 236
+stack$ -- 0
+substring$ -- 325
+swap$ -- 76
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 94
+warning$ -- 2
+while$ -- 65
+width$ -- 27
+write$ -- 269
+(There were 3 warnings)

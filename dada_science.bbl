@@ -1,0 +1,149 @@
+\begin{thebibliography}{10}
+
+\bibitem{Barbulescu2014}
+A.~Barbulescu, R.~Ronfard, G.~Bailly, G.~Gagner\'e, and H.~Cakmak.
+\newblock Beyond basic emotions: Expressive virtual actors with social
+  attitudes.
+\newblock In {\em ACM SIGGRAPH Conference on Motion in Games}, 2014.
+
+\bibitem{Cassell2000}
+J.~Cassell, J.~Sullivan, S.~Prevost, and E.~Churchill.
+\newblock {\em Embodied Conversational Agents}.
+\newblock MIT Press, 2000.
+
+\bibitem{Contardo2014}
+G.~Contardo, L.~Denoyer, T.~Artieres, and P.~Gallinari.
+\newblock Learning states representations in pomdp.
+\newblock In {\em ICLR}, 2014.
+
+\bibitem{Ding2013}
+Y.~Ding, T.~Arti\`eres, and C.~Pelachaud.
+\newblock Modeling multimodal behaviors from speech prosody.
+\newblock In {\em International Conference on Intelligent Virtual Agents
+  (IVA)}, 2013.
+
+\bibitem{Fourati2013}
+N.~Fourati and C.~Pelachaud.
+\newblock Head, shoulders and hips behaviors during turning.
+\newblock In {\em Worshop on Human Behavior Understanding (HBU), Springer LNCS
+  8212}, pages 223--234, 2013.
+
+\bibitem{Gagner\'e2013}
+G.~Gagner\'e, R.~Ronfard, and M.~Desainte-Catherine.
+\newblock La simulation du travail th\'e\^atral et sa notation informatique.
+\newblock In {\em La notation du travail th\'e\^atral : du manuscrit au
+  num\'erique}, 2012.
+
+\bibitem{Gandhi13}
+V.~Gandhi and R.~Ronfard.
+\newblock {Detecting and Naming Actors in Movies using Generative Appearance
+  Models}.
+\newblock In {\em {CVPR 2013 - International Conference on Computer Vision and
+  Pattern Recognition}}, pages 3706--3713, Portland, Oregon, United States,
+  June 2013. {IEEE}.
+
+\bibitem{Gillies2004}
+M.~Gillies, I.~Crabtree, and D.~Ballin.
+\newblock Customisation and context for expressive behaviour in the broadband
+  world.
+\newblock {\em BT Technology Journal}, 22(2):7--17, 2004.
+
+\bibitem{Kendon2004}
+A.~Kendon.
+\newblock {\em Gesture: Visible Action as Utterance}.
+\newblock Cambridge University Press, 2004.
+
+\bibitem{Levine2010}
+S.~Levine, P.~Krahenbuhl, S.~Thrun, and V.~Koltun.
+\newblock Gesture controllers.
+\newblock {\em ACM Transactions on Graphics, Proceedings of SIGGRAPH}, 29(4),
+  2010.
+
+\bibitem{Liu2006}
+C.~Liu, A.~Hertzmann, and Z.Popovic.
+\newblock Composition of complex optimal multi-character motions.
+\newblock In {\em ACM SIGGRAPH / Eurographics Symposium on Computer Animation},
+  2006.
+
+\bibitem{Mateas2002}
+M.~Mateas and A.~Stern.
+\newblock A behavior language for story-based believable agents.
+\newblock {\em IEEE Intelligent Systems}, 17(4), 2002.
+
+\bibitem{Mitake09}
+H.~Mitake, K.~Asano, T.~Aoki, S.~Marc, M.~Sato, and S.~Hasegawa.
+\newblock {Physics-driven Multi Dimensional Keyframe Animation for
+  Artist-directable Interactive Character}.
+\newblock {\em Computer Graphics Forum}, 2009.
+
+\bibitem{O'Reilly2012}
+C.~O'Reilly and R.~Plamondon.
+\newblock A globally optimal estimator for the delta-lognormal modeling of fast
+  reaching movements.
+\newblock 42(5):1428--1442, 2012.
+
+\bibitem{Pedica2010}
+C.~Pedica and H.~Vilhjálmsson.
+\newblock Spontaneous avatar behavior for human territoriality.
+\newblock {\em Applied Artificial Intelligence}, 24(6), 2010.
+
+\bibitem{Pinhanez2000}
+C.~Pinhanez.
+\newblock The scd architecture and its use in the design of story-driven
+  interactive spaces.
+\newblock In {\em Managing Interactions in Smart Environments}, 2000.
+
+\bibitem{Prada2005}
+R.~Prada and A.~Paiva.
+\newblock Believable groups of synthetic characters.
+\newblock In {\em Autonomous agents and multiagent systems}, pages 37--43,
+  2005.
+
+\bibitem{Prepin2013}
+K.~Prepin, M.~Ochs, and C.~Pelachaud.
+\newblock Beyond backchannels : co-construction of dyadic stance by recip-rocal
+  reinforcement of smiles between virtual agents.
+\newblock In {\em COGSCI}, 2013.
+
+\bibitem{Radenen2014}
+M.~Radenen and T.~Arti\`eres.
+\newblock Contextual markovian models.
+\newblock {\em Pattern Recognition Letters}, 35:236--245, 2014.
+
+\bibitem{Ronfard2012}
+R.~Ronfard.
+\newblock Notation et reconnaissance des actions sc\'eniques par ordinateur.
+\newblock In {\em La notation du travail th\'e\^atral : du manuscrit au
+  num\'erique}, 2012.
+
+\bibitem{Sreenivasa09}
+M.~Sreenivasa, P.~Sou\`eres, J.-P. Laumond, and A.~Berthoz.
+\newblock Steering a humano\"id robot by its head.
+\newblock In {\em iros09}, St Louis (MO), USA, October 2009.
+
+\bibitem{Tanenbaum2014}
+J.~Tanenbaum, M.~S. El-Nasr, and M.~Nixon.
+\newblock {\em Nonverbal Communication in Virtual Worlds: Understanding and
+  Designing Expressive Characters}.
+\newblock ETC Press, 2014.
+
+\bibitem{Weinland07}
+D.~Weinland, E.~Boyer, and R.~Ronfard.
+\newblock {Action Recognition from Arbitrary Views using 3D Exemplars}.
+\newblock In {\em {ICCV 2007 - 11th IEEE International Conference on Computer
+  Vision}}, pages 1--7, Rio de Janeiro, Brazil, Oct. 2007. {IEEE}.
+
+\bibitem{Weinland06}
+D.~Weinland, R.~Ronfard, and E.~Boyer.
+\newblock {Automatic Discovery of Action Taxonomies from Multiple Views}.
+\newblock In A.~Fitzgibbon, C.~J. Taylor, and Y.~LeCun, editors, {\em {IEEE
+  Conference on Computer Vision and Pattern Recognition (CVPR '06)}}, pages
+  1639--1645, New York, United States, June 2006. {IEEE Computer Society}.
+
+\bibitem{Wiggins1979}
+J.~Wiggins.
+\newblock A psychological taxonomy of trait-descriptive terms: The
+  interpersonal domain.
+\newblock 33, 1979.
+
+\end{thebibliography}

@@ -20,31 +20,29 @@ les risques et les solutions de repli envisag\'ees.
 \input{Taches_WP4}
 
 
+Additional notes
 
 
+We will dedicate joint research between Inria and LIF to make it easy to extend our database of actions and attitudes
+using video, rather than motion capture. This will necessitate fundamental research in transfer learning (so that the sparse
+data obtained from video can benefit from the dense data obtained with motion capture) and video processing.  Following the
+methodology of  gesture controllers \cite{Levine2010}, where the gesture are controlled directly by speech prosody features
+extracted from real actors voices, it appears possible to drive expressive and plausible gestures and body movements from
+visual signatures of actions and attitudes extracted from example videos. 
+
+We will use  our previous work in actor and action recognition \cite{Weinland06,Weinland07,Gandhi13} to detect and recognize
+actors and their actions in real movies ; and extract visual signatures of the corresponding actions and attitudes. Based on this
+analysis, we will learn joint statistical models for driving gesture controllers from those video signals.
 
 
+Combining proxemics and kinesics components can be done along the lines of Mitake et al. \cite{Mitake09}, where
+the degrees of freedom of a virtual character are separated into six parameters for rigid body simulations,  and four parameters
+for encoding multi-dimensional keyframe animations. Similarly, we would like to hide the complexity of high-dimensional 
+character animation (with 40-60 degrees of freedom) behind a small number of control parameters. We will extend
+rigid body simulations  to include proxemic interaction forces in WP2. And we will replace keyframe animations with statistical models learned from data in WP1. 
 
-Notes
-
-
-If needed, we could try to learn models of gesture and proxemics from video by learning gesture controllers \cite{Levine2010},
-using  our previous work in actor and action recognition, including
-
-Daniel Weinland, Remi Ronfard, Edmond Boyer. Automatic Discovery of Action Taxonomies from Multiple Views. IEEE Conference on Computer Vision and Pattern Recognition (CVPR) - 2006. 
-
-D Weinland, E Boyer, R Ronfard. Action recognition from arbitrary views using 3d exemplars. International Conference on Computer Vision, 2007. ICCV 2007.
-
-V Gandhi, R Ronfard.   Detecting and naming actors in movies using generative appearance models. Computer Vision and Pattern Recognition (CVPR), 2013.
-
-
-Learning head-driven kinesic animation could be done following the line of 
-
-Sreenivasa, Soueres, Laumond, Berthoz ; Steering a humanoid robot by its head. Intelligent Robots and Systems, 2009.
-
-Combining proxemics and kinesics components could be done along the lines of
-
-Hironori Mitake, Kazuyuki Asano, Takafumi Aoki, Marc Salvati, Makoto Sato, Shoichi Hasegawa : 'Physics-driven Multi Dimensional Keyframe Animation for Artist-directable Interactive Character', Computer Graphics Forum, Vol.28, No.2, pp.279-287, 2009.
+One promising avenue for research will be to design strategies for controlling the proxemic components of character animation
+using the rigid motion of the head, rather than the full body.  Sreenivasa et al. \cite{Sreenivasa09} have proposed inverse kinematics methods for computing  the body motion of a humanoid robot, including footsteps and walking patterns of motion, given its head motion. In the context of DADA, the head motion of the virtual actors could similarly be put under the direct control of the director because it plays such an important expressive and dramatic function. The full body motion could then be computed with the constraints that the actor's head motion matches the director's directions, and the prescribed actions (walking, sitting, standing, etc.) and attitudes (sadly, swiftly, merrily, etc.).
 
 
 

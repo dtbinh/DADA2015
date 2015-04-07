@@ -1,0 +1,577 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{inputenc}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+
+
+\usepackage{eurosym}
+
+
+%% Sans-serif Arial-like fonts
+\renewcommand{\rmdefault}{phv} 
+\renewcommand{\sfdefault}{phv} 
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{eurosym}
+\usepackage{xspace}
+\newcommand{\projectname}[0]{DADA\xspace} 
+\usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\setlength{\footskip}{2cm}
+\setlength{\headheight}{2cm}
+\usepackage[lmargin=2.5cm,rmargin=2.5cm,tmargin=3.5cm,bmargin=1.5cm,includefoot]{geometry}  
+\usepackage{lastpage}%% to get the total number of pages
+
+\usepackage{pdflscape}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhfoffset[re]{4cm}
+
+\lhead{}
+\rhead{Appel à Projet G\'en\'erique - Projet: \projectname - \'edition 2015  - DOCUMENT SCIENTIFIQUE}
+ 
+
+\lfoot{ANR 2015 - DADA - Doc Scientifique}
+\cfoot{}
+\rfoot{\thepage/\pageref{LastPage}} 
+
+
+\newcommand{\mytitle}{Latex Skeleton for ANR}
+
+\title{\mytitle}
+
+\title{Directing Autonomous Digital Actors}
+
+\newcommand{\content}[1]{\emph{#1}\\} 
+
+\bibliographystyle{abbrv}
+
+% http://nw360.blogspot.com/2007/12/rename-bibliography-title-in-latex.html
+\renewcommand\refname{\vspace{-1cm}}
+
+
+
+%%\usepackage{xcomment}
+\newenvironment{xcomment}{\em}{}
+
+\begin{document}
+
+\maketitle
+
+\begin{xcomment} 
+Warning: the comments are turned on. All directives and guidelines appear.\\
+To turn them off, comment the line   \verb|\newenvironment{xcomment}{\em}{}|\\
+and uncomment the line  \verb|\usepackage{xcomment}|
+\end{xcomment} 
+
+%% PAGE 2 with table
+%\begin{landscape}
+%\thispagestyle{empty}
+ 
+%% PAGE 3 Table des mati\`eres (obligatoire)
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newpage
+
+ 
+\section{R\'esume de la proposition de projet / Executive summary}
+
+\begin{xcomment}  
+Recopier le r\'esum\'e utilis\'e dans le document administratif et financier.
+\end{xcomment}
+
+
+
+
+
+
+
+
+\subsection{Contexte et enjeux \'economiques et soci\'etaux / Context, social and economic issues}
+\begin{xcomment}  
+D\'ecrire le contexte \'economique, social, r\'eglementaire' dans lequel se situe le projet en pr\'esentant une analyse des enjeux sociaux, \'economiques, environnementaux, industriels' Donner si possible des arguments chiffr\'es, par exemple, pertinence et port\'ee du projet par rapport à la demande \'economique (analyse du march\'e, analyse des tendances), analyse de la concurrence, indicateurs de r\'eduction de coûts, perspectives de march\'es (champs d'application, '). Indicateurs des gains environnementaux, cycle de vie'
+\end{xcomment}
+
+Animating virtual agents with expressivity is a big challenge for the entertainment industries (video games, movie industry) that rely mainly on motion capture data which allows them to produce rich and subtle motion but with a high cost in time and finance. On the other hand, technology for interactive agents uses mainly procedural approach. While such approach allows modulating in real-time agents' motion and its quality, the results are still far from being natural and realistic. Lately statistical approaches have been developed. They are promising as they produce animations captur-ing naturalness and richness of human motion. However the control of such animation technique is still an issue and its extension to a large range of motion activities is also an important challenge.
+
+
+DADA aims to bridge the gap between those previous techniques by proposing a general framework for combining them into a unified interface. A desirable outcome of the project will be a completely novel interaction model for rehearsing with virtual actors and incrementally building complex multi-actor performances with multiple layers of 3D animation. Thus DADA fits the component Information and Communication Society; it is also in line with at least two axes of the ANR call.
+First axis: Le num\'erique au service des arts, du patrimoine, des industries culturelles et \'editoriales (3.7.1.3). There are several potential applications of DADA on top of the proposed virtual theater. The creation of expressive virtual charac-ters can be used in video games, especially for NPC (non-player characters), and in serious games. Indeed being able to simulate the motion of a virtual actor with different expressivities and for different morphologies while maintaining a high level of naturalness and lifelikeness will be a big benefit in time and money.
+
+
+Second axis: Interactions des mondes physiques, de l'humain et du monde num\'erique (3.7.2.4). The outcome of DADA
+will benefit the creation of virtual agents, either autonomous or controlled by humans. These agents ought to display a
+large variety of communicative and emotional expressions toward human interactants as well as to perform many actions with objects in their virtual environment. Enhancing, in quantity and expressivity, the behaviors of virtual agents is one of the challenges of DADA that falls under the axis.
+
+Related projects: There exist several large European projects that are related to DADA research themes. However, to our knowledge, none covers our research question of building expressive animation with different levels of control. We can name the NoE IRIS on story-telling, the IP Companions on dialog virtual agents, the IP REVERIE on modeling virtual characters in highly immersive virtual environment, and the STREP Ilhaire aims to simulate laughing agent using data-driven and motion graph approaches. On the National side, we can name the Feder project Anipev in which the database Emilya has been captured.
+
+Several recent projects have been devoted to the interface between computers and theatre, e.g. ANR VIRAGE (a generic architecture for controlling lighting and music during theatre production), ANR OSSIA (authoring tools for writing interactive, multimedia scenarios) and ANR INEDIT (INteractivit\'e dans l'Ecriture De l'Interaction et du Temps). ANR Spectacle-en-ligne(s) is a SHS CORPUS project dedicated to capturing, indexing and annotating 200 hours of theatre rehearsals recorded in high-definition video. Those projects focus on the interaction of computer systems with real actors. In contrast, DADA will focus on the core issue of directing virtual.
+
+Despite considerable academic research, few procedural animation systems have become commercially available in recent years. Euphoria by Natural Motion is a real-time procedural animation engine, which has been used in Grand Theft Auto 4 and other games. However, actions and expressions are difficult to control. Xtranormal Technologies was an online service for quickly creating 3-D animations from dialogues decorated with stage directions, using a proprietary procedural animation engine limited to non-expressive behaviors.  Actor Machines is a company created by Ken Perlin to commercialize packages of trained virtual actors  with a large range of actions and expressions, which has not delivered any product yet.
+
+
+
+
+\subsection{Positionnement du projet / Position of the project}
+\begin{xcomment}  
+Pr\'eciser :
+positionnement du projet par rapport au contexte d\'evelopp\'e pr\'ec\'edemment : vis- à-vis des projets et recherches concurrents, compl\'ementaires ou ant\'erieurs, des brevets et standards'
+indiquer si le projet s'inscrit dans la continuit\'e de projet(s) ant\'erieurs d\'ejà financ\'es par l'ANR. Dans ce cas, pr\'esenter bri\`evement les r\'esultats acquis,
+positionnement du projet par rapport aux axes th\'ematiques de l'appel à projets,
+positionnement du projet aux niveaux europ\'een et international.
+\end{xcomment}
+
+Creating believable, human-like performances by virtual actors is an important problem in many digital storytelling applications, e.g. creating non-player characters (NPC) for video games, creating expressive avatars in next-generation virtual worlds, populating movies and architectural simulations with background characters and crowds, creating be-lievable virtual tutors and coaches in educational serious games, and creating believable characters for interactive fiction and interactive drama (Tannenbaum 2014).
+
+A desirable feature for such applications is the ability to create virtual actor performances which are both expressive and controllable. Motion capture actors are expressive, but once recorded, their performances cannot easily be controlled, edited or modified. As a result, game companies ought to get engaged in extensive motion capture sessions of all actions and moods of all characters in every new game they create. On the other end of the spectrum, procedural 3D animation can be controlled in every detail using sophisticated programming techniques, but they fall short of providing the level of expression required for conveying the subtle inflexions of human-like performances.
+
+Character animation has been tackled through various approaches in the past. To name a few, chosen among those that are directly related to DADA, we can cite: embodied conversational agents (ECA), ie autonomous virtual characters (Cassell 2000); statistical models learned from motion capture examples (Lee 2002); physically-based animation (Liu 2006); and speech-driven animation (Ding 2013). Very few attempts have tried to merge these various approaches into a single model offering on one hand expressive animation and on the other hand high control over the animation.
+
+In order to make progress in the field, we propose to shift the focus from autonomous characters to autonomous actors. Autonomous characters (such as The Sims) make decisions based on AI models of their personality and goals. In con-trast, autonomous actors follow a precise script, written by the director. Their autonomy is therefore limited to perform-ing a precise sequence of actions as a result of various cues  written in the script. Creating such performances proce-durally using autonomous actors is a valuable goal because it would make it possible for each performance to be unique, which is widely regarded as an important quality to ensure liveliness and immersion, while maintaining a high level of directorial control. Merging both approaches would allow creating autonomous actors able to follow a script (specified in high-level command-like language) that give the main directions the actors ought to follow while adapting their behaviors autonomously to the virtual environment they are placed in that includes objects and other actors.
+
+The goal of the DADA project is to design, implement and evaluate novel interfaces for directing expressive, autonomous virtual actors, borrowing from established theatre practices. We will combine fundamental re-search in 3D animation, machine learning and intelligent agent programming to leverage motion capture data sets of professional actors into a virtual theatre company of synthetic actors with acting skills, i.e. ability to respond to a director's instructions and to perform together on a virtual stage. Virtual theatre will be used as a test application for obvious extensions to other digital storytelling applications.
+
+To reach this ambitious goal, DADA will learn parameterized models of actor's movements and gestures from existing annotated motion capture databases of actor performances; and create intuitive authoring tools for creating a script of actions and cues in a machine-readable format suitable to real-time control of the virtual actors. More precisely, the academic partners of the project will engage fundamental research along two main directions:
+
+\begin{enumerate}
+\item	Animating autonomous actors procedurally. A key idea in DADA is to separate the animation model into a proxe-mic component regulating how actors interact with each other and the audience, and a kinesic component regulating how actors use their body language to communicate moods and expressions (Tannenbaum 2014). The proxemic component of animation will drive the positions and orientations of actors on the stage as well as their gaze direc-tions. This component will be driven by a model encompassing the social relations between and the emotional states of the autonomous actors. The kinesic component of animation will drive all other degrees of freedom of the virtual actors. This component will be driven by parametric statistical models trained from an existing motion cap-ture data-set. The separation between the two components is expected to yield important benefits in terms of ex-pressivity and composability.
+
+\item 	Synchronizing virtual actors to a single story-line using a story-driven architecture of actors following a scripted sequence of instructions (Pinhanez 2000). In contrast to previous works, which used programming languages (Ma-teas 2002), we will investigate multimodal interfaces offering directorial control in a high-level, pseudo-natural language familiar to the director. The language will be compiled internally to a finite-state machine representation controlling the real-time execution of the autonomous actors. 
+\end{enumerate}
+
+
+All developments will be validated by experiments with the theatre department of Paris 8, under the supervision of Georges Gagner\'e. Starting from a selection of play scripts in various genres and with increasing complexity, theatre experts will use the DADA tools to create virtual theatre performances in the Unity game engine, including stage movements and actions (entering, exiting, sitting down, standing up, taking and putting objects on the stage); body language expression of the personalities, moods and emotions of the characters; and believable gaze, proxemics and action/reaction behaviors between actors.
+
+The expected results of DADA will be (1) a virtual theatre company of autonomous actors with a large vocabulary of expressive animation skills; and (2) a prototype system for directing arbitrary dramatic plays, amenable to a variety of digital storytelling applications. Results will be integrated into Unity3D which is already used by the GRETA plat-form at Telecom ParisTech and the virtual cinematography framework developed by the IMAGINE team at Inria. 
+
+
+Results will be used at University of Marseille for building a pivot actor model allowing the retargeting of the DADA actors to actors with different morphologies and styles. Results will be used by Paris 8 as a virtual rehearsal space for theatre productions involving real actors interacting with digital actors, and as a platform for publishing digital dramatic performances online. If applicable, results will also be patented and exploited by the three academic partners, targeting commercial applications such as video games, digital storytelling, virtual worlds and movie previz.
+
+
+
+\subsection{Etat de l'art / State of the art}
+\begin{xcomment}  
+Pr\'esenter un \'etat de l'art national et international, en dressant l'\'etat des connaissances sur le sujet. 
+Faire apparaître d'\'eventuelles contributions des membres de la proposition de projet à cet \'etat de l'art.
+Faire apparaître d'\'eventuels r\'esultats pr\'eliminaires. 
+Inclure les r\'ef\'erences bibliographiques n\'ecessaires au § 7.
+\end{xcomment}
+
+\subsubsection{Autonomous agents}
+
+\subsubsection{Authoring tools and metaphors}
+
+\subsubsection{Procedural character animation}
+
+\subsubsection{Data-driven character animation}
+
+\subsubsection{Non-player characters (NPC)}
+
+\subsubsection{Robotic actors}
+
+
+
+\subsection{Objectifs et caract\`ere ambitieux/novateur du projet / Objectives, originality and novelty of the project}
+\begin{xcomment}  
+D\'ecrire les objectifs du projet et d\'etailler les verrous scientifiques et techniques à lever par la r\'ealisation du projet. Insister sur le caract\`ere ambitieux et/ou novateur de la proposition.
+D\'ecrire \'eventuellement le ou les produits finaux d\'evelopp\'es, pr\'esenter les r\'esultats escompt\'es en proposant si possible des crit\`eres de r\'eussite et d'\'evaluation adapt\'es au type de projet, permettant d'\'evaluer les r\'esultats en fin de projet.
+\end{xcomment}  
+
+\section{Programme scientifique et technique, organisation du projet / Scientific and technical programme, Project organisation}
+\begin{xcomment}  
+A titre indicatif : de 5 à 10  pages pour ce chapitre, en fonction du nombre de tâches
+\end{xcomment}
+
+\subsection{Programme scientifique et structuration du projet  / Scientific programme, project structure}
+\begin{xcomment}  
+ Pr\'esentez le programme scientifique et justifiez la d\'ecomposition en tâches du programme de travail en coh\'erence avec les objectifs poursuivis. 
+Utilisez un diagramme pour pr\'esenter les liens entre les diff\'erentes tâches (organigramme technique)
+Les tâches repr\'esentent les grandes phases du projet. Elles sont en nombre limit\'e.
+Le cas \'ech\'eant (programmes exigeant la pluridisciplinarit\'e), d\'emontrer l'articulation entre les disciplines scientifiques.
+N'oubliez pas les tâches correspondant à la diss\'emination et à la valorisation, à d\'ecrire en d\'etails au §4.
+
+\end{xcomment}
+
+
+
+Work will be divided into four main work packages: (1) procedural animation of isolated actors; (2) procedural anima-tion of interaction between actors; (3) authoring and real-time control; (4) user evaluations. Through the authoring tool (WP3), a script is elaborated by a theater director (WP4); it gives direction to group of actors which act out autono-mously the commands of the script to position toward each other and in the virtual space (WP2). The behaviors of each actor is computed taking into account their emotional states and social relations (WP1).
+
+\subsubsection{WP1. Kinesic component} 
+
+Procedural animation models for isolated actors. We will create multi-modal statistical models of individual body movements from annotated mocap data to generate novel expressive animation suitable for  dramatic performances. Recent work has demonstrated such models for the case of locomotion believable controllers, gesture controllers (Levine 2010) and face controllers (Ding et al., 2013). We will aim to generalize this previous work to more general action controllers, including such actions as: sitting, standing, walking, grasping, taking and putting objects, in a variety of expressions and moods. 
+
+To do so we will tackle few difficult and open problems: Learning full body animation models for many settings rang-ing from emotional state to actor profile (corpulence, expressivity level etc). Moreover while the animation model will be learned from a limited number of actors' data we want it to be able to be remapped to other actors. In addition we will investigate learning animation models for new gestures and activities from only few training samples which will allow enriching the system easily by avoiding the costly and tedious task of gathering a large corpus of training data as usually required in statistical machine learning.
+
+To achieve these goals we will focus on the design of generic animation models rather than of a large number of models. We want to design and learn a generic model that could be instantiated in various settings. We will first explore extensions of previous promising works (e.g. Radenen 2014). Then we will explore and propose new ways for parame-terizing the animation model with few variables related to the emotional state of an actor and more generally to an ac-tor's profile. The difficulty here lies in the definition of defining the representation of an actor, we will attempt to learn it directly from data using recent techniques named as representation learning (Contardo 2014). Second we will focus on enhancing the modeling formalism for capturing and modeling the smooth transition between successive actions or gestures. We will investigate here two lines of research, the first one would be the extension of deltalognormal models from (O'Reilly, 2012) which will allow working on the neuromuscular commands that generate gestures rather than on gestures, the second line consists of using continuous state space models which would allow modeling and synthesizing smoother transitions between successive actions.
+
+To enable learning from few samples we will mainly explore two ways that aim at favoring transfer from learning one gesture model to learning another gesture model. First, few preliminary works have shown that statistical markovian models as in (Ding et al., 2013) could be defined in such a way that the data from all gesture classes could be exploited to learn models for all gesture classes. Second using continuous state space models with a low dimensional state space (corresponding to the degree of freedom of body poses) should permit characterizing a particular gesture as its dynamic in this latent space whose limited dimension would enable learning from few samples.  
+
+We will rely as much as possible on existing datasets. For instance Mocap data of considered actions have already been recorded by C. Pelachaud within the project Feder Anipev (http://www.anipev.com/). The corpus EMILYA (EMotional body expressIon in daiLY Actions databaseBodily Emotional Actions Behavior) (Fourati, 2014) is constituted of 7 actions performed by 11 actors with 8 emotions. The actions encompass everyday actions such as walking, carrying an object, and sitting. The emotions cover the positive and negative spectrum. 
+This task will be led by LIF (University of Marseille), with contributions from Inria and Telecom ParisTech.
+
+\subsubsection{WP2. Proxemic component: procedural animation models for interaction between actors.}
+
+Previous works on modeling group formation have been mainly applied to ECAs and have focused on the spatial posi-tioning and orientation of the ECAs (Pedica, 2010). Few researches have looked at modeling group of ECAs with dif-ferent personalities and social attitudes (Gillies 2004; Prada, 2005). However these models do not consider the dynamic evolution of the group behaviors nor how do the actors' behaviours synchronize with each other. In this task, we focus on simulating group of autonomous actors interacting with each other where each actor is defined by its emotional state and its relation toward others and objects. Social relations can be represented by two dimensions, affiliation and domi-nance (Wiggins 1979). We will extend group behavior model (Pedica 2010) that embeds the F-Formation proposed by Kendon (2004) to consider social relations and emotional states of actors. 
+
+Physical distance between actors, their body orientation toward each other, gaze direction, facial expression, gesture expressivity are cues of the relation with others and with objects and of emotional states. These cues will be embedded in the proxemics component. They evolve con-tinuously in relation to the others' behaviors. To simulate the dynamic evolution of these behaviors we will make use of Neural Network simulation (Prepin 2013) where we can render how behaviors of one actor can act on behaviors of other actors (eg walking powerfully toward an actor with an angry expression will result in moving backward of another actor with a less dominant attitude. Mutual coupling of behaviors will be modeled as emerging from such action-reactive behavior simulation (Prepin 2013) ensuring not only the synchronization between actors' behaviors but also their mutual influence. This task will be led by Telecom ParisTech with the contribution of Inria.
+
+
+\subsubsection{WP3. Performance authoring and real-time execution. }
+
+This work package will elaborate a common conceptual framework for assembling all the behaviors, goals and animations of all actors into a coordinated, real time performance. Based on this framework, we will develop software tools for authoring the performance and controlling it in real-time. Authoring of performances will be based on traditional cue sheet, which are familiar to theatre directors (Gagner\'e 2012, Ronfard 2012). Cue-sheet are multi-modal documents consisting of blocking notations  written in a pseudo-natural language of verbs and adverbs, together with a graphical annotation providing spatial and temporal cue signals  for all actor movements, using stage views and floor plan views. A cue-sheet provides a convenient notation of stage directions, which can be easily created and edited by directors, and used a specification for a virtual performance. Internally, we will compile the cue sheet into a hierarchical finite-state machine, which is a de-facto standard in real-time game engines. 
+
+We will take advantage of the motion models created in WP1 and WP2 to create finite-state machines with a rich vo-cabulary of high-level actor behaviors, suitable for generating complex performances. Following (Mateas 2002), we will decompose the input cue-sheet into minimal units of behaviors (beats ) organized as one state-machine per actor, all connected together, and one state-machine for a stage manager  controlling the advancement of the storyline. Depending on their current states, virtual actors will update their positions, orientations and gaze directions using be-haviors from WP2, and their other animation parameters using procedural models from WP1. 
+
+All software tools developed in WP1 and WP2 will thus be integrated into a common runtime, playable in the Unity game engine, and used in WP4 for evaluation and validation. This task will be led by Inria, with contributions from all partners.
+
+\subsubsection{WP4. Evaluation and validation.  }
+
+This task will insure the integration of the research prototype within the cultural context of creative industries and artis-tic practices. Using the autonomous digital actors from WP1, WP2 and WP3, Paris 8 will create short theatre scenes covering the spectrum of actions and emotions covered by the project. The directorial constraints will be adapted to the research scope in order to guarantee expressive results matching creative issues. A survey of teachers and creators from theater, dance, cinema, digital art, video game of Paris 8 creative environment will help to design the prototype in the direction of users' needs. Evaluation and validation will include short staged performances targeting different application areas, including theatre, pantomime, staging of chorists in opera, as well as previsualization of movie scenes and simulation of non player characters in video games. It will aim at a high expressive level of realization and give feed-back on the quality of animation and the usability of the authoring tools offered for directing virtual actors in those contexts. This task will be supervised by Paris 8 with contributions from members of the Labex Arts-H2H leading project Process of directing actors  which involves international stage directors teachers and students of the Conservatoire National Sup\'erieur d'Art Dramatique (CNSAD ' National theater school).
+
+
+\subsection{Management du projet / Project management}
+\begin{xcomment}  
+Pr\'eciser les aspects organisationnels du projet et les modalit\'es de coordination (si possible individualisation d'une tâche de coordination).
+\end{xcomment}
+
+\subsection{Description des travaux par tâche / Description by task}
+\begin{xcomment}  
+Pour chaque tâche, d\'ecrire : 
+les objectifs et \'eventuels indicateurs de succ\`es,
+les personnes impliqu\'ees,
+le programme d\'etaill\'e des travaux,
+les livrables,
+les contributions des personnes (le qui fait quoi ),
+la description des m\'ethodes et des choix techniques et de la mani\`ere dont les solutions seront apport\'ees,
+les risques et les solutions de repli envisag\'ees.
+\end{xcomment}
+
+
+\subsubsection{WP1 Kinesics}
+
+\paragraph{Task11}  Choosing representations for full body motion ; representation learning ; transfer learning ; parameterisation of kinesic components. This can include neuro-muscular variables ; also the choice of kinematic trees rooted at the head ; also the grouping of kinematic variables into synergies ; etc. 
+
+One classical distinction is between world-frame positions and joint angle variables In our case, we are making a strong statement that we will  study kinesic variables for all joints relative to the rigid body frame associated with the actor. This could be the ground floor position of the actor plus a rigid body position associated with the actor?s head.  Thus proxemic variables could be footsteps and head movements ; kinesic variables could be all other joint angles or joint positions in world coordinates.
+
+\paragraph{Task12} Learning bi-dimensional models of actions and moods from a mocap dataset of six actions (walk, carry object, knock on door, throw object, lift object, move object) in 8 moods (neutral, happy, afraid, angry, anxious, sad, proud, shameful). Ideally, we would like to separate the action components from the mood components of motion and extrapolate the moods to other actions, and the actions to other moods. 
+
+\paragraph{Task13} Learning models of gesture and facial expressions in dialogue situations.
+Based on previous work on  visual prosody, we would like to learn joint models of gesture and  speech prosody. Ideally, this should be done without MOCAP data, using only audio and video processing, possibly enhanced with depth (kinect).
+
+\paragraph{Task14}  Learning parameterized kinesic models. 
+
+Bbecause our models are contextual, conditioned by the proxemic components, we should be able to change their velocity,  amplitude, direction and phase (in the way of parametric HMM models). This is challenging and needs to be investigated. 
+
+\subsubsection{WP2 Proxemics}
+
+
+In this workpackage we are interested in modeling behaviors of group of agents while conversing and while moving around. We will pay particular attention at the social interaction of the agents during these activities. We will also develop an animation model that incorporate two models: statistical model as developed in WP1 and procedural model developed within the Greta plateform.
+
+
+\paragraph{Task 2.1: Group behaviors during multi-way conversation}
+
+
+In this task we will model multi-party conversation behaviors. We will focus on turn-taking management. While indication of what the agents would say to whom and when will be provided by a script (Task 3.1 and Task 4.X), the turn-taking model will instantiate which behaviors the agents will display. Gaze, body orientation, position in space are important cues for indicating who has the turn, who wants to keep it, to give it to someone, who listens? We will extend an existing turn-taking model (Ravenet et al., 2014) that is based on Sack?s model (Sack et al, 1974), that embeds F-Formation (Kendon, 1990) and that takes into account social attitude of the agents toward each other. This model is implemented as a state machine where the states are defined by the turn-taking and correspond to conversational roles. Transition between states is triggered when an agent changes conversational role. Attitudes vary the behavior of the agents such as their propensity to gaze at others. We will extend this model to simulate different configurations of speech overlap such as terminal overlaps, conditional access to the turn, and choral (Schegloff, 2000) as well as long silences when nobody takes the turn. We will add further states to encompass more conversational functions (eg greeting, word search?). We will also model that transitions from one state to another one can bring the agents of a group to be in the same state (parallel configuration as when greeting each other or laughing together).
+
+A version of this model will be instantiated to model tri-partite interaction between two virtual actors and the audience (viewed as a virtual actor taking part of the interaction).
+
+
+\paragraph{Task 2.2 : Group behaviors during stage movements}
+
+
+This involves implementation of advanced « steering behaviors » such as follow, flee, separate, join, merge, enter stage, exit stage, etc.
+
+
+This task will model agents? behavior when moving around in the environment. The animation of the virtual agent doing some tasks will be given by WP1. It will not focus on path planning as this information will be provided by a script (Task 3.1 and Task 4.X). Rather it will model how agents perform displacement in social settings. Gaze direction, body orientation and spatial distance to other agents will be computing for different ?steering behaviors?. These features will be modeled through different synchronization mechanisms: moving in synch, moving ahead, following, etc. They evolve dynamically in function of each agent?s position and orientation in space. The basic animation of the agent, ie without any influence from surrounding agent, is given by WP1. To simulate the dynamic evolution of agens? behaviors we will make use of Neural Network simulation (Prepin 2013) where we can render how behaviors of one actor can act on behaviors of other actors (eg walking powerfully toward an actor with an angry expression will result in moving backward of another actor with a less dominant attitude. Mutual coupling of behaviors will be modeled as emerging from such action-reactive behavior simulation (Prepin 2013) ensuring not only the synchronization between actors? behaviors but also their mutual influence.
+
+As for Task 2.2, a version of this model will be instantiated to consider the audience as one virtual actor.
+
+
+
+\paragraph{Task 2.3 ? Combination of statistical and procedural models.}
+
+
+In this task we will develop an animation model that will merge animations coming from statistical model developed in WP1 and procedural model developed in WP2 (Task 2.1 and Task 2.2). This blend is required for the interaction settings where behaviors of the agents are driven by both animation models.
+
+The procedural model relies on forward and inverse kinematic models (Huang, 2012). It controls the arms position, gaze direction and body orientation. The statistical model (from WP1) controls the whole body. Our animation blender model will work at the modalities level and will also incorporate movement propagation; that is how motion of one body part affects other body parts. At first, the animation blender model will merge whole body motion computed by the statistical model as specific body motion computed by the procedural model. More precisely, arms position, gaze direction and body orientation outputted by the procedural model will be viewed as constraints to be reached. These motions will be added onto the animation computed by statistical model; the position of the arms, head and torso computed by the procedural model will overwrite those computed by the statistical model. In a second step, the animation blender model will incorporate propagation of movements. To compute movement propagation we will develop a statistical model that learns which motion is due to action and which motion is due to movement propagation.
+
+
+
+
+\subsubsection{WP3 Authoring}
+
+\paragraph{Task31: Specification of a dramatic language for virtual actors.}
+
+This will include a choice of verbs (actions, speech acts, movements) and adverbs (moods, attitudes, dramatic effects) 
+for directing actors ; define cues as synchronisation points between actors ; define parallel and sequential behaviors ; etc.
+
+Part of this language will be devoted to stage blocking / movement
+
+Part of this language will be devoted to dialogue
+
+
+\paragraph{Task32: Authoring tools for blocking a scene with multiple actors.}
+
+Design and implementation of authoring tools for creating animation with the dramatic language.
+
+Previous work has focused on direct annotation of play-scripts with high-level (FML) or low-level (BML) mark-up.
+
+From a user perspective, this is neither intuitive nor expressive. Instead, we will offer authoring tools
+with natural interaction, taking inspiration from existing practices in theatre (prompt-books, cue sheet, storyboards, etc.).
+
+
+The authoring tool may include multimodal interaction with the director: sketching tools for designing actor trajectories
+and meeting points; writing tools for adding didascalia to dialogues; timeline-driven interaction for defining cue points
+and actions, timing, etc.
+
+User interface for directing actors by sketching stage floor plans and composing the dramatic score ; one line per actor per motion component (proxemic behaviors, kinesic actions, kinesic moods, speech acts, etc.)
+
+Compilation of the language into a finite state machine and/or Petri net ; allowing real-time execution of the dramatic score.
+
+
+\paragraph{Task33: Real-time execution of the dramatic score.} 
+
+This should include real-time combination of proxemic (procedural) and kinesic components of motion ; non-deterministic motion generation ; synchronization to cues ; real-time skinning and advanced 3D animation ; integration of physically-based secondary animation (skin, hair, clothes, etc.)
+
+This includes integration of the GRETA BML realizer with IMAGINE animation ; and real-time integration of the statistical models of motion with the procedural animation components.
+
+
+
+\subsubsection{WP4 User evaluation and validation}
+
+\paragraph{Task41} Scenarios.
+
+Writing scenes with didascalia 
+
+Dialogue scenes with groups of 2 or  3  actors using a choice of didascalia
+
+Movements with groups of 2 or 3 actors using a choice of didascalia
+
+Alternations of dialogue and stage movements in theatre scenes with 2 or 3 actors
+
+A possible choice would be "the augmentation", a play by Georges Perec with a large number of variations
+on a single theme (an employee asks an augmentation from his boss in the presence of his secretary).
+
+
+
+\paragraph{Task42} Validation of the interaction.
+
+Is the dramatic language adequate ? useful ?  efficient  ? 
+
+Is the dramatic score interface  adequate ? useful ?  efficient  ? 
+
+Is the stage floor plan sketching tool adequate ? useful ?  efficient  ? 
+
+\paragraph{Task43} Validation of the animation
+
+Dialogue scenes  with groups of 2, 3 and 4 actors.
+
+Silent stage movements of groups of 2, 3 and 4 actors, as in opera synched to music
+
+Combination of dialogue and action for scenes with 2 actors
+
+
+
+Notes
+
+
+We will dedicate joint research between Inria and LIF to make it easy to extend our database of actions and attitudes
+using video, rather than motion capture. This will necessitate fundamental research in transfer learning (so that the sparse
+data obtained from video can benefit from the dense data obtained with motion capture) and video processing.  Following the
+methodology of  gesture controllers \cite{Levine2010}, where the gesture are controlled directly by speech prosody features
+extracted from real actors voices, it appears possible to drive expressive and plausible gestures and body movements from
+visual signatures of actions and attitudes extracted from example videos. 
+
+We will use  our previous work in actor and action recognition \cite{Weinland06,Weinland07,Gandhi13} to detect and recognize
+actors and their actions in real movies ; and extract visual signatures of the corresponding actions and attitudes. Based on this
+analysis, we will learn joint statistical models for driving gesture controllers from those video signals.
+
+
+Combining proxemics and kinesics components can be done along the lines of Mitake et al. \cite{Mitake09}, where
+the degrees of freedom of a virtual character are separated into six parameters for rigid body simulations,  and four parameters
+for encoding multi-dimensional keyframe animations. Similarly, we would like to hide the complexity of high-dimensional 
+character animation (with 40-60 degrees of freedom) behind a small number of control parameters. We will extend
+rigid body simulations  to include proxemic interaction forces in WP2. And we will replace keyframe animations with statistical models learned from data in WP1. 
+
+One promising avenue for research will be to design strategies for controlling the proxemic components of character animation
+using the rigid motion of the head, rather than the full body.  Sreenivasa et al. \cite{Sreenivasa09} have proposed inverse kinematics methods for computing  the body motion of a humanoid robot, including footsteps and walking patterns of motion, given its head motion. In the context of DADA, the head motion of the virtual actors could similarly be put under the direct control of the director because it plays such an important expressive and dramatic function. The full body motion could then be computed with the constraints that the actor's head motion matches the director's directions, and the prescribed actions (walking, sitting, standing, etc.) and attitudes (sadly, swiftly, merrily, etc.).
+
+
+
+
+
+\subsection{Calendrier des tâches, livrables et jalons / Tasks schedule, deliverables and milestones}
+\begin{xcomment} 
+Pr\'esenter sous forme graphique un \'ech\'eancier des diff\'erentes tâches et leurs d\'ependances (diagramme de Gantt par exemple).
+Pr\'esenter un tableau synth\'etique de l'ensemble des livrables du projet (num\'ero de tâche, date, intitul\'e, responsable).
+Pr\'eciser de façon synth\'etique les jalons scientifiques et/ou techniques, les principaux points de rendez-vous, les points bloquants ou al\'eas qui risquent de remettre en cause l'aboutissement du projet ainsi que les r\'eunions de projet pr\'evues.
+
+\end{xcomment}
+
+
+\section{Strat\'egie de valorisation, de protection et d'exploitation des r\'esultats / Dissemination and exploitation of results. intellectual property}
+\begin{xcomment}   
+A titre indicatif : 2 pages maximum pour ce chapitre.
+Pr\'esenter les strat\'egies de valorisation des r\'esultats :
+la communication scientifique,
+la communication aupr\`es d'autres communaut\'es scientifiques et du grand public, notamment la promotion faite à la culture scientifique et technique. Si un budget sp\'ecifique est pr\'evu à cet effet, le sp\'ecifier et l'identifier dans une tâche de la proposition (voir § 3.1).
+les r\'esultats attendus en mati\`ere de valorisation,
+les retomb\'ees scientifiques, techniques, industrielles, \'economiques, '
+la place du projet dans la strat\'egie industrielle des entreprises partenaires du projet,
+les autres retomb\'ees (normalisation, information des pouvoirs publics, formation dans l'enseignement sup\'erieur, ...),
+les \'ech\'eances et la nature des retomb\'ees technico-\'economiques attendues,
+l'incidence \'eventuelle sur l'emploi, la cr\'eation d'activit\'es nouvelles, '
+
+Pr\'esenter les grandes lignes des modes de protection et d'exploitation des r\'esultats.
+\end{xcomment}
+
+
+\section{Description de l'equipe / Team description}
+\begin{xcomment}  
+A titre indicatif : 2 pages maximum pour ce chapitre.
+\end{xcomment}
+
+
+\subsection{Description, ad\'equation et compl\'ementarit\'e des participants / Partners description, relevance and complementarity}
+\begin{xcomment}  
+Fournir les \'el\'ements permettant d'appr\'ecier la qualification des personnes impliqu\'ees dans la proposition de projet (le pourquoi qui fait quoi ). Il peut s'agir de r\'ealisations pass\'ees, d'indicateurs (publications, brevets), de l'int\'erêt pour le projet'
+Montrer la compl\'ementarit\'e et la valeur ajout\'ee des coop\'erations entre les diff\'erents participants. 
+Le cas \'ech\'eant, l'interdisciplinarit\'e et l'ouverture à diverses collaborations seront à justifier en accord avec les orientations du projet.
+\end{xcomment}
+
+The consortium involves three research teams with complementary experience in computer graphics, intelligent virtual agents and statistical machine learning and a research team in theatre studies. Telecom ParisTech and University of Marseille are already working together on facial animation from speech through the co-supervision of Yu Ding's thesis (Ding 2013). Inria/Imagine and Paris 8 are also already working together on directing audiovisual prosody of actors, as part of Ad\'ela Barbulescu thesis (Barbulescu 2014). Results of the two theses will be exploited in the project.
+
+
+
+
+
+
+\subsection{Qualification du coordinateur du projet / Qualification of the project coordinator}
+\begin{xcomment} 
+0,5 page maximum
+Fournir les \'el\'ements permettant de juger la capacit\'e du coordinateur à coordonner le projet.
+\end{xcomment}
+
+R\'emi Ronfard is a senior researcher at Inria in the IMAGINE team, whose research is devoted to designing novel interfaces between artists and computers (Intuitive Modeling and Animation for Interactive Graphics \& Narrative Envi-ronments). He has a 20 year experience in industry and academia in France, Canada and USA, and has directed an R \& D team on virtual cinematography at Montreal-based startup Xtranormal Technologies.  He will be acting as coordinator of DADA.
+
+
+
+\subsection{Qualification, rôle et implication des participants / Qualification and contribution of each partner}
+\begin{xcomment}  
+(1 page maximum)
+Qualifier les personnes, pr\'eciser leurs activit\'es principales  et leurs comp\'etences propres.
+
+Pour chacune des personnes dont l'implication dans le projet est sup\'erieure à 25\% de son temps sur la totalit\'e du projet (c'est-à-dire une moyenne de 3 hommes.mois par ann\'ee de projet), une biographie d'une page maximum sera plac\'ee en annexe du pr\'esent document qui comportera :
+Nom, pr\'enom, âge, cursus, situation actuelle
+Autres exp\'eriences professionnelles
+Liste des cinq publications (ou brevets) les plus significatives des cinq derni\`eres ann\'ees, nombre de publications dans les revues internationales ou actes de congr\`es à comit\'e de lecture.
+Prix, distinctions
+Si besoin, pour chacune des personnes, leur implication dans d'autres projets (Contrats publics et priv\'es effectu\'es ou en cours sur les trois derni\`eres ann\'ees) sera pr\'esent\'ee et fournie en annexe du pr\'esent document. On pr\'ecisera l'implication dans des projets europ\'eens ou dans d'autres types de projets nationaux ou internationaux. Expliciter l'articulation entre les travaux propos\'es et les travaux ant\'erieurs ou d\'ejà en cours.
+
+\end{xcomment}
+\begin{table}
+\begin{tabularx}{ \textwidth}{| p{2cm} | p{2cm} |  p{2cm} |  p{2cm} |  p{1cm} |  X |    }
+\hline
+Name & First name & Position & Field of research & PM & Contribution to the proposal \\
+\hline
+\end{tabularx}
+
+\caption{Qualification and contribution of each partner}
+\end{table}
+
+Thierry Arti\`eres  is a professor at University of Aix-Marseille, and a member of the QARMA team (eQuipe Ap-pRentissage et Multim\'edia) at LIF (Laboratoire d'Informatique Fondamentale). One of his major research topic concerns machine learning for multimedia applications, more particularly for sequences and signals, either for classification, pattern discovery, sequence labeling and sequence synthesis, with strong experience with various signals such as speech, bioacoustics, handwriting, gestures, eye movements, WII signals, Kinect and motion capture data. 
+
+Georges Gagner\'e is stage director (www.didascalie.net) and associate professor in Paris 8 University's performing arts department, working in the laboratory "Sc\`enes du monde, cr\'eation, savoirs critiques" (EA 1573), with full professor Jean-François Dusigne, ex-actor of Th\'e\^atre du Soleil, and international expert in directing actor theory and practice. He works closely with the digital artist and associated professor C\'edric Plessiet from Paris 8 's INREV research laboratory (EA4010- digital image and virtual reality), directed by Marie-H\'el\`ene Tramus, full professor and scientific director of Labex Arts and Human Mediations (www.labex-arts-h2h.fr) linking together artistic practice with cognitive sciences and human mediations.
+
+Catherine P\'elachaud is Director of Research at CNRS in the laboratory LTCI, TELECOM ParisTech. She has pub-lished over 150 papers and chapters in internationally recognized conferences and journals. She has participated in several national and European projects related to multimodal communication, to believable embodied conversational agents, emotions and social behaviors. She has developed an open-source virtual agent system, Greta, which is used by several international teams for research and teaching purposes. 
+
+
+
+\section{Justification scientifique des moyens demand\'es / Scientific justification of requested ressources}
+\begin{xcomment}  
+On pr\'esentera ici la justification scientifique et technique des moyens demand\'es dans le document de soumission tel que synth\'etis\'e et rempli en ligne sur le site de soumission dans la fiche tableaux r\'ecapitulatifs  du document administratif et financier tel que rempli en ligne sur le site de soumission.
+Justifier les moyens demand\'es en distinguant les diff\'erents postes de d\'epenses.
+(2 pages maximum)
+\end{xcomment}
+
+
+Budget: We request a financial aid of 500 K\euro for 3 PhD students (360 K\euro), 1 post-doc at Paris 8 (60 K\euro), computer hardware and software (20 k\euro), travel expenses (60 K\euro). The project duration should be 42 months in order to develop a functional prototype and to use it to animate several play scripts.
+
+
+
+\subsection{\'equipement / Equipment}
+\begin{xcomment}  
+Pr\'eciser la nature des \'equipements* et justifier le choix des \'equipements (un devis pourra être demand\'e si le projet est retenu pour financement).
+Dans le cas où les achats doivent être compl\'et\'es par d'autres sources de financement, indiquer le montant et l'origine de ces aides compl\'ementaires, et le pourcentage demand\'e à l'ANR sur le pr\'esent projet.
+\end{xcomment}
+
+\subsection{Personnel / Staff}
+\begin{xcomment}  
+Le personnel non permanent (th\`eses, post- doctorants, CDD...) financ\'e sur le projet devra être justifi\'e.
+Fournir  les profils des postes à pourvoir pour les personnels à recruter.
+
+Pour les th\`eses, pr\'eciser si des demandes de bourse de th\`ese sont pr\'evues ou en cours, en pr\'eciser la nature et la part de financement imputable au projet. 
+\end{xcomment}
+
+Paris 8  will hire a post-doc for the final 18 months  of the project to perform user studies 
+testing the quality of the generated animations and usability of the DADA prototype.
+
+LIF will hire a PhD student for 36 months
+
+Inria will hire a PhD students for 36 months
+
+LITC will  hire a Phd student for 36 months
+
+
+
+
+
+
+
+\subsection{Prestation de service externe / Subcontracting}
+\begin{xcomment}  
+Pr\'eciser:
+la nature des prestations,
+le type de prestataire.
+
+\end{xcomment}
+
+\subsection{Missions / Travel}
+\begin{xcomment} 
+Pr\'eciser :
+les missions li\'ees aux travaux d'acquisition sur le terrain (campagnes de mesures'),
+les missions relevant de colloques, congr\`es'
+\end{xcomment}
+
+
+We plan to take part in the relevant international conferences, including "intelligent virtual agents",
+Siggraph and Siggraph Asia, Eurographics, 
+
+
+
+
+\subsection{D\'epenses justifi\'ees sur une proc\'edure de facturation interne / Costs justified by internal procedures of invoicing}
+\begin{xcomment}  
+Pr\'eciser la nature des prestations.
+\end{xcomment}
+
+
+\subsection{Autres d\'epenses de fonctionnement / Other expenses}
+\begin{xcomment}
+Toute d\'epense significative relevant de ce poste devra être justifi\'ee.
+\end{xcomment}
+
+
+\section{R\'ef\'erences bibliographiques / References}
+\begin{xcomment}  
+Inclure la liste des r\'ef\'erences bibliographiques utilis\'ees dans la partie Etat de l'art  et les r\'ef\'erences bibliographiques des partenaires ayant trait au projet.
+\end{xcomment}
+
+
+
+\bibliography{dada_science}
+
+
+\end{document}
