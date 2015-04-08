@@ -3,30 +3,69 @@
 \subsubsection{WP1 Kinesics}
 
 
+\begin{center}
+\begin{tabular}{|l|l|}\hline
+WP1 &  Kinesic component \\\hline
+Responsable &  ECM  \\\hline
+Participants &  Inria, Telecom ParisTech\\\hline
+Duration  &   \\\hline
+Objectives &   \\\hline
+Content &  \\\hline
+Task 11 & Full body animation  \\\hline
+Task12 &  Interaction animation \\\hline
+Task13 &  Learning from few samples  \\\hline
+\end{tabular}
+\begin{tabular}{|l|l|l|}\hline
+Deliverables & Name and content  & Date  \\\hline
+L1.1  & Report on the state of the art for statistical models for animation synthesis & \\\hline
+L1.2  &  & \\\hline
+L1.3  &  & \\\hline
+\end{tabular}
+\end{center}
 
 
-\paragraph{Task11} Bidimensional models
+
+The aim of this WP is to develop new generic models able to produce animation of a single character. It includes designing animation models of a character realizing an action (walking, sitting etc) given a context that consists in a particular mood and in character profile (age, gender) as well as designing models for taking into account the interaction of the character with others (gaze, harm gesture). Moreover it will explore the ability to extend these models in order to deal with only few training data by relying on transfer learning strategies.
+
+The workpackage is divided into three subtasks which are dedicated to the animation of the full body of a character, to the animation of specific parts of its body which are engaged in an interaction with another character, and to the specific strategies that will be explored for learning such models from few training data.
+
+\paragraph{Task11} Full body animation
+
+This subtask aims at designing generic body controllers able to synthesize the animation of the full body of a character (through the sequence of mocap representation) for a given procedural animation scenario as output by WP2, i.e. a sequence of actions realized for a particular mood context and for a specific character profile. We will first consider that there is one model per action and that the animation produced by such a model should take into account, as inputs, the mood context as well as the character profile context. We will consider modeling frameworks that allow separating the mood components from the profile components so as to enable extrapolating moods to other profiles, and profiles to other moods. 
+
+We will first explore extending contextual markovian models \cite{Ding2013, Ding2014} through the parameterization of Hidden Markov Models (HMMs) by contextual information related to the mood and to the character profile. This will require extending these models to deal with the full body. These models will serve as a baseline for evaluating the new modeling approaches we describe bellow. 
+
+Next, we will investigate the use of deep recurrent neural networks and of representation learning algorithms for modeling and synthezing motion capture signals. The main difficulty here will be to imagine ways to integrate contextual information that would modify the behaviour of the models. We plan to explore ideas like defining bilinear layers in neural nets where the weights of a hidden layer would be defined as a function of the contextual information.
+
+At last we will investigate neuro muscular based models following ideas like the one of deltalognormal models from (O'Reilly, 2012). Although such models have not been used to model complex gestures up to now it is expected that they could be robust enough to provide good estimation of the command sequence. 
 
 
+% Choosing representations for full body motion ; representation learning ; transfer learning ; parameterisation of kinesic components. This can include neuro-muscular variables ; also the choice of kinematic trees rooted at the head ; also the grouping of kinematic variables into synergies ; etc. 
+% 
+% One classical distinction is between world-frame positions and joint angle variables In our case, we are making a strong statement that we will  study kinesic variables for all joints relative to the rigid body frame associated with the actor. This could be the ground floor position of the actor plus a rigid body position associated with the actor?s head.  Thus proxemic variables could be footsteps and head movements ; kinesic variables could be all other joint angles or joint positions in world coordinates.
 
-\paragraph{Task12} Gesture and dialogue
+\paragraph{Task12} Interaction animation 
+
+This subtask focuses on learning models of gesture and facial expressions in dialogue situations.Based on previous work on  visual prosody, we would like to learn joint models of gesture and  speech prosody. Ideally, this should be done without MOCAP data, using only audio and video processing, possibly enhanced with depth (kinect). To be continued (Rémi)...
+
+\paragraph{Task13} Learning from few samples
+
+We will mainly investigate two approches for extending approaches developped in task T11 to enable learning from few samples. 
+
+% The first strategy consists in extending the idea of context variables that models of task 11 rely on, to design a global model for all actions. This could be done by introducing new contextual variables depending on the action or the sequence of actions to perform. Doing so one the training data from all actions could be exploited to learn models for all actions. Few preliminary works let us expect that such a strategy would work with statistical markovian models (Ding et al., 2013) and we will have to investigate this deeper and to extebnd the strategy to neural net approaches. Second as said above we will explore the use of using continuous state space models with a low dimensional state space (e.g. corresponding to the degree of freedom of body poses or to the neuro muscular commands) should permit characterizing a particular gesture as its dynamic in this latent space whose limited dimension would enable learning from few samples.  
 
 
+\paragraph{Task14} Thierry : this should probably be moved to WP3\\
+\begin{itemize}
+  \item Combining full 	body animation and interaction animation
+  \item Mettre de la diversité dans l'animation pour ne jamais reproduire la même animation\\
+  
+We will pay particular attention to design models capable of generating real animations. Indeed synthezing from statistical models usually resumes to finding the most likely animation sequence in a given situation, which may yield to too similar and unrealistic animations. Actually one would be pretty much interested in synthezing animations that are both likely given the learnt statistical models but also exhibiting the variability one can observe in human motion and gestures. Introducing such a stochastic component in the synthesis while maintaining a high quality animation level is not 
+straightforward and is an open question that we will have to solve.
+\end{itemize}
 
-\paragraph{Task13} Melange et extrapolation
+\paragraph{Partners' roles}
 
-
-\paragraph{Task11}  Choosing representations for full body motion ; representation learning ; transfer learning ; parameterisation of kinesic components. This can include neuro-muscular variables ; also the choice of kinematic trees rooted at the head ; also the grouping of kinematic variables into synergies ; etc. 
-
-One classical distinction is between world-frame positions and joint angle variables In our case, we are making a strong statement that we will  study kinesic variables for all joints relative to the rigid body frame associated with the actor. This could be the ground floor position of the actor plus a rigid body position associated with the actor?s head.  Thus proxemic variables could be footsteps and head movements ; kinesic variables could be all other joint angles or joint positions in world coordinates.
-
-\paragraph{Task12} Learning bi-dimensional models of actions and moods from a mocap dataset of six actions (walk, carry object, knock on door, throw object, lift object, move object) in 8 moods (neutral, happy, afraid, angry, anxious, sad, proud, shameful). Ideally, we would like to separate the action components from the mood components of motion and extrapolate the moods to other actions, and the actions to other moods. 
-
-\paragraph{Task13} Learning models of gesture and facial expressions in dialogue situations.
-Based on previous work on  visual prosody, we would like to learn joint models of gesture and  speech prosody. Ideally, this should be done without MOCAP data, using only audio and video processing, possibly enhanced with depth (kinect).
-
-\paragraph{Task14}  Learning parameterized kinesic models. 
-
-Bbecause our models are contextual, conditioned by the proxemic components, we should be able to change their velocity,  amplitude, direction and phase (in the way of parametric HMM models). This is challenging and needs to be investigated. 
+bla bla
 
 \endinput
