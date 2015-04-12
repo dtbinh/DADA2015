@@ -27,32 +27,57 @@ L1.3  &  & \\\hline
 
 The aim of this WP is to develop new generic models able to produce animation of a single character. It includes designing animation models of a character realizing an action (walking, sitting etc) given a context that consists in a particular mood and in character profile (age, gender) as well as designing models for taking into account the interaction of the character with others (gaze, harm gesture). Moreover it will explore the ability to extend these models in order to deal with only few training data by relying on transfer learning strategies.
 
-The workpackage is divided into three subtasks which are dedicated to the animation of the full body of a character, to the animation of specific parts of its body which are engaged in an interaction with another character, and to the specific strategies that will be explored for learning such models from few training data.
+The workpackage is divided into three subtasks which are dedicated to the animation of the full body of a character, to the animation of specific parts of its body which are engaged in an interaction with another character (mainly the face) by combining few animation models, and to the specific strategies that will be explored for learning such models from few training data.
 
-\paragraph{Task11} Full body animation
-
-This subtask aims at designing generic body controllers able to synthesize the animation of the full body of a character (through the sequence of mocap representation) for a given procedural animation scenario as output by WP2, i.e. a sequence of actions realized for a particular mood context and for a specific character profile. We will first consider that there is one model per action and that the animation produced by such a model should take into account, as inputs, the mood context as well as the character profile context. We will consider modeling frameworks that allow separating the mood components from the profile components so as to enable extrapolating moods to other profiles, and profiles to other moods. 
-
-We will first explore extending contextual markovian models \cite{Ding2013, Ding2014} through the parameterization of Hidden Markov Models (HMMs) by contextual information related to the mood and to the character profile. This will require extending these models to deal with the full body. These models will serve as a baseline for evaluating the new modeling approaches we describe bellow. 
-
-Next, we will investigate the use of deep recurrent neural networks and of representation learning algorithms for modeling and synthezing motion capture signals. The main difficulty here will be to imagine ways to integrate contextual information that would modify the behaviour of the models. We plan to explore ideas like defining bilinear layers in neural nets where the weights of a hidden layer would be defined as a function of the contextual information.
-
-At last we will investigate neuro muscular based models following ideas like the one of deltalognormal models from (O'Reilly, 2012). Although such models have not been used to model complex gestures up to now it is expected that they could be robust enough to provide good estimation of the command sequence. 
+% \paragraph{Task11} Full body animation
 
 
 % Choosing representations for full body motion ; representation learning ; transfer learning ; parameterisation of kinesic components. This can include neuro-muscular variables ; also the choice of kinematic trees rooted at the head ; also the grouping of kinematic variables into synergies ; etc. 
 % 
 % One classical distinction is between world-frame positions and joint angle variables In our case, we are making a strong statement that we will  study kinesic variables for all joints relative to the rigid body frame associated with the actor. This could be the ground floor position of the actor plus a rigid body position associated with the actor?s head.  Thus proxemic variables could be footsteps and head movements ; kinesic variables could be all other joint angles or joint positions in world coordinates.
 
-\paragraph{Task12} Interaction animation 
+
+\paragraph{Task 1.1. Generic full body animation model}
+
+We will first focus on the design of generic body controllers able to synthesize the animation of the full body of a character (through the sequence of mocap representation) for a given procedural animation scenario as output by WP2, i.e. a sequence of actions realized for a particular mood context and for a specific character profile. We will first consider that there is one model per action and that the animation produced by such a model should take into account, as inputs, the mood context as well as the character profile context. 
+We will consider modeling frameworks that allow separating the mood components from the profile components so as to enable extrapolating moods to other profiles, and profiles to other moods. Whatever the models under investigation we will pay attention to focus on strategies that enable synthesizing smooth transition between successive actions, moods, or gestures. 
+
+To start we will consider that there is one model per action and that the animation produced by such a model should take into account, as inputs, the mood context as well as the character profile context, later on we will investigate one model for all settings (action, mood, charecter profile). We will consider modeling frameworks that allow taking into account the conrextual variables (e.g. mood components and profile components) as few inputs which are mixed to produce an animation. This will enable learning from a limited combination of (mood,profile) settings while allowing extrapolating to any combination of (mood, profile) settings. 
+
+% We will first explore extending prevous worls on contextual markovian models \cite{Radenen2014, Ding2013, Ding2014} which are a variant of Hidden Markov Models (HMMs) that are parameterized by contextual information (e.g. means of gaussian distributions of the HMM'states are made a function of contextual variables). This will require extending these models to deal with the full body.
+
+We will first explore extensions of previous promising works (e.g. Radenen 2014). Then we will explore and propose new ways for parameterizing the animation model with few variables related to the emotional state of an actor and more generally to an actor's profile. We plan to investigate the following lines of research:
+ 
+\begin{itemize}  
+  \item Firstly we will investigate contextual markovian models where gaussian probability density functions associated to states are parameterized by (i.e. defined as a function of) contextual observation (mood and profile information here). Recent work has demonstrated such models for the case of locomotion believable controllers, gesture controllers (Levine 2010) and face controllers \cite{Radenen2014, Ding2013, Ding2014}. We will aim to generalize this previous work to more general action controllers, including such actions as: sitting, standing, walking, grasping, taking and putting objects, in a variety of expressions and moods. These models will serve as a baseline for evaluating the new modeling approaches we describe bellow. 
+  \item Second, we will investigate the use of deep neural networks and of dynamic versions of these (i.e. recurrent neural nets) which have demonstrated strong abilities to model, to classify and to synthesize complex signals such as speech or handwriting \cite{HintonDeepSpeech, Deng_Speech_Reco, GravesHWR_Reco, GravesHWR_Synth}. 
+  These models are related to what is called representation learning which emerged in the last few years as a key topic in the machine learning community \footnote{See the recently born ICLR conference on Learning Representations at http://www.iclr.cc/} (Contardo 2014). 
+  One main difficulty will be to integrate the use of contextual information as input in order to modify the behaviour of the models. We plan to extend the principle of contextual markovian models to neural nets by investigating ideas like designing bilinear layers in the neural net where weights could be defined as a function of the contextual input, inspired by works like \cite{Bilinear, Multiview}.
+  \item At last we will investigate neuro muscular based models following ideas like \cite{O'Reilly et al., 2012} which aims at recovering from a handwritten signal the sequence of neuromuscular commands that generated the handwriting signal. The underlying idea here is to exploit such models in order to work in a new representation space, the space of neuromuscular commands that generate motion, rather than on the observed motion itself. 
+  Although such models have not been used to model complex gestures up to now it is expected that they could be robust enough to provide good estimation of the command sequence. The main advantage of such a change of representation space is an expected reduction of the dimension of this space, enabling easier learning from few samples and transfer learning (as will be investigated in task 13). This would be linked to (Gaussian process reference).
+
+\end{itemize}
+
+
+\paragraph{Task 1.2. Combining models for face animation } 
+
+The second task concerns the combination of animation models for the face. We will start from few face animation models that we already have worked on: a mocap based animation \cite{These Yu}, a video-based animation \cite{TheseINRIA}, and a procedural anmation \cite{XX} (integrated in the GRETA system). 
+We will explore ways to combine few such animation models which remains an open question today, be it for animating the face ot the full body \cite{...}. We will explore few strategies...
+
+
 
 This subtask focuses on learning models of gesture and facial expressions in dialogue situations.Based on previous work on  visual prosody, we would like to learn joint models of gesture and  speech prosody. Ideally, this should be done without MOCAP data, using only audio and video processing, possibly enhanced with depth (kinect). To be continued (Rémi)...
 
-\paragraph{Task13} Learning from few samples
+\paragraph{Task 1.3. Learning from few samples}
 
-We will mainly investigate two approches for extending approaches developped in task T11 to enable learning from few samples. 
+We will mainly investigate two approches for extending approaches developped in task T11 to enable learning from few samples. The first strategy consists in extending the idea of context variables that models of task T11 rely on in order to design a global model for all actions.
+In the case of markovian model for instance this means that instead of definig one model per action one could define a unique big markovian model where every state would stand for a particular position of the body and performing an action would correspond to following a path (i.e. a state sequence) in this big model. 
+The model for a particular action would correspond then in a bundle of paths in this model.  Doing so one could expect that all the training data (whatever the action it corresponds to) could be exploited to learn all the states of this big markovian model, hence implementing some kind of transfer learning between actions. 
+A new action would correspond then in a bundle of paths in this model and could be learnt from few samples only. Preliminary works that we did let us expect that such a strategy would work with statistical markovian models (Ding et al., 2013). In this case the above idea is implementing by introducing new contextual variables, which might be at the simplest on-hot indicators 
+of the action to perform (a vector with zeros everywhere but at the position of the action number), 
+that modify the gaussian densities. We will first investigate this strategy deeper for contextual markovien models then we will extend this approach to neural networks. 
 
-% The first strategy consists in extending the idea of context variables that models of task 11 rely on, to design a global model for all actions. This could be done by introducing new contextual variables depending on the action or the sequence of actions to perform. Doing so one the training data from all actions could be exploited to learn models for all actions. Few preliminary works let us expect that such a strategy would work with statistical markovian models (Ding et al., 2013) and we will have to investigate this deeper and to extebnd the strategy to neural net approaches. Second as said above we will explore the use of using continuous state space models with a low dimensional state space (e.g. corresponding to the degree of freedom of body poses or to the neuro muscular commands) should permit characterizing a particular gesture as its dynamic in this latent space whose limited dimension would enable learning from few samples.  
+Second we will explore the use of using continuous state space models with a low dimensional state space (e.g. corresponding to the degree of freedom of body poses or to the neuro muscular commands) which should permit characterizing a particular motion or gesture as its dynamic in this latent space whose limited dimension would enable learning from few samples.  
 
 
 \paragraph{Task14} Thierry : this should probably be moved to WP3\\
@@ -60,7 +85,8 @@ We will mainly investigate two approches for extending approaches developped in 
   \item Combining full 	body animation and interaction animation
   \item Mettre de la diversité dans l'animation pour ne jamais reproduire la même animation\\
   
-We will pay particular attention to design models capable of generating real animations. Indeed synthezing from statistical models usually resumes to finding the most likely animation sequence in a given situation, which may yield to too similar and unrealistic animations. Actually one would be pretty much interested in synthezing animations that are both likely given the learnt statistical models but also exhibiting the variability one can observe in human motion and gestures. Introducing such a stochastic component in the synthesis while maintaining a high quality animation level is not 
+We will pay particular attention to design models capable of generating real animations. Indeed synthezing from statistical models usually resumes to finding the most likely animation sequence in a given situation, which may yield to too similar and unrealistic animations. 
+Actually one would be pretty much interested in synthezing animations that are both likely given the learnt statistical models but also exhibiting the variability one can observe in human motion and gestures. Introducing such a stochastic component in the synthesis while maintaining a high quality animation level is not 
 straightforward and is an open question that we will have to solve.
 \end{itemize}
 

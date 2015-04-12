@@ -1,14 +1,41 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dada_science.aux
 The style file: abbrv.bst
+White space in argument---line 43 of file dada_science.aux
+ : \citation{One
+ :               shot}
+I'm skipping whatever remains of this command
+White space in argument---line 60 of file dada_science.aux
+ : \citation{O'Reilly
+ :                    et al.}
+I'm skipping whatever remains of this command
+White space in argument---line 63 of file dada_science.aux
+ : \citation{These
+ :                 Yu}
+I'm skipping whatever remains of this command
 Database file #1: dada_science.bib
+Warning--I didn't find a database entry for "Ding2014"
 Warning--I didn't find a database entry for "Graves"
+Warning--I didn't find a database entry for "Schmidhuber"
+Warning--I didn't find a database entry for "O'Reilly"
+Warning--I didn't find a database entry for "2012"
+Warning--I didn't find a database entry for "YuThesis"
+Warning--I didn't find a database entry for "Zeroshot"
+Warning--I didn't find a database entry for "HintonDeepSpeech"
+Warning--I didn't find a database entry for "Deng_Speech_Reco"
+Warning--I didn't find a database entry for "GravesHWR_Reco"
+Warning--I didn't find a database entry for "GravesHWR_Synth"
+Warning--I didn't find a database entry for "Bilinear"
+Warning--I didn't find a database entry for "Multiview"
+Warning--I didn't find a database entry for "TheseINRIA"
+Warning--I didn't find a database entry for "XX"
+Warning--I didn't find a database entry for "..."
 Warning--empty journal in O'Reilly2012
 Warning--empty journal in Wiggins1979
 You've used 25 entries,
             2118 wiz_defined-function locations,
-            660 strings with 8062 characters,
+            687 strings with 8331 characters,
 and the built_in function-call counts, 8266 in all, are:
 = -- 759
 > -- 427
@@ -47,4 +74,4 @@ warning$ -- 2
 while$ -- 65
 width$ -- 27
 write$ -- 269
-(There were 3 warnings)
+(There were 3 error messages)
