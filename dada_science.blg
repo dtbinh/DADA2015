@@ -2,10 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dada_science.aux
 The style file: abbrv.bst
-White space in argument---line 62 of file dada_science.aux
- : \citation{One
- :               shot}
-I'm skipping whatever remains of this command
 Database file #1: dada_science.bib
 A bad cross reference---entry "DBLP:conf/atal/ChiuM14"
 refers to entry "DBLP:conf/atal/2014", which doesn't exist
@@ -30,7 +26,6 @@ Warning--I didn't find a database entry for "LeeEtAl2002"
 Warning--I didn't find a database entry for "NOUS"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "YuThesis"
-Warning--I didn't find a database entry for "Zeroshot"
 Warning--I didn't find a database entry for "HintonDeepSpeech"
 Warning--I didn't find a database entry for "Deng_Speech_Reco"
 Warning--I didn't find a database entry for "DBLP:conf/icfhr/FischerPOS1"
@@ -38,45 +33,45 @@ Warning--I didn't find a database entry for "TheseINRIA"
 Warning--I didn't find a database entry for "..."
 Warning--empty journal in O'Reilly2012
 Warning--empty journal in Wiggins1979
-You've used 47 entries,
+You've used 48 entries,
             2118 wiz_defined-function locations,
-            816 strings with 13651 characters,
-and the built_in function-call counts, 17600 in all, are:
-= -- 1662
-> -- 932
-< -- 14
-+ -- 370
-- -- 317
-* -- 1217
-:= -- 2856
-add.period$ -- 144
-call.type$ -- 47
-change.case$ -- 295
+            822 strings with 13956 characters,
+and the built_in function-call counts, 18216 in all, are:
+= -- 1722
+> -- 967
+< -- 15
++ -- 382
+- -- 328
+* -- 1261
+:= -- 2949
+add.period$ -- 148
+call.type$ -- 48
+change.case$ -- 301
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 707
-empty$ -- 1365
-format.name$ -- 317
-if$ -- 3739
+cite$ -- 50
+duplicate$ -- 733
+empty$ -- 1410
+format.name$ -- 328
+if$ -- 3878
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 50
-newline$ -- 238
-num.names$ -- 96
-pop$ -- 355
+int.to.str$ -- 48
+missing$ -- 51
+newline$ -- 243
+num.names$ -- 100
+pop$ -- 364
 preamble$ -- 1
-purify$ -- 251
+purify$ -- 256
 quote$ -- 0
-skip$ -- 515
+skip$ -- 536
 stack$ -- 0
-substring$ -- 920
-swap$ -- 189
-text.length$ -- 14
+substring$ -- 965
+swap$ -- 201
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 182
+type$ -- 186
 warning$ -- 2
-while$ -- 150
-width$ -- 49
-write$ -- 510
-(There were 10 error messages)
+while$ -- 156
+width$ -- 50
+write$ -- 522
+(There were 9 error messages)

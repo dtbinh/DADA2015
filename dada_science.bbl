@@ -134,6 +134,13 @@ A.~Kendon.
 \newblock {\em Gesture: Visible Action as Utterance}.
 \newblock Cambridge University Press, 2004.
 
+\bibitem{NIPS2013_OneShot}
+B.~M. Lake, R.~R. Salakhutdinov, and J.~Tenenbaum.
+\newblock One-shot learning by inverting a compositional causal process.
+\newblock In C.~Burges, L.~Bottou, M.~Welling, Z.~Ghahramani, and
+  K.~Weinberger, editors, {\em Advances in Neural Information Processing
+  Systems 26}, pages 2526--2534. Curran Associates, Inc., 2013.
+
 \bibitem{DBLP:conf/iva/LeeM12}
 J.~Lee and S.~Marsella.
 \newblock Modeling speaker behavior: {A} comparison of two approaches.

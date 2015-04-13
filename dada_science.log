@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.18)  13 APR 2015 16:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.18)  13 APR 2015 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,17 +448,11 @@ LaTeX Warning: Citation `NOUS' on page 5 undefined on input line 93.
 
 [5]) (./ProgScient.tex [6]) (./WP1.tex
 
-LaTeX Warning: Citation `' on page 7 undefined on input line 143.
-
-
-LaTeX Warning: Citation `YuThesis' on page 7 undefined on input line 148.
+LaTeX Warning: Citation `' on page 7 undefined on input line 144.
 
 [7]
 
-LaTeX Warning: Citation `One shot' on page 8 undefined on input line 153.
-
-
-LaTeX Warning: Citation `Zeroshot' on page 8 undefined on input line 153.
+LaTeX Warning: Citation `YuThesis' on page 8 undefined on input line 149.
 
 ) (./WP2.tex [8]) (./WP3.tex) (./WP4.tex [9]) (./Management.tex) (./Taches.tex
 (./Taches_WP1.tex
@@ -472,30 +466,30 @@ Overfull \hbox (21.96977pt too wide) in paragraph at lines 7--24
 [10]
 
 LaTeX Warning: Citation `HintonDeepSpeech' on page 11 undefined on input line 5
-3.
+7.
 
 
 LaTeX Warning: Citation `Deng_Speech_Reco' on page 11 undefined on input line 5
-3.
+7.
 
 
 LaTeX Warning: Citation `DBLP:conf/icfhr/FischerPOS1' on page 11 undefined on i
-nput line 56.
+nput line 61.
+
+
+LaTeX Warning: Citation `TheseINRIA' on page 11 undefined on input line 70.
 
 [11]
 
-LaTeX Warning: Citation `TheseINRIA' on page 12 undefined on input line 64.
+LaTeX Warning: Citation `...' on page 12 undefined on input line 75.
 
 
-LaTeX Warning: Citation `...' on page 12 undefined on input line 69.
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
@@ -544,9 +538,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
  6999 strings out of 493485
- 101678 string characters out of 3143526
- 202125 words of memory out of 3000000
- 10041 multiletter control sequences out of 15000+200000
+ 101697 string characters out of 3143526
+ 202164 words of memory out of 3000000
+ 10040 multiletter control sequences out of 15000+200000
  41052 words of font info for 50 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  29i,12n,43p,1577b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -556,10 +550,10 @@ ype1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 ftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dada_science.pdf (23 pages, 158101 bytes).
+Output written on dada_science.pdf (23 pages, 158623 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 353 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
+ 125 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
