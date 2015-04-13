@@ -80,6 +80,30 @@ Faire apparaître d'\'eventuels r\'esultats pr\'eliminaires.
 Inclure les r\'ef\'erences bibliographiques n\'ecessaires au § 7.
 \end{xcomment}
 
+
+
+\subsubsection{WP1. Related works}
+
+Animation of an avatar is usually tackled by working separately on the full body animation model on the one hand and on the face (and gesture) animation model on the other hand (since the latter animation strongly depends on the dialogue the avatar is engaged in), where the animation produced by the two models are merged to produce a final complete animation \cite{DBLP:journals/tvcg/ShoulsonMKB14}. 
+
+Full body kinematic animation (or control) consists in animating the full body of an avatar while he is performing actions such as walking, dancing, sitting etc. Although there has been lots of work on this subject it is still a challenging problem due to the high dimensionality of the character's configuration. Data-driven approaches are very popular here and make of use motion-capture data to learn animation models which, once learned, may be used to animate a virtual character to perform a given task. 
+Many systems have been proposed for producing animation models and controlers, they usually are based on statistical models such as Hidden Markov Models (HMMs) \cite{DBLP:journals/tog/LevineTK09} and Conditional Random Fields (CRFs) \cite{DBLP:journals/tog/LevineKTK10, DBLP:conf/atal/ChiuM14}. Most accurate methods exploit a large dataset of motions where one can synthesize a complete motion sequence corresponding to a particular task by using warping or blending strategies of motions in the training set \cite{WitkinAndPopovic1995}. Locomotion controllers have been proposed that concatenate motion
+clips from a motion capture dataset to produce an animation that is smooth [Treuille et al. 2007; Mc-Cann and Pollard 2007]. High-quality kinematic controllers have been built from this idea by using a {\it motion graph}, which is a graph structure that describe how clips from a dataset can be reordered into new motions \cite{LeeEtAl2002}. 
+While locomotion controllers are driven
+by direct high-level commands (such as desired movement direction), no such clear control signal is available for body language. To animate the face, and accompanying arm gestures, many works have focused on developing specific animation models based on a dialogue related input, either speech, text or prosody features \cite{DBLP:journals/tog/LevineTK09, DBLP:journals/tog/LevineKTK10, DBLP:conf/atal/ChiuM14, NOUS}. 
+At the end, recent work has demonstrated such models for the case of locomotion believable controllers, gesture controllers (Levine 2010) and face controllers (Ding et al., 2013). 
+% We will aim to generalize this previous work
+% to more general action controllers, including such actions as: sitting, standing, walking, grasping, taking and putting
+% objects, in a variety of expressions and moods.
+Yet all these statistical approaches require large annotated datasets to work well.
+
+Thereby these approaches do not easily work with small training sets which is a key issue, as stressed for instance in \cite{DBLP:journals/tog/LevineWHPK12}, since first it requires considerable effort and time to build large datasets, and second because many applications demand unique motion styles and require their own datasets. This has led a number of researchers to put the effort on designing models that may be easily learned from a few samples. One main approach for doing so lies in the use (or learning) of a continuous state space to represent the data, making learning in this low dimensional space much easier  \cite{DBLP:journals/tog/LevineWHPK12, DBLP:conf/atal/ChiuM14}. A relevant technology for this are Gaussian Process which have been extended for dealing wiuth dynamic data in \cite{DBLP:journals/pami/WangFH08}.
+
+These latter models are not far from recurent neural networks, and to Long Short Term Memory neural networks in particular \cite{DBLP:conf/nips/HochreiterS96, DBLP:journals/corr/GreffSKSS15}, that have been shown recently to work well for complex signals such as speech and handwriting, for recognition tasks \cite{DBLP:conf/nips/GravesS08} as well as for synthesis tasks \cite{DBLP:journals/corr/Graves13}. These models are part of a current trend in machine  learning called representation learning (see the recently born conference ICLR at http://www.iclr.cc/) which aims at discovering relevant and usually low dimensional representation of the data under investigation (the pionner work of this domaine is the one by G. Hinton in Science \cite{DBLP:journals/cogsci/HintonOWT06}.
+
+
+
+
 \nocite{*}
 
 \subsection{Objectifs et caract\`ere ambitieux/novateur du projet / Objectives, originality and novelty of the project}

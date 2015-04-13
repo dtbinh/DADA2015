@@ -11,6 +11,12 @@ J.~Cassell, J.~Sullivan, S.~Prevost, and E.~Churchill.
 \newblock {\em Embodied Conversational Agents}.
 \newblock MIT Press, 2000.
 
+\bibitem{DBLP:conf/atal/ChiuM14}
+C.~Chiu and S.~Marsella.
+\newblock Gesture generation with low-dimensional embeddings.
+\newblock In {\em International conference on Autonomous Agents and Multi-Agent
+  Systems, {AAMAS} '14, Paris, France, May 5-9, 2014}, pages 781--788, 2014.
+
 \bibitem{Contardo2014}
 G.~Contardo, L.~Denoyer, T.~Artieres, and P.~Gallinari.
 \newblock Learning states representations in pomdp.
@@ -21,6 +27,17 @@ Y.~Ding, T.~Arti\`eres, and C.~Pelachaud.
 \newblock Modeling multimodal behaviors from speech prosody.
 \newblock In {\em International Conference on Intelligent Virtual Agents
   (IVA)}, 2013.
+
+\bibitem{Ding2014}
+Y.~Ding, K.~Prepin, J.~Huang, C.~Pelachaud, and T.~Arti{\`{e}}res.
+\newblock Laughter animation synthesis.
+\newblock In {\em International conference on Autonomous Agents and Multi-Agent
+  Systems, {AAMAS} '14, Paris, France, May 5-9, 2014}, pages 773--780, 2014.
+
+\bibitem{DBLP:journals/tog/DontchevaYP03}
+M.~Dontcheva, G.~D. Yngve, and Z.~Popovic.
+\newblock Layered acting for character animation.
+\newblock {\em {ACM} Trans. Graph.}, 22(3):409--416, 2003.
 
 \bibitem{Fourati2013}
 N.~Fourati and C.~Pelachaud.
@@ -48,16 +65,63 @@ M.~Gillies, I.~Crabtree, and D.~Ballin.
   world.
 \newblock {\em BT Technology Journal}, 22(2):7--17, 2004.
 
+\bibitem{DBLP:journals/corr/Graves13}
+A.~Graves.
+\newblock Generating sequences with recurrent neural networks.
+\newblock {\em CoRR}, abs/1308.0850, 2013.
+
+\bibitem{DBLP:conf/nips/GravesS08}
+A.~Graves and J.~Schmidhuber.
+\newblock Offline handwriting recognition with multidimensional recurrent
+  neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems 21,
+  Proceedings of the Twenty-Second Annual Conference on Neural Information
+  Processing Systems, Vancouver, British Columbia, Canada, December 8-11,
+  2008}, pages 545--552, 2008.
+
+\bibitem{DBLP:journals/corr/GreffSKSS15}
+K.~Greff, R.~K. Srivastava, J.~Koutn{\'{\i}}k, B.~R. Steunebrink, and
+  J.~Schmidhuber.
+\newblock {LSTM:} {A} search space odyssey.
+\newblock {\em CoRR}, abs/1503.04069, 2015.
+
+\bibitem{DBLP:journals/cogsci/HintonOWT06}
+G.~E. Hinton, S.~Osindero, M.~Welling, and Y.~W. Teh.
+\newblock Unsupervised discovery of nonlinear structure using contrastive
+  backpropagation.
+\newblock {\em Cognitive Science}, 30(4):725--731, 2006.
+
+\bibitem{DBLP:conf/nips/HochreiterS96}
+S.~Hochreiter and J.~Schmidhuber.
+\newblock {LSTM} can solve hard long time lag problems.
+\newblock In {\em Advances in Neural Information Processing Systems 9, NIPS,
+  Denver, CO, USA, December 2-5, 1996}, pages 473--479, 1996.
+
 \bibitem{Kendon2004}
 A.~Kendon.
 \newblock {\em Gesture: Visible Action as Utterance}.
 \newblock Cambridge University Press, 2004.
+
+\bibitem{DBLP:journals/tog/LevineKTK10}
+S.~Levine, P.~Kr{\"{a}}henb{\"{u}}hl, S.~Thrun, and V.~Koltun.
+\newblock Gesture controllers.
+\newblock {\em {ACM} Trans. Graph.}, 29(4), 2010.
 
 \bibitem{Levine2010}
 S.~Levine, P.~Krahenbuhl, S.~Thrun, and V.~Koltun.
 \newblock Gesture controllers.
 \newblock {\em ACM Transactions on Graphics, Proceedings of SIGGRAPH}, 29(4),
   2010.
+
+\bibitem{DBLP:journals/tog/LevineTK09}
+S.~Levine, C.~Theobalt, and V.~Koltun.
+\newblock Real-time prosody-driven synthesis of body language.
+\newblock {\em {ACM} Trans. Graph.}, 28(5), 2009.
+
+\bibitem{DBLP:journals/tog/LevineWHPK12}
+S.~Levine, J.~M. Wang, A.~Haraux, Z.~Popovic, and V.~Koltun.
+\newblock Continuous character control with low-dimensional embeddings.
+\newblock {\em {ACM} Trans. Graph.}, 31(4):28, 2012.
 
 \bibitem{Liu2006}
 C.~Liu, A.~Hertzmann, and Z.Popovic.
@@ -116,6 +180,11 @@ R.~Ronfard.
 \newblock In {\em La notation du travail th\'e\^atral : du manuscrit au
   num\'erique}, 2012.
 
+\bibitem{DBLP:journals/tvcg/ShoulsonMKB14}
+A.~Shoulson, N.~Marshak, M.~Kapadia, and N.~I. Badler.
+\newblock {ADAPT:} the agent developmentand prototyping testbed.
+\newblock {\em {IEEE} Trans. Vis. Comput. Graph.}, 20(7):1035--1047, 2014.
+
 \bibitem{Sreenivasa09}
 M.~Sreenivasa, P.~Sou\`eres, J.-P. Laumond, and A.~Berthoz.
 \newblock Steering a humano\"id robot by its head.
@@ -126,6 +195,12 @@ J.~Tanenbaum, M.~S. El-Nasr, and M.~Nixon.
 \newblock {\em Nonverbal Communication in Virtual Worlds: Understanding and
   Designing Expressive Characters}.
 \newblock ETC Press, 2014.
+
+\bibitem{DBLP:journals/pami/WangFH08}
+J.~M. Wang, D.~J. Fleet, and A.~Hertzmann.
+\newblock Gaussian process dynamical models for human motion.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 30(2):283--298,
+  2008.
 
 \bibitem{Weinland07}
 D.~Weinland, E.~Boyer, and R.~Ronfard.

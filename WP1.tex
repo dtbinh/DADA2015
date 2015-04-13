@@ -1,32 +1,146 @@
-% Recent work has demonstrated such models for the case of locomotion believable controllers,
-% gesture controllers (Levine 2010) and face controllers (Ding et al., 2013). We will aim to generalize this previous work
-% to more general action controllers, including such actions as: sitting, standing, walking, grasping, taking and putting
-% objects, in a variety of expressions and moods.
 
 thierry : ce passage là doit probablement etre remonté au dessus pour l'explication générale du flux entre WPs. This workpackage focuses on animation models for isolated actors. 
 The inputs that are used by the methods to be developped in this WP are procedural animation scenario as ouput by WP2. 
 Such a scenario includes in particular detailed indications on the action to be realized (walk from one point to another, carry object, knock on door, throw object, lift object, move object), the mood of the character (neutral, happy, afraid, angry, anxious, sad, proud, shameful) and a set of static information about the character that change the way people move (age, gender, morphology, corpulence, expressivity level, etc). Both action and mood may vary with time almong the animation while static information remain fixed per nature. 
 These three sets of information will be refered hereafter as \textit{action context}, \textit{mood context} and \textit{profile context}. . 
 
+\subsubsection{WP1. Related works}
+
+Animation of an avatar is usually tackled by working separately on the full body animation model on the one hand and on the face (and gesture) animation model on the other hand (since the latter animation strongly depends on the dialogue the avatar is engaged in), where the animation produced by the two models are merged to produce a final complete animation \cite{DBLP:journals/tvcg/ShoulsonMKB14}. 
+
+Full body kinematic animation (or control) consists in animating the full body of an avatar while he is performing actions such as walking, dancing, sitting etc. Although there has been lots of work on this subject it is still a challenging problem due to the high dimensionality of the character's configuration. Data-driven approaches are very popular here and make of use motion-capture data to learn animation models which, once learned, may be used to animate a virtual character to perform a given task. 
+Many systems have been proposed for producing animation models and controlers, they usually are based on statistical models such as Hidden Markov Models (HMMs) \cite{DBLP:journals/tog/LevineTK09} and Conditional Random Fields (CRFs) \cite{DBLP:journals/tog/LevineKTK10, DBLP:conf/atal/ChiuM14}. Most accurate methods exploit a large dataset of motions where one can synthesize a complete motion sequence corresponding to a particular task by using warping or blending strategies of motions in the training set \cite{WitkinAndPopovic1995}. Locomotion controllers have been proposed that concatenate motion
+clips from a motion capture dataset to produce an animation that is smooth [Treuille et al. 2007; Mc-Cann and Pollard 2007]. High-quality kinematic controllers have been built from this idea by using a {\it motion graph}, which is a graph structure that describe how clips from a dataset can be reordered into new motions \cite{LeeEtAl2002}. 
+While locomotion controllers are driven
+by direct high-level commands (such as desired movement direction), no such clear control signal is available for body language. To animate the face, and accompanying arm gestures, many works have focused on developing specific animation models based on a dialogue related input, either speech, text or prosody features \cite{DBLP:journals/tog/LevineTK09, DBLP:journals/tog/LevineKTK10, DBLP:conf/atal/ChiuM14, NOUS}. 
+At the end, recent work has demonstrated such models for the case of locomotion believable controllers, gesture controllers (Levine 2010) and face controllers (Ding et al., 2013). 
+% We will aim to generalize this previous work
+% to more general action controllers, including such actions as: sitting, standing, walking, grasping, taking and putting
+% objects, in a variety of expressions and moods.
+Yet all these statistical approaches require large annotated datasets to work well.
+
+Thereby these approaches do not easily work with small training sets which is a key issue, as stressed for instance in \cite{DBLP:journals/tog/LevineWHPK12}, since first it requires considerable effort and time to build large datasets, and second because many applications demand unique motion styles and require their own datasets. This has led a number of researchers to put the effort on designing models that may be easily learned from a few samples. One main approach for doing so lies in the use (or learning) of a continuous state space to represent the data, making learning in this low dimensional space much easier  \cite{DBLP:journals/tog/LevineWHPK12, DBLP:conf/atal/ChiuM14}. A relevant technology for this are Gaussian Process which have been extended for dealing wiuth dynamic data in \cite{DBLP:journals/pami/WangFH08}.
+
+These latter models are not far from recurent neural networks, and to Long Short Term Memory neural networks in particular \cite{DBLP:conf/nips/HochreiterS96, DBLP:journals/corr/GreffSKSS15}, that have been shown recently to work well for complex signals such as speech and handwriting, for recognition tasks \cite{DBLP:conf/nips/GravesS08} as well as for synthesis tasks \cite{DBLP:journals/corr/Graves13}. These models are part of a current trend in machine  learning called representation learning (see the recently born conference ICLR at http://www.iclr.cc/) which aims at discovering relevant and usually low dimensional representation of the data under investigation (the pionner work of this domaine is the one by G. Hinton in Science \cite{DBLP:journals/cogsci/HintonOWT06}.
+
+
+% High-quality kinematic con-
+% trollers have been created for tasks such as boxing [Lee and Lee
+% 2006] and locomotion [McCann and Pollard 2007; Treuille et al.
+% 2007; Lo and Zwicker 2008; Lee et al. 2009], using a discrete
+% representation of motion data called a motion graph, which uses
+% a graph structure to describe how clips from an example library can
+% be reordered into new motions [Arikan and Forsyth 2002; Kovar
+% et al. 2002; Lee et al. 2002]. 
+
+
+
+% 
+% ADAPT : Interactive control of virtual characters can be
+% achieved by searching through motion clip samples for desired mo-
+% tion as an unsupervised process [Lee et al. 2002], or by extracting
+% descriptive parameters from motion data [Johansen 2009]. Proce-
+% dural methods are used to solve specific tasks such as reaching, and
+% can leverage empirical data [Liu and Badler 2003], example mo-
+% tions [Feng et al. 2012b], or hierarchical inverse kinematics [Baer-
+% locher and Boulic 2004] for more natural movement. Physically-
+% based approaches [Faloutsos 2002; Yin et al. 2007] derive con-
+% trollers to simulate character movement in a dynamic environment.
+% We refer to Pettr ́ et. al. [2008] for a more extensive summary of
+% work in these areas.
+
+
+% 
+% Real time prosody : \cite{DBLP:journals/tog/LevineTK09}
+% We present a data-driven method that automatically generates
+% body language animation from the prosody of the participant’s
+% speech signal. The system is trained on motion capture data of real
+% people in conversation, with simultaneously recorded audio. 
+% 
+% To generate the animation, we select appropriate gesture subunits
+% from the motion capture training data based on prosody cues in the
+% speech signal. 
+
+
+
+% Gesture Controlers : \cite{DBLP:journals/tog/LevineKTK10}
+% Prior speech-based gesture synthesis techniques directly associate
+% animation segments with prosody features [Levine et al. 2009].
+% Such methods are sensitive to the amount and quality of training
+% data, and suffer heavily from extraneous, accidental associations,
+% known as overfitting. I
+% 
+% The development of gesture controllers was inspired by the recent
+% introduction of online locomotion controllers that assemble motion
+% clips from motion capture to produce an animation that is smooth,
+% natural, and satisfies a set of constraints [Treuille et al. 2007; Mc-
+% Cann and Pollard 2007]. While locomotion controllers are driven
+% by direct high-level commands (such as desired movement direc-
+% tion), no such clear control signal is available for body language.
+% 
+
+% 
+% Learning few samples
+% 
+% GP pour humain motion \cite{DBLP:journals/pami/WangFH08}
+
+% Levine :Continuous character control .. \cite{DBLP:journals/tog/LevineWHPK12} 
+% Central to a method’s ease of use is its capacity to synthesize character motion for novel
+% situations without requiring excessive data or programming effort.
+% 
+% Full body kinematic control is a challenging problem, due to the
+% high dimensionality of the character’s configuration and the diffi-
+% culty of avoiding low quality motions. High-quality kinematic con-
+% trollers have been created for tasks such as boxing [Lee and Lee
+% 2006] and locomotion [McCann and Pollard 2007; Treuille et al.
+% 2007; Lo and Zwicker 2008; Lee et al. 2009], using a discrete
+% representation of motion data called a motion graph, which uses
+% a graph structure to describe how clips from an example library can
+% be reordered into new motions [Arikan and Forsyth 2002; Kovar
+% et al. 2002; Lee et al. 2002]. However, while graphs are well suited
+% for representing large datasets, smaller datasets that lack extensive
+% transitions and variations may be inadequate to induce an expres-
+% sive discrete graph. 
+% 
+% Marsella : Gesture generation ... \cite{DBLP:conf/atal/ChiuM14}
+% 
+% 
+% Recurrent NNs:
+% Graves offline \cite{DBLP:conf/nips/GravesS08}
+% synythese handwriting \cite{DBLP:journals/corr/Graves13}
+% LSTM old \cite{DBLP:conf/nips/HochreiterS96}
+% LSTM new \cite{DBLP:journals/corr/GreffSKSS15}
+% 
+% % 
+% % Layered acting .. DOntcheva \cite{DBLP:journals/tog/DontchevaYP03}
+% 
+% 
+% Deep : 
+% Hintn 2006 \cite{DBLP:journals/cogsci/HintonOWT06}
 
 \subsubsection{WP1. Kinesic component} 
 
-This WP aims at creating multi-modal statistical models of individual body movements from annotated, mainly from mocap data, to generate novel expressive animation suitable for dramatic performances. To do so we will tackle few difficult and open problems: Learning full body animation models for many settings rang-
-ing from emotional state to actor profile (corpulence, expressivity level etc). 
-Moreover while the animation model will be learned from a limited number of actors’ data we want it to be able to be remapped to other actors. 
-Next we will have to combine multiple animation models in order to take advantage of all exiisting works, in particular for the animation of the face. 
-Finally we will investigate learning animation models for new gestures and activities from only few training samples which will allow enriching the system easily by avoiding the costly and tedious task of gathering a large corpus of training data as
+Controlling a fully-articulated character is traditionally accom-
+plished using a series of interwoven subcomponents responsible
+for various parts of the body. 
+
+
+This WP aims at creating multi-modal statistical models of individual body movements from annotated, mainly from mocap data, to generate novel expressive animation suitable for dramatic performances. 
+To do so we will tackle few difficult and open problems: Learning full body animation models for many settings ranging from emotional state to actor profile (corpulence, expressivity level etc). 
+Moreover while the animation model will be learned from a limited number of actors' data we want it to be able to be remapped to other actors. 
+% Next we will have to combine multiple animation models in order to take advantage of all existing works, in particular for the animation of the face. 
+Also we will investigate learning animation models for new gestures and activities from only few training samples which will allow enriching the system easily by avoiding the costly and tedious task of gathering a large corpus of training data as
 usually required in statistical machine learning.
 
 % Thierry : parler plutot de 3 verrous scientifiques. We will organize the work in three tasks, the two first tasks are dedicated to modeling and synthesizing animations. We will distinguish between animating the whole body and animating the face which will be animated based on a given scenario but also based on the scenario from other actors to enable accurate interaction between actors (e.g. gazes). Why ? The last task is focused on making the models designed in thee two first tasks able to learn from few training data
 
 
-A first scientific lock is how to design generic body controllers able to synthesize the animation of the full body of a character. 
-Designing a generic model that fit many settings is an elegant way for producing smooth animation of complex motions (e.g. a character walks nervouslay towards a chair, then he sits down and becomes quiet, then he takes something on the ,table), which otherwise require artifical smoothing and postprocessing. We will first explore extending prevous works on contextual markovian models \cite{Radenen2014, Ding2013, Ding2014} which are a variant of Hidden Markov Models (HMMs) that have shown strong potential for designing face controllers. These models will serve as a baseline. 
-Next, we will investigate the use of continuous state space models and (deep) recurrent neural networks. Such models have shown strong abilities for dealing with complex signals like speech and handwriting \cite{Graves, Schmidhuber}. 
+A first scientific lock lies in the design of generic body controllers able to synthesize the animation of the full body of a character. 
+Designing such a generic model that fits many settings is an elegant way for enabling producing smooth animation of complex tasks (defined as a sequence of actions with corresponding emotions), which otherwise require artifical smoothing and postprocessing. We will first explore extending prevous works on contextual markovian models \cite{Radenen2014, Ding2013, Ding2014} which are a variant of Hidden Markov Models (HMMs) that have shown strong potential for designing face controllers. These models will serve as a baseline. 
+Next, we will investigate the use of continuous state space models and (deep) recurrent neural networks. Such models have shown strong abilities for dealing with complex signals like speech and handwriting \cite{DBLP:journals/corr/Graves13}. 
 The main difficulty here will lie here in imagining ways to mixthe idea of contextal variales in these models in order to integrate contextual information that would modify the behaviour of the models. 
 We plan want to transform these models as we did for markovian models for aking into account contextual information. 
-Finally we plan to explore alternative strategies such as using neuro muscular based models following ideas like the one of deltalognormal models from \cite{O'Reilly, 2012} which allow recovering the sequence of neuromuscular commands that generated a handwritten gesture. 
+Finally we plan to explore alternative strategies such as using neuro muscular based models following ideas like the one of deltalognormal models from \cite{DBLP:conf/icfhr/FischerPOS14,} which allow recovering the sequence of neuromuscular commands that generated a handwritten gesture. 
 
 % We will also investigate new ways for parameterizing the animation model with few variables related to the emotional state of an actor and more generally to an actor’s profile. The difficulty here lies in the definition of defining the representation of an actor, we will attempt to learn it directly from data using recent techniques named as representation learning (Contardo 2014). 
 
@@ -39,7 +153,7 @@ In addition we want our animation models easily extendabke to new activities and
 This  will allow enriching the system easily whitout a costly and tedious task of gathering a large corpus of training data as usually required in statistical machine learning. Learning models, and particularly statistical models from few samples is a key and open issue \cite{One shot, Zeroshot}. 
 To enable learning from few samples we will mainly explore two ways that aim at favoring transfer from learning one
 gesture model to learning another gesture model. 
-First, few preliminary works have shown that statistical markovian models as in (Ding et al., 2013) could be defined in such a way that the data from all gesture classes could be exploited to learn models for all gesture classes. 
+First, few preliminary works have shown that statistical markovian models as in \cite{Ding2013} could be defined in such a way that the data from all gesture classes could be exploited to learn models for all gesture classes. 
 Second using continuous state space models with a low dimensional state space
 (corresponding to the degree of freedom of body poses) should permit characterizing a particular gesture as its dynamic
 in this latent space whose limited dimension would enable learning from few samples.

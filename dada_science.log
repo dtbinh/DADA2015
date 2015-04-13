@@ -1,12 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.12.21)  12 APR 2015 10:53
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.18)  13 APR 2015 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **dada_science.tex
 (./dada_science.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
+ai, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -29,7 +38,7 @@ Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+(/var/lib/texmf/tex/generic/babel/babel.sty
 Package: babel 2008/07/08 v3.8m The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/frenchb.ldf
@@ -40,12 +49,6 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `French'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@french = a dialect from \language0
 Package babel Info: Making : an active character on input line 234.
 Package babel Info: Making ; an active character on input line 235.
 Package babel Info: Making ! an active character on input line 236.
@@ -54,6 +57,7 @@ Package babel Info: Making ? an active character on input line 237.
 \std@mcc=\count88
 \dec@mcc=\count89
 \parindentFFN=\dimen105
+
 *************************************
 * Local config file frenchb.cfg used
 *
@@ -431,33 +435,47 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (./Intro_Positionnement.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 14.
- [2] [3] [4]) (./ProgScient.tex [5]) (./WP1.tex
+ [2] [3] [4]
 
-LaTeX Warning: Citation `Ding2014' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Graves' on page 6 undefined on input line 26.
+LaTeX Warning: Citation `WitkinAndPopovic1995' on page 5 undefined on input lin
+e 90.
 
 
-LaTeX Warning: Citation `Schmidhuber' on page 6 undefined on input line 26.
+LaTeX Warning: Citation `LeeEtAl2002' on page 5 undefined on input line 91.
 
 
-LaTeX Warning: Citation `O'Reilly' on page 6 undefined on input line 29.
+LaTeX Warning: Citation `NOUS' on page 5 undefined on input line 93.
+
+[5]) (./ProgScient.tex [6]) (./WP1.tex
+
+LaTeX Warning: Citation `WitkinAndPopovic1995' on page 7 undefined on input lin
+e 12.
 
 
-LaTeX Warning: Citation `2012' on page 6 undefined on input line 29.
-
-[6]
-
-LaTeX Warning: Citation `YuThesis' on page 7 undefined on input line 34.
+LaTeX Warning: Citation `LeeEtAl2002' on page 7 undefined on input line 13.
 
 
-LaTeX Warning: Citation `One shot' on page 7 undefined on input line 39.
+LaTeX Warning: Citation `NOUS' on page 7 undefined on input line 15.
+
+[7]
+
+LaTeX Warning: Citation `DBLP:conf/icfhr/FischerPOS14' on page 8 undefined on i
+nput line 143.
 
 
-LaTeX Warning: Citation `Zeroshot' on page 7 undefined on input line 39.
+LaTeX Warning: Citation `' on page 8 undefined on input line 143.
 
-) (./WP2.tex [7]) (./WP3.tex) (./WP4.tex [8]) (./Management.tex) (./Taches.tex
+
+LaTeX Warning: Citation `YuThesis' on page 8 undefined on input line 148.
+
+[8]
+
+LaTeX Warning: Citation `One shot' on page 9 undefined on input line 153.
+
+
+LaTeX Warning: Citation `Zeroshot' on page 9 undefined on input line 153.
+
+) (./WP2.tex [9]) (./WP3.tex) (./WP4.tex) (./Management.tex [10]) (./Taches.tex
 (./Taches_WP1.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 7.
@@ -466,53 +484,37 @@ Overfull \hbox (21.96977pt too wide) in paragraph at lines 7--24
  [] 
  []
 
-[9]
+[11]
 
-LaTeX Warning: Citation `Ding2014' on page 10 undefined on input line 52.
-
-
-LaTeX Warning: Citation `HintonDeepSpeech' on page 10 undefined on input line 5
+LaTeX Warning: Citation `HintonDeepSpeech' on page 12 undefined on input line 5
 3.
 
 
-LaTeX Warning: Citation `Deng_Speech_Reco' on page 10 undefined on input line 5
+LaTeX Warning: Citation `Deng_Speech_Reco' on page 12 undefined on input line 5
 3.
 
 
-LaTeX Warning: Citation `GravesHWR_Reco' on page 10 undefined on input line 53.
+LaTeX Warning: Citation `DBLP:conf/mm/ZhongLL11' on page 12 undefined on input 
+line 55.
 
 
-
-LaTeX Warning: Citation `GravesHWR_Synth' on page 10 undefined on input line 53
-.
-
-
-LaTeX Warning: Citation `Bilinear' on page 10 undefined on input line 55.
+LaTeX Warning: Citation `DBLP:journals/pami/HutchinsonDY13' on page 12 undefine
+d on input line 55.
 
 
-LaTeX Warning: Citation `Multiview' on page 10 undefined on input line 55.
+LaTeX Warning: Citation `DBLP:conf/icfhr/FischerPOS1' on page 12 undefined on i
+nput line 56.
 
 
-LaTeX Warning: Citation `O'Reilly et al.' on page 10 undefined on input line 56
-.
+LaTeX Warning: Citation `TheseINRIA' on page 12 undefined on input line 64.
 
 
-LaTeX Warning: Citation `2012' on page 10 undefined on input line 56.
-
-[10]
-
-LaTeX Warning: Citation `These Yu' on page 11 undefined on input line 64.
+LaTeX Warning: Citation `RefGRETA' on page 12 undefined on input line 64.
 
 
-LaTeX Warning: Citation `TheseINRIA' on page 11 undefined on input line 64.
+LaTeX Warning: Citation `...' on page 12 undefined on input line 65.
 
-
-LaTeX Warning: Citation `XX' on page 11 undefined on input line 64.
-
-
-LaTeX Warning: Citation `...' on page 11 undefined on input line 65.
-
-
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
@@ -522,21 +524,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-[11]) (./Taches_WP2.tex [12]) (./Taches_WP3.tex [13]) (./Taches_WP4.tex)
-[14]) (./Valorisation.tex [15]) (./Team.tex [16]
-Underfull \hbox (badness 1184) in paragraph at lines 45--45
-[]|\T1/phv/m/n/10.95 Contribution to the pro-
- []
-
-) (./Justif.tex [17]
-Overfull \hbox (5.59863pt too wide) in paragraph at lines 33--37
-[]\T1/phv/m/sl/10.95 Préciser : les mis-sions liées aux travaux d'ac-qui-si-tio
-n sur le ter-rain (cam-pagnes de mesures'),
- []
-
-) (./dada_science.bbl [18] [19]) 
+) (./Taches_WP2.tex [13] [14]) (./Taches_WP3.tex [15]) (./Taches_WP4.tex)
+[16]) (./Valorisation.tex) (./Team.tex [17] [18]) (./Justif.tex [19])
+(./dada_science.bbl [20] [21]) 
 AED: lastpage setting LastPage
-[20]
+[22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./dada_science.aux)
@@ -551,23 +543,23 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 6958 strings out of 495059
- 100499 string characters out of 3182029
- 199791 words of memory out of 3000000
- 9904 multiletter control sequences out of 15000+200000
+ 6984 strings out of 493485
+ 101353 string characters out of 3143526
+ 201737 words of memory out of 3000000
+ 10036 multiletter control sequences out of 15000+200000
  41052 words of font info for 50 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  29i,12n,43p,1577b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/ta/.texmf-
-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk></usr/share/texlive/texmf-dist/f
-onts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
-ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.p
-fb>
-Output written on dada_science.pdf (20 pages, 117821 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+ftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on dada_science.pdf (22 pages, 151012 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 97 named destinations out of 1000 (max. 500000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 114 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

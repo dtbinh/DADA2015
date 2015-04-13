@@ -2,76 +2,75 @@ This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dada_science.aux
 The style file: abbrv.bst
-White space in argument---line 43 of file dada_science.aux
+White space in argument---line 82 of file dada_science.aux
  : \citation{One
  :               shot}
 I'm skipping whatever remains of this command
-White space in argument---line 60 of file dada_science.aux
- : \citation{O'Reilly
- :                    et al.}
-I'm skipping whatever remains of this command
-White space in argument---line 63 of file dada_science.aux
- : \citation{These
- :                 Yu}
-I'm skipping whatever remains of this command
 Database file #1: dada_science.bib
-Warning--I didn't find a database entry for "Ding2014"
-Warning--I didn't find a database entry for "Graves"
-Warning--I didn't find a database entry for "Schmidhuber"
-Warning--I didn't find a database entry for "O'Reilly"
-Warning--I didn't find a database entry for "2012"
+A bad cross reference---entry "DBLP:conf/atal/ChiuM14"
+refers to entry "DBLP:conf/atal/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/nips/HochreiterS96"
+refers to entry "DBLP:conf/nips/1996N", which doesn't exist
+A bad cross reference---entry "DBLP:conf/nips/GravesS08"
+refers to entry "DBLP:conf/nips/2008", which doesn't exist
+A bad cross reference---entry "Ding2014"
+refers to entry "DBLP:conf/atal/2014", which doesn't exist
+Warning--I didn't find a database entry for "WitkinAndPopovic1995"
+Warning--I didn't find a database entry for "LeeEtAl2002"
+Warning--I didn't find a database entry for "NOUS"
+Warning--I didn't find a database entry for "DBLP:conf/icfhr/FischerPOS14"
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "YuThesis"
 Warning--I didn't find a database entry for "Zeroshot"
 Warning--I didn't find a database entry for "HintonDeepSpeech"
 Warning--I didn't find a database entry for "Deng_Speech_Reco"
-Warning--I didn't find a database entry for "GravesHWR_Reco"
-Warning--I didn't find a database entry for "GravesHWR_Synth"
-Warning--I didn't find a database entry for "Bilinear"
-Warning--I didn't find a database entry for "Multiview"
+Warning--I didn't find a database entry for "DBLP:conf/mm/ZhongLL11"
+Warning--I didn't find a database entry for "DBLP:journals/pami/HutchinsonDY13"
+Warning--I didn't find a database entry for "DBLP:conf/icfhr/FischerPOS1"
 Warning--I didn't find a database entry for "TheseINRIA"
-Warning--I didn't find a database entry for "XX"
+Warning--I didn't find a database entry for "RefGRETA"
 Warning--I didn't find a database entry for "..."
 Warning--empty journal in O'Reilly2012
 Warning--empty journal in Wiggins1979
-You've used 25 entries,
+You've used 38 entries,
             2118 wiz_defined-function locations,
-            687 strings with 8331 characters,
-and the built_in function-call counts, 8266 in all, are:
-= -- 759
-> -- 427
-< -- 5
-+ -- 170
-- -- 141
-* -- 526
-:= -- 1375
-add.period$ -- 78
-call.type$ -- 25
-change.case$ -- 141
+            766 strings with 11296 characters,
+and the built_in function-call counts, 13203 in all, are:
+= -- 1244
+> -- 680
+< -- 9
++ -- 269
+- -- 227
+* -- 883
+:= -- 2176
+add.period$ -- 117
+call.type$ -- 38
+change.case$ -- 223
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 358
-empty$ -- 681
-format.name$ -- 141
-if$ -- 1766
+cite$ -- 40
+duplicate$ -- 545
+empty$ -- 1047
+format.name$ -- 227
+if$ -- 2803
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 28
-newline$ -- 128
-num.names$ -- 52
-pop$ -- 194
+int.to.str$ -- 38
+missing$ -- 41
+newline$ -- 193
+num.names$ -- 78
+pop$ -- 270
 preamble$ -- 1
-purify$ -- 119
+purify$ -- 188
 quote$ -- 0
-skip$ -- 236
+skip$ -- 386
 stack$ -- 0
-substring$ -- 325
-swap$ -- 76
-text.length$ -- 5
+substring$ -- 630
+swap$ -- 129
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
+type$ -- 146
 warning$ -- 2
-while$ -- 65
-width$ -- 27
-write$ -- 269
-(There were 3 error messages)
+while$ -- 112
+width$ -- 40
+write$ -- 412
+(There were 5 error messages)
