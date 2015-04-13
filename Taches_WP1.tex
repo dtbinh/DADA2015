@@ -61,8 +61,15 @@ We will first explore extensions of previous promising works (e.g. Radenen 2014)
 
 \paragraph{Task 1.2. Combining models for face animation } 
 
-The second task focuses on learning models of gesture and facial expressions in dialogue situations. It is dedicated to the combination of animation models, whch is a diifuckt and open question, with a focus on the animation of the face. We will start from available face animation models in the consortium: a mocap based animation \cite{Ding2013}, a video-based animation \cite{TheseINRIA}, and a procedural anmation \cite{RefGRETA} (integrated in the GRETA system). 
-We will explore ways to combine few such animation models which remains an open question today, be it for animating the face ot the full body \cite{...}. We will explore few strategies...
+The second task focuses on learning models of gesture and facial expressions in dialogue situations. It is dedicated to the combination of animation models, whch is a diifuckt and open question, with a focus on the animation of the face. We will start from available face animation models in the consortium: a mocap based animation \cite{Ding2013}, a video-based animation \cite{TheseINRIA}, and a procedural animation \cite{Greta} (integrated in the GRETA system). 
+
+All of these models types have pros and cons. While statically-driven models are more prone to produce natural looking animation, cognitive
+models capture more precisely the semantic emotional behaviors to communicate. These latter ones are often event-driven; that is they compute a behavior only when a given communicative function is specified. Statically driven models produce animation continuously that captures the communicative colour of the message to convey but they have difficulty to compute behaviors which have specific meaning. As a result, virtual agents driven by cognitive-like system are able to convey more precise displays while those driven by statistical models look more natural and lively \cite{DBLP:conf/iva/LeeM12}.
+
+We will explore ways to combine few such animation models which remains an open question today, be it for animating the face ot the full body \cite{...}. We will explore strategies and implement these within the Greta framework where communicative intentions and emotions are represented with the FLM language while multimodal behaviors with BML \cite{DBLP:conf/iva/VilhjalmssonCCCKKMMMPRTWW07}. The merge of multiple animation models may be performed as a weighted blend of the animations produced where the weights might be context dependent and tuned either manually or automatically, alike in \cite{DBLP:journals/tvcg/ShoulsonMKB14}. Alternatively the animation models may be merged earlier, when deciding which kind of motion to launch, or may have asymetric role. For instance, the procedural animation model (or semantically-driven?) might act as the main animatyion model and use when neccessary animatyions produced by the other models.
+
+
+
 
 % 
 % 

@@ -1,5 +1,23 @@
 \begin{thebibliography}{10}
 
+\bibitem{Adler2011}
+A.~Adler, V.~Emiya, M.~G. Jafari, M.~Elad, R.~Gribonval, and M.~D. Plumbley.
+\newblock A constrained matching pursuit approach to audio declipping.
+\newblock In {\em Proc. of ICASSP}, May 2011.
+
+\bibitem{Adler2012}
+A.~Adler, V.~Emiya, M.~G. Jafari, M.~Elad, R.~Gribonval, and M.~D. Plumbley.
+\newblock Audio inpainting.
+\newblock {\em IEEE Trans. Audio, Speech, Lang. Proc.}, 20(3):922 --932, Mar.
+  2012.
+
+\bibitem{ArtieresPAMI07}
+T.~Arti{\`{e}}res, S.~Marukatat, and P.~Gallinari.
+\newblock Online handwritten shape recognition using segmental hidden markov
+  models.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 29(2):205--217,
+  2007.
+
 \bibitem{Barbulescu2014}
 A.~Barbulescu, R.~Ronfard, G.~Bailly, G.~Gagner\'e, and H.~Cakmak.
 \newblock Beyond basic emotions: Expressive virtual actors with social
@@ -38,6 +56,14 @@ Y.~Ding, K.~Prepin, J.~Huang, C.~Pelachaud, and T.~Arti{\`{e}}res.
 M.~Dontcheva, G.~D. Yngve, and Z.~Popovic.
 \newblock Layered acting for character animation.
 \newblock {\em {ACM} Trans. Graph.}, 22(3):409--416, 2003.
+
+\bibitem{DBLP:conf/icfhr/FischerPOS14}
+A.~Fischer, R.~Plamondon, C.~O'Reilly, and Y.~Savaria.
+\newblock Neuromuscular representation and synthetic generation of handwritten
+  whiteboard notes.
+\newblock In {\em 14th International Conference on Frontiers in Handwriting
+  Recognition, {ICFHR} 2014, Crete, Greece, September 1-4, 2014}, pages
+  222--227, 2014.
 
 \bibitem{Fourati2013}
 N.~Fourati and C.~Pelachaud.
@@ -97,10 +123,23 @@ S.~Hochreiter and J.~Schmidhuber.
 \newblock In {\em Advances in Neural Information Processing Systems 9, NIPS,
   Denver, CO, USA, December 2-5, 1996}, pages 473--479, 1996.
 
+\bibitem{DBLP:journals/pami/HutchinsonDY13}
+B.~Hutchinson, L.~Deng, and D.~Yu.
+\newblock Tensor deep stacking networks.
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 35(8):1944--1957,
+  2013.
+
 \bibitem{Kendon2004}
 A.~Kendon.
 \newblock {\em Gesture: Visible Action as Utterance}.
 \newblock Cambridge University Press, 2004.
+
+\bibitem{DBLP:conf/iva/LeeM12}
+J.~Lee and S.~Marsella.
+\newblock Modeling speaker behavior: {A} comparison of two approaches.
+\newblock In {\em Intelligent Virtual Agents - 12th International Conference,
+  {IVA} 2012, Santa Cruz, CA, USA, September, 12-14, 2012. Proceedings}, pages
+  161--174, 2012.
 
 \bibitem{DBLP:journals/tog/LevineKTK10}
 S.~Levine, P.~Kr{\"{a}}henb{\"{u}}hl, S.~Thrun, and V.~Koltun.
@@ -139,6 +178,13 @@ H.~Mitake, K.~Asano, T.~Aoki, S.~Marc, M.~Sato, and S.~Hasegawa.
 \newblock {Physics-driven Multi Dimensional Keyframe Animation for
   Artist-directable Interactive Character}.
 \newblock {\em Computer Graphics Forum}, 2009.
+
+\bibitem{Greta}
+R.~Niewiadomski, E.~Bevacqua, M.~Mancini, and C.~Pelachaud.
+\newblock Greta: an interactive expressive {ECA} system.
+\newblock In {\em 8th International Joint Conference on Autonomous Agents and
+  Multiagent Systems {(AAMAS} 2009), Budapest, Hungary, May 10-15, 2009, Volume
+  2}, pages 1399--1400, 2009.
 
 \bibitem{O'Reilly2012}
 C.~O'Reilly and R.~Plamondon.
@@ -196,6 +242,15 @@ J.~Tanenbaum, M.~S. El-Nasr, and M.~Nixon.
   Designing Expressive Characters}.
 \newblock ETC Press, 2014.
 
+\bibitem{DBLP:conf/iva/VilhjalmssonCCCKKMMMPRTWW07}
+H.~H. Vilhj{\'{a}}lmsson, N.~Cantelmo, J.~Cassell, N.~E. Chafai, M.~Kipp,
+  S.~Kopp, M.~Mancini, S.~Marsella, A.~N. Marshall, C.~Pelachaud, Z.~Ruttkay,
+  K.~R. Th{\'{o}}risson, H.~van Welbergen, and R.~J. van~der Werf.
+\newblock The behavior markup language: Recent developments and challenges.
+\newblock In {\em Intelligent Virtual Agents, 7th International Conference,
+  {IVA} 2007, Paris, France, September 17-19, 2007, Proceedings}, pages
+  99--111, 2007.
+
 \bibitem{DBLP:journals/pami/WangFH08}
 J.~M. Wang, D.~J. Fleet, and A.~Hertzmann.
 \newblock Gaussian process dynamical models for human motion.
@@ -220,5 +275,12 @@ J.~Wiggins.
 \newblock A psychological taxonomy of trait-descriptive terms: The
   interpersonal domain.
 \newblock 33, 1979.
+
+\bibitem{DBLP:conf/mm/ZhongLL11}
+S.~Zhong, Y.~Liu, and Y.~Liu.
+\newblock Bilinear deep learning for image classification.
+\newblock In {\em Proceedings of the 19th International Conference on
+  Multimedia 2011, Scottsdale, AZ, USA, November 28 - December 1, 2011}, pages
+  343--352, 2011.
 
 \end{thebibliography}
