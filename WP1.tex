@@ -1,8 +1,4 @@
 
-thierry : ce passage là doit probablement etre remonté au dessus pour l'explication générale du flux entre WPs. This workpackage focuses on animation models for isolated actors. 
-The inputs that are used by the methods to be developped in this WP are procedural animation scenario as ouput by WP2. 
-Such a scenario includes in particular detailed indications on the action to be realized (walk from one point to another, carry object, knock on door, throw object, lift object, move object), the mood of the character (neutral, happy, afraid, angry, anxious, sad, proud, shameful) and a set of static information about the character that change the way people move (age, gender, morphology, corpulence, expressivity level, etc). Both action and mood may vary with time almong the animation while static information remain fixed per nature. 
-These three sets of information will be refered hereafter as \textit{action context}, \textit{mood context} and \textit{profile context}. . 
 % 
 % \subsubsection{WP1. Related works}
 % 
@@ -120,6 +116,13 @@ These three sets of information will be refered hereafter as \textit{action cont
 
 \subsubsection{WP1. Kinesic component} 
 
+\begin{xcomment}  
+thierry : ce passage là doit probablement etre remonté au dessus pour l'explication générale du flux entre WPs. This workpackage focuses on animation models for isolated actors. 
+The inputs that are used by the methods to be developped in this WP are procedural animation scenario as output by WP2. 
+Such a scenario includes in particular detailed indications on the action to be realized (walk from one point to another, carry object, knock on door, throw object, lift object, move object), the mood of the character (neutral, happy, afraid, angry, anxious, sad, proud, shameful) and a set of static information about the character that change the way people move (age, gender, morphology, corpulence, expressivity level, etc). Both action and mood may vary with time almong the animation while static information remain fixed per nature. 
+These three sets of information will be refered hereafter as \textit{action context}, \textit{mood context} and \textit{profile context}. . 
+\end{xcomment}
+
 
 
 This WP aims at creating multi-modal statistical models of individual body movements from annotated, mainly from mocap data, to generate novel expressive animation suitable for dramatic performances. 
@@ -149,7 +152,7 @@ A second lock will concern the animation of the face in dialogue situations. Giv
 The latter animation model is already working and part of the GRETA system. The mocap based animation model will be easily built on previous works by the team \cite{YuThesis}. 
 Finally starting from previous work on visual prosody we will design the third model ... Ideally, this should be done without MOCAP data, using only audio and video processing, possibly enhanced with depth (kinect). To be continued (Rémi)...We will explore strategies for optimally combining these three animation models...
 
-Finally we want our animation models easily extendabke to new activities and moods, by making them learnable from only few training samples. 
+Finally we want our animation models easily extendable to new activities and moods, by making them learnable from only few training samples. 
 This  will allow enriching the system easily whitout a costly and tedious task of gathering a large corpus of training data as usually required in statistical machine learning. Learning models, and particularly statistical models from few samples is a key and open issue \cite{NIPS2013_OneShot}. We will mainly explore two ways that aim at favoring transfer from learning one
 gesture model to learning another gesture model. 
 First, few preliminary works have shown that contextual markovian models such as the ones proposed in \cite{Radenen2014} for gesture recognition could be defined in such a way that the data from all gesture classes could be exploited to learn models for all gesture classes. 

@@ -1,4 +1,8 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{XsensSystem}
+Xsens.
+\newblock http://www.xsens.com.
 
 \bibitem{Adler2011}
 A.~Adler, V.~Emiya, M.~G. Jafari, M.~Elad, R.~Gribonval, and M.~D. Plumbley.
@@ -11,23 +15,74 @@ A.~Adler, V.~Emiya, M.~G. Jafari, M.~Elad, R.~Gribonval, and M.~D. Plumbley.
 \newblock {\em IEEE Trans. Audio, Speech, Lang. Proc.}, 20(3):922 --932, Mar.
   2012.
 
-\bibitem{ArtieresPAMI07}
-T.~Arti{\`{e}}res, S.~Marukatat, and P.~Gallinari.
-\newblock Online handwritten shape recognition using segmental hidden markov
-  models.
-\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 29(2):205--217,
-  2007.
+\bibitem{Allombert08}
+A.~Allombert, M.~Desainte-Catherine, and G.~Assayag.
+\newblock Iscore: A system for writing interaction.
+\newblock In {\em Proceedings of the 3rd International Conference on Digital
+  Interactive Media in Entertainment and Arts}, DIMEA '08, pages 360--367, New
+  York, NY, USA, 2008. ACM.
 
-\bibitem{Barbulescu2014}
-A.~Barbulescu, R.~Ronfard, G.~Bailly, G.~Gagner\'e, and H.~Cakmak.
-\newblock Beyond basic emotions: Expressive virtual actors with social
-  attitudes.
-\newblock In {\em ACM SIGGRAPH Conference on Motion in Games}, 2014.
+\bibitem{barbulescu:hal-00842928}
+A.~Barbulescu, T.~Hueber, G.~Bailly, and R.~Ronfard.
+\newblock {Audio-Visual Speaker Conversion using Prosody Features}.
+\newblock In {\em {AVSP - 12th International Conference on Auditory-Visual
+  Speech Processing (AVSP 2013)}}, pages 11--16, Annecy, France, Aug. 2013.
+
+\bibitem{barbulescu:hal-01064989}
+A.~Barbulescu, R.~Ronfard, G.-L.-I. Bailly, G{\'e}rard, G.~Gagner{\'e}, and
+  H.~Cakmak.
+\newblock {Beyond Basic Emotions: Expressive Virtual Actors with Social
+  Attitudes}.
+\newblock In {\em {7th International ACM SIGGRAPH Conference on Motion in Games
+  2014 (MIG 2014)}}, pages 39--47, Los Angeles, United States, Nov. 2014.
+
+\bibitem{Blackwell01}
+L.~Blackwell, B.~von Konsky, and M.~Robey.
+\newblock Petri net script: a visual language for describing action, behaviour
+  and plot.
+\newblock In {\em Computer Science Conference, 2001. ACSC 2001. Proceedings.
+  24th Australasian}, pages 29--37, 2001.
+
+\bibitem{Boulic:2006:EOA}
+R.~Boulic, J.~Varona, L.~Unzueta, M.~Peinado, A.~Suescun, and F.~Perales.
+\newblock Evaluation of on-line analytic and numeric inverse kinematics
+  approaches driven by partial vision input.
+\newblock {\em Virtual Reality}, 10(1):48--61, 2006.
+
+\bibitem{Brand:2000:SM}
+M.~Brand and A.~Hertzmann.
+\newblock Style machines.
+\newblock In {\em Proceedings of the 27th annual conference on Computer
+  graphics and interactive techniques}, SIGGRAPH '00, pages 183--192, New York,
+  NY, USA, 2000. ACM Press/Addison-Wesley Publishing Co.
+
+\bibitem{brouet:hal-00695903}
+R.~Brouet, A.~Sheffer, L.~Boissieux, and M.-P. Cani.
+\newblock {Design Preserving Garment Transfer}.
+\newblock {\em {ACM Transactions on Graphics}}, 31(4):Article No. 36, July
+  2012.
+
+\bibitem{Buss:2004:SDL}
+S.~R. Buss and J.-s. Kim.
+\newblock Selectively damped least squares for inverse kinematics.
+\newblock {\em Methods}, 10(3):1--13, 2004.
 
 \bibitem{Cassell2000}
 J.~Cassell, J.~Sullivan, S.~Prevost, and E.~Churchill.
 \newblock {\em Embodied Conversational Agents}.
 \newblock MIT Press, 2000.
+
+\bibitem{Chao11b}
+C.~Chao, J.~Lee, M.~Begum, and A.~Thomaz.
+\newblock Simon plays simon says: The timing of turn-taking in an imitation
+  game.
+\newblock In {\em RO-MAN, 2011 IEEE}, pages 235--240, July 2011.
+
+\bibitem{Chao11a}
+C.~Chao and A.~Thomaz.
+\newblock Timing in multimodal turn-taking interactions: Control and analysis
+  using timed petri nets.
+\newblock {\em Journal of Human-Robot Interaction}, 1(1):4--25, 2012.
 
 \bibitem{DBLP:conf/atal/ChiuM14}
 C.~Chiu and S.~Marsella.
@@ -35,10 +90,33 @@ C.~Chiu and S.~Marsella.
 \newblock In {\em International conference on Autonomous Agents and Multi-Agent
   Systems, {AAMAS} '14, Paris, France, May 5-9, 2014}, pages 781--788, 2014.
 
-\bibitem{Contardo2014}
-G.~Contardo, L.~Denoyer, T.~Artieres, and P.~Gallinari.
-\newblock Learning states representations in pomdp.
-\newblock In {\em ICLR}, 2014.
+\bibitem{Dael12a}
+N.~Dael, M.~Mortillaro, and K.~Scherer.
+\newblock The body action and posture coding system (bap): Development and
+  reliability.
+\newblock {\em Journal of Nonverbal Behavior}, 36(2):97--121, 2012.
+
+\bibitem{Dael12b}
+N.~Dael, M.~Mortillaro, and K.~Scherer.
+\newblock Emotion expression in body action and posture.
+\newblock {\em Emotion}, 12(5):1085--1101, 2012.
+
+\bibitem{dalessandro:hal-01134574}
+N.~d?Alessandro, J.~Tilmanne, M.~Astrinaki, T.~Hueber, R.~Dall, T.~Ravet,
+  A.~Moinet, H.~Cakmak, O.~Babacan, A.~Barbulescu, V.~Parfait, V.~Huguenin,
+  E.~S. Kalayc{\i}, and Q.~Hu.
+\newblock {Reactive Statistical Mapping: Towards the Sketching of Performative
+  Control with Data}.
+\newblock In Y.~R. . T. C. . J. R. . L.~M. Camarinha-Matos, editor, {\em
+  {Innovative and Creative Developments in Multimodal Interaction Systems}},
+  volume 425 of {\em IFIP Advances in Information and Communication
+  Technology}, pages 20--49. {Springer}, 2014.
+
+\bibitem{APMLDeCarolis2004}
+B.~De~Carolis, C.~Pelachaud, I.~Poggi, and M.~Steedman.
+\newblock Apml, a markup language for believable behavior generation.
+\newblock In H.~Prendinger and M.~Ishizuka, editors, {\em Life-Like
+  Characters}, pages 65--85. Springer Berlin Heidelberg, 2004.
 
 \bibitem{Ding2013}
 Y.~Ding, T.~Arti\`eres, and C.~Pelachaud.
@@ -46,16 +124,49 @@ Y.~Ding, T.~Arti\`eres, and C.~Pelachaud.
 \newblock In {\em International Conference on Intelligent Virtual Agents
   (IVA)}, 2013.
 
+\bibitem{ding2014upper}
+Y.~Ding, J.~Huang, N.~Fourati, T.~Arti{\`e}res, and C.~Pelachaud.
+\newblock Upper body animation synthesis for a laughing character.
+\newblock In {\em Intelligent Virtual Agents}, pages 164--173. Springer
+  International Publishing, 2014.
+
+\bibitem{Ding13a}
+Y.~Ding, C.~Pelachaud, and T.~Artières.
+\newblock Modeling multimodal behaviors from speech prosody.
+\newblock In {\em 13th International Conference of Intelligent Virtual Agents -
+  IVA}, 2013.
+
+\bibitem{Ding:2014:LAS}
+Y.~Ding, K.~Prepin, J.~Huang, C.~Pelachaud, and T.~Arti\`{e}res.
+\newblock Laughter animation synthesis.
+\newblock In {\em Proceedings of the 2014 International Conference on
+  Autonomous Agents and Multi-agent Systems}, AAMAS '14, pages 773--780, 2014.
+
 \bibitem{Ding2014}
 Y.~Ding, K.~Prepin, J.~Huang, C.~Pelachaud, and T.~Arti{\`{e}}res.
 \newblock Laughter animation synthesis.
 \newblock In {\em International conference on Autonomous Agents and Multi-Agent
   Systems, {AAMAS} '14, Paris, France, May 5-9, 2014}, pages 773--780, 2014.
 
-\bibitem{DBLP:journals/tog/DontchevaYP03}
-M.~Dontcheva, G.~D. Yngve, and Z.~Popovic.
-\newblock Layered acting for character animation.
-\newblock {\em {ACM} Trans. Graph.}, 22(3):409--416, 2003.
+\bibitem{Dixon2007}
+S.~Dixon.
+\newblock {\em Digital Performance}.
+\newblock MIT press, 2007.
+
+\bibitem{El-Nasr04}
+M.~S. El-Nasr.
+\newblock A user-centric adaptive story architecture: Borrowing from acting
+  theories.
+\newblock In {\em Proceedings of the 2004 ACM SIGCHI International Conference
+  on Advances in Computer Entertainment Technology}, ACE '04, pages 109--116,
+  New York, NY, USA, 2004. ACM.
+
+\bibitem{Feng:2012:EMS}
+A.~W. Feng, Y.~Xu, and A.~Shapiro.
+\newblock An example-based motion synthesis technique for locomotion and object
+  manipulation.
+\newblock In {\em Proceedings of the ACM SIGGRAPH Symposium on Interactive 3D
+  Graphics and Games}, I3D '12, pages 95--102, New York, NY, USA, 2012. ACM.
 
 \bibitem{DBLP:conf/icfhr/FischerPOS14}
 A.~Fischer, R.~Plamondon, C.~O'Reilly, and Y.~Savaria.
@@ -65,17 +176,32 @@ A.~Fischer, R.~Plamondon, C.~O'Reilly, and Y.~Savaria.
   Recognition, {ICFHR} 2014, Crete, Greece, September 1-4, 2014}, pages
   222--227, 2014.
 
-\bibitem{Fourati2013}
+\bibitem{FouratiEmilya2014}
 N.~Fourati and C.~Pelachaud.
-\newblock Head, shoulders and hips behaviors during turning.
-\newblock In {\em Worshop on Human Behavior Understanding (HBU), Springer LNCS
-  8212}, pages 223--234, 2013.
+\newblock Emilya: Emotional body expression in daily actions database.
+\newblock In {\em Language Resources and Evaluation Conference (LREC)}, 2014.
 
-\bibitem{Gagner\'e2013}
-G.~Gagner\'e, R.~Ronfard, and M.~Desainte-Catherine.
-\newblock La simulation du travail th\'e\^atral et sa notation informatique.
-\newblock In {\em La notation du travail th\'e\^atral : du manuscrit au
-  num\'erique}, 2012.
+\bibitem{gagnere2012}
+G.~Gagner{\'e}, R.~Ronfard, and M.~Desainte-Catherine.
+\newblock {La simulation du travail th{\'e}{\^a}tral et sa '' notation ''
+  informatique}.
+\newblock In M.~Martinez, S.~Proust, and M.~Pouget, editors, {\em {Notation du
+  travail th{\'e}{\^a}tral, du manuscript au num{\'e}rique}}. {Lansman}, Dec.
+  2012.
+
+\bibitem{gagnere2015}
+G.~Gagneré and C.~Plessiet.
+\newblock Échanges entre metteur en scène et artiste numérique à propos de la
+  direction d'acteur.
+\newblock In J.-F. Dusigne, editor, {\em La direction d'acteurs peut-elle
+  s'apprendre ?} Les Solitaires Intempestifs, 2015.
+
+\bibitem{galvane:hal-00862713}
+Q.~Galvane, M.~Christie, R.~Ronfard, C.-K. Lim, and M.-P. Cani.
+\newblock {Steering Behaviors for Autonomous Cameras}.
+\newblock In {\em {MIG 2013 - ACM SIGGRAPH conference on Motion in Games}}, MIG
+  '13 Proceedings of Motion on Games, pages 93--102, Dublin, Ireland, Nov.
+  2013. {ACM}.
 
 \bibitem{Gandhi13}
 V.~Gandhi and R.~Ronfard.
@@ -84,12 +210,6 @@ V.~Gandhi and R.~Ronfard.
 \newblock In {\em {CVPR 2013 - International Conference on Computer Vision and
   Pattern Recognition}}, pages 3706--3713, Portland, Oregon, United States,
   June 2013. {IEEE}.
-
-\bibitem{Gillies2004}
-M.~Gillies, I.~Crabtree, and D.~Ballin.
-\newblock Customisation and context for expressive behaviour in the broadband
-  world.
-\newblock {\em BT Technology Journal}, 22(2):7--17, 2004.
 
 \bibitem{DBLP:journals/corr/Graves13}
 A.~Graves.
@@ -111,6 +231,36 @@ K.~Greff, R.~K. Srivastava, J.~Koutn{\'{\i}}k, B.~R. Steunebrink, and
 \newblock {LSTM:} {A} search space odyssey.
 \newblock {\em CoRR}, abs/1503.04069, 2015.
 
+\bibitem{guay:hal-00861503}
+M.~Guay, M.-P. Cani, and R.~Ronfard.
+\newblock {The Line of Action: an Intuitive Interface for Expressive Character
+  Posing}.
+\newblock {\em {ACM Transactions on Graphics}}, 32(6):Article No. 205, Nov.
+  2013.
+
+\bibitem{Guay2015}
+M.~Guay, R.~Ronfard, M.~Gleicher, and M.-P. Cani.
+\newblock Space-time sketching of character animation.
+\newblock {\em ACM transactions on Graphics, Proceedings of Siggraph}, 2015.
+
+\bibitem{Hall69}
+E.~Hall.
+\newblock {\em The hidden dimension}.
+\newblock Anchor Books, New-York, NY, USA, 1969.
+
+\bibitem{Heck:2007:PMG}
+R.~Heck and M.~Gleicher.
+\newblock Parametric motion graphs.
+\newblock In {\em Proceedings of the 2007 symposium on Interactive 3D graphics
+  and games}, I3D '07, pages 129--136, New York, NY, USA, 2007. ACM.
+
+\bibitem{FML2008IVA}
+D.~Heylen, S.~Kopp, S.~C. Marsella, C.~Pelachaud, and H.~H. Vilhj\'{a}lmsson.
+\newblock The next step towards a function markup language.
+\newblock In {\em Proceedings of the 8th international conference on
+  Intelligent Virtual Agents}, IVA, pages 270--280, Berlin, Heidelberg, 2008.
+  Springer-Verlag.
+
 \bibitem{DBLP:journals/cogsci/HintonOWT06}
 G.~E. Hinton, S.~Osindero, M.~Welling, and Y.~W. Teh.
 \newblock Unsupervised discovery of nonlinear structure using contrastive
@@ -123,16 +273,59 @@ S.~Hochreiter and J.~Schmidhuber.
 \newblock In {\em Advances in Neural Information Processing Systems 9, NIPS,
   Denver, CO, USA, December 2-5, 1996}, pages 473--479, 1996.
 
+\bibitem{huang:2012:EET}
+J.~Huang and C.~Pelachaud.
+\newblock An efficient energy transfer inverse kinematics solution.
+\newblock In M.~Kallmann and K.~Bekris, editors, {\em Motion in Games}, volume
+  7660 of {\em Lecture Notes in Computer Science}, pages 278--289. Springer
+  Berlin Heidelberg, 2012.
+
 \bibitem{DBLP:journals/pami/HutchinsonDY13}
 B.~Hutchinson, L.~Deng, and D.~Yu.
 \newblock Tensor deep stacking networks.
 \newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 35(8):1944--1957,
   2013.
 
-\bibitem{Kendon2004}
+\bibitem{Kemp2010}
+R.~Kemp.
+\newblock {\em Embodied Acting: Cognitive Foundations of Performance}.
+\newblock PhD thesis, University of Pittsburgh, 2010.
+
+\bibitem{Kendon90}
 A.~Kendon.
-\newblock {\em Gesture: Visible Action as Utterance}.
-\newblock Cambridge University Press, 2004.
+\newblock {\em Conducting interaction: {P}attern of behavior in focused
+  encounter}.
+\newblock Cambridge University Press, 1990.
+
+\bibitem{Kipp01}
+M.~Kipp.
+\newblock {ANVIL} - a generic annotation tool for multimodal dialogue.
+\newblock In {\em {EUROSPEECH} 2001 Scandinavia, 7th European Conference on
+  Speech Communication and Technology, 2nd {INTERSPEECH} Event, Aalborg,
+  Denmark, September 3-7, 2001}, pages 1367--1370, 2001.
+
+\bibitem{KIPP12}
+M.~Kipp.
+\newblock Annotation facilities for the reliable analysis of human motion.
+\newblock In N.~C.~C. Chair), K.~Choukri, T.~Declerck, M.~U. Do?an,
+  B.~Maegaard, J.~Mariani, A.~Moreno, J.~Odijk, and S.~Piperidis, editors, {\em
+  Proceedings of the Eight International Conference on Language Resources and
+  Evaluation (LREC'12)}, Istanbul, Turkey, may 2012. European Language
+  Resources Association (ELRA).
+
+\bibitem{KoppBML2006}
+S.~Kopp, B.~Krenn, S.~Marsella, A.~N. Marshall, C.~Pelachaud, H.~Pirker, K.~R.
+  Th\'{o}risson, and H.~H. Vilhj\'{a}lmsson.
+\newblock Towards a common framework for multimodal generation: the behavior
+  markup language.
+\newblock In {\em Proceedings of the 6th international conference on
+  Intelligent Virtual Agents}, IVA, pages 205--217, Berlin, Heidelberg, 2006.
+  Springer-Verlag.
+
+\bibitem{Kovar:2002:MG}
+L.~Kovar, M.~Gleicher, and F.~Pighin.
+\newblock Motion graphs.
+\newblock {\em ACM Trans. Graph.}, 21(3):473--482, July 2002.
 
 \bibitem{NIPS2013_OneShot}
 B.~M. Lake, R.~R. Salakhutdinov, and J.~Tenenbaum.
@@ -140,6 +333,16 @@ B.~M. Lake, R.~R. Salakhutdinov, and J.~Tenenbaum.
 \newblock In C.~Burges, L.~Bottou, M.~Welling, Z.~Ghahramani, and
   K.~Weinberger, editors, {\em Advances in Neural Information Processing
   Systems 26}, pages 2526--2534. Curran Associates, Inc., 2013.
+
+\bibitem{Lee2002}
+J.~Lee, J.~Chai, P.~Reitsma, J.~Hodgins, and N.~Pollard.
+\newblock Interactive control of avatars animated with human motion data.
+\newblock {\em ACM Transactions on Graphics, Proceedings of SIGGRAPH}, 2002.
+
+\bibitem{Lee:2002:ICA}
+J.~Lee, J.~Chai, P.~S.~A. Reitsma, J.~K. Hodgins, and N.~S. Pollard.
+\newblock Interactive control of avatars animated with human motion data.
+\newblock {\em ACM Trans. Graph.}, 21(3):491--500, July 2002.
 
 \bibitem{DBLP:conf/iva/LeeM12}
 J.~Lee and S.~Marsella.
@@ -169,16 +372,72 @@ S.~Levine, J.~M. Wang, A.~Haraux, Z.~Popovic, and V.~Koltun.
 \newblock Continuous character control with low-dimensional embeddings.
 \newblock {\em {ACM} Trans. Graph.}, 31(4):28, 2012.
 
+\bibitem{lim:hal-00864223}
+C.-K. Lim, M.-P. Cani, Q.~Galvane, J.~Pettr{\'e}, and T.~Abdullah~Zawawi.
+\newblock {Simulation of Past Life: Controlling Agent Behaviors from the
+  Interactions between Ethnic Groups}.
+\newblock In {\em {Digital Heritage International Congress 2013}}, Marseille,
+  France, Oct. 2013.
+
+\bibitem{Lin2013}
+C.-Y. Lin, L.-C. Cheng, C.-C. Huang, L.-W. Chuang, W.-C. Teng, C.-H. Kuo, H.-Y.
+  Gu, K.-L. Chung, and C.-S. Fahn.
+\newblock Versatile humanoid robots for theatrical performances.
+\newblock {\em International Journal of Advanced Robotic Systems}, 10(1),
+  January 2013.
+
+\bibitem{Little06}
+T.~D. Little and A.~Ghafoor.
+\newblock Synchronization and storage models for multimedia objects.
+\newblock {\em IEEE J.Sel. A. Commun.}, 8(3):413--427, Sept. 2006.
+
 \bibitem{Liu2006}
 C.~Liu, A.~Hertzmann, and Z.Popovic.
 \newblock Composition of complex optimal multi-character motions.
 \newblock In {\em ACM SIGGRAPH / Eurographics Symposium on Computer Animation},
   2006.
 
+\bibitem{Luo:2009:AGA}
+P.~Luo, M.~Kipp, and M.~Neff.
+\newblock Augmenting gesture animation with motion capture data to provide
+  full-body engagement.
+\newblock In Z.~Ruttkay, M.~Kipp, A.~Nijholt, and H.~Vilhjálmsson, editors,
+  {\em Intelligent Virtual Agents}, volume 5773 of {\em Lecture Notes in
+  Computer Science}, pages 405--417. Springer Berlin Heidelberg, 2009.
+
+\bibitem{Magalhaes98}
+L.~P. MagalhÃ£es, A.~B. Raposo, and I.~L. Ricarte.
+\newblock Animation modeling with petri nets.
+\newblock {\em Computers \& Graphics}, 22(6):735 -- 743, 1998.
+
+\bibitem{Maiocchi90}
+R.~Maiocchi and B.~Pernici.
+\newblock Directing an animated scene with autonomous actors.
+\newblock {\em The Visual Computer}, 6(6):359--371, 1990.
+
+\bibitem{Marczak11}
+R.~Marczak, M.~Desainte-Catherine, and A.~Allombert.
+\newblock Real-time temporal control of musical processes.
+\newblock In {\em International Conferences on Advances in Multimedia}, 2011.
+
+\bibitem{Marsella:2013:VCP}
+S.~Marsella, Y.~Xu, M.~Lhommet, A.~Feng, S.~Scherer, and A.~Shapiro.
+\newblock Virtual character performance from speech.
+\newblock In {\em Proceedings of the 12th ACM SIGGRAPH/Eurographics Symposium
+  on Computer Animation}, SCA '13, pages 25--35, New York, NY, USA, 2013. ACM.
+
 \bibitem{Mateas2002}
 M.~Mateas and A.~Stern.
 \newblock A behavior language for story-based believable agents.
 \newblock {\em IEEE Intelligent Systems}, 17(4), 2002.
+
+\bibitem{milliez:hal-01056600}
+A.~Milliez, G.~Noris, I.~Baran, S.~Coros, M.-P. Cani, M.~Nitti, A.~Marra,
+  M.~Gross, and R.~W. Sumner.
+\newblock {Hierarchical Motion Brushes for Animation Instancing}.
+\newblock In {\em {NPAR '14 - Workshop on Non-Photorealistic Animation and
+  Rendering}}, Proceedings of the Workshop on Non-Photorealistic Animation and
+  Rendering, pages 71--79, Vancouver, Canada, Aug. 2014. {ACM New York}.
 
 \bibitem{Mitake09}
 H.~Mitake, K.~Asano, T.~Aoki, S.~Marc, M.~Sato, and S.~Hasegawa.
@@ -193,16 +452,24 @@ R.~Niewiadomski, E.~Bevacqua, M.~Mancini, and C.~Pelachaud.
   Multiagent Systems {(AAMAS} 2009), Budapest, Hungary, May 10-15, 2009, Volume
   2}, pages 1399--1400, 2009.
 
-\bibitem{O'Reilly2012}
-C.~O'Reilly and R.~Plamondon.
-\newblock A globally optimal estimator for the delta-lognormal modeling of fast
-  reaching movements.
-\newblock 42(5):1428--1442, 2012.
+\bibitem{Niewiadomski2011}
+R.~Niewiadomski, M.~Obaid, E.~Bevacqua, J.~Looser, L.~Q. Anh, and C.~Pelachaud.
+\newblock Cross-media agent platform.
+\newblock In {\em Proceedings of the 16th International Conference on 3D Web
+  Technology}, Web3D, pages 11--19, New York, NY, USA, 2011. ACM.
 
-\bibitem{Pedica2010}
-C.~Pedica and H.~VilhjÃ¡lmsson.
-\newblock Spontaneous avatar behavior for human territoriality.
-\newblock {\em Applied Artificial Intelligence}, 24(6), 2010.
+\bibitem{Ochs2013emoti}
+M.~Ochs, K.~Prepin, and C.~Pelachaud.
+\newblock From emotions to interpersonal stances: Multi-level analysis of
+  smiling virtual characters.
+\newblock In {\em Affective Computing and Intelligent Interaction (ACII), 2013
+  Humaine Association Conference on}, pages 258--263. IEEE, 2013.
+
+\bibitem{Pan:2009:UHM}
+W.~Pan and L.~Torresani.
+\newblock Unsupervised hierarchical modeling of locomotion styles.
+\newblock In {\em Proceedings of the 26th Annual International Conference on
+  Machine Learning}, ICML '09, pages 785--792, New York, NY, USA, 2009. ACM.
 
 \bibitem{Pinhanez2000}
 C.~Pinhanez.
@@ -210,33 +477,97 @@ C.~Pinhanez.
   interactive spaces.
 \newblock In {\em Managing Interactions in Smart Environments}, 2000.
 
-\bibitem{Prada2005}
+\bibitem{Poggi2007}
+I.~Poggi.
+\newblock {\em Mind, hands, face and body: a goal and belief view of multimodal
+  communication}.
+\newblock Weidler, Berlin, 2007.
+
+\bibitem{PradaPaiva05}
 R.~Prada and A.~Paiva.
 \newblock Believable groups of synthetic characters.
-\newblock In {\em Autonomous agents and multiagent systems}, pages 37--43,
-  2005.
+\newblock In {\em Proceedings of the Fourth International Joint Conference on
+  Autonomous Agents and Multi-agent Systems, {AAMAS?05}}, pages 37--43,
+  New-York, NY, USA, 2005.
 
-\bibitem{Prepin2013}
+\bibitem{Prepin13}
 K.~Prepin, M.~Ochs, and C.~Pelachaud.
-\newblock Beyond backchannels : co-construction of dyadic stance by recip-rocal
+\newblock Beyond backchannels: co-construction of dyadic stancce by reciprocal
   reinforcement of smiles between virtual agents.
-\newblock In {\em COGSCI}, 2013.
+\newblock In {\em International Conference CogSci (Annual Conference of the
+  Cognitive Science Society)}, 2013.
 
 \bibitem{Radenen2014}
 M.~Radenen and T.~Arti\`eres.
 \newblock Contextual markovian models.
 \newblock {\em Pattern Recognition Letters}, 35:236--245, 2014.
 
-\bibitem{Ronfard2012}
+\bibitem{RavenetCOP14}
+B.~Ravenet, A.~Cafaro, M.~Ochs, and C.~Pelachaud.
+\newblock Interpersonal attitude of a speaking agent in simulated group
+  conversations.
+\newblock In {\em Proceedings of Intelligent Virtual Agents conference
+  {IVA?14}}, pages 345--349, Boston, MA, USA, 2014.
+
+\bibitem{RehmEndrass09}
+M.~Rehm and B.~Endrass.
+\newblock Rapid prototyping of social group dynamics in multi-agent systems.
+\newblock {\em AI and Society}, 24:13--23, 2009.
+
+\bibitem{Reynolds99}
+C.~Reynolds.
+\newblock Steering behaviors for autonomous characters.
+\newblock In {\em Proceedings of the Game Developers Conference}, pages
+  763--782, Miller Freeman Game Groups, San Francisco, CA.
+
+\bibitem{ronfard2012}
 R.~Ronfard.
-\newblock Notation et reconnaissance des actions sc\'eniques par ordinateur.
-\newblock In {\em La notation du travail th\'e\^atral : du manuscrit au
-  num\'erique}, 2012.
+\newblock {Notation et reconnaissance des actions sc{\'e}niques par
+  ordinateur}.
+\newblock In M.~Martinez, S.~Proust, and M.~Pouget, editors, {\em {Notation du
+  travail th{\'e}{\^a}tral, du manuscript au num{\'e}rique}}. {Lansman}, Dec.
+  2012.
+
+\bibitem{SAC74}
+H.~Sacks, E.~Schegloff, and G.~Jefferson.
+\newblock A simplest systematics for the organization of turn-taking for
+  conversation.
+\newblock {\em Language}, 50:696--735, 1974.
+
+\bibitem{Salter2010}
+C.~Salter.
+\newblock {\em Entangled}.
+\newblock MIT press, 2010.
+
+\bibitem{Schegloff2000}
+E.~Schegloff.
+\newblock Overlapping talk and the organization of turn-taking for
+  conversation.
+\newblock {\em Language in Society}, 21(1):1--63, 1974.
+
+\bibitem{Shapiro:BCA}
+A.~Shapiro.
+\newblock Building a character animation system.
+\newblock In J.~Allbeck and P.~Faloutsos, editors, {\em Motion in Games},
+  volume 7060 of {\em Lecture Notes in Computer Science}, pages 98--109.
+  Springer Berlin / Heidelberg, 2011.
+
+\bibitem{Shoulson:2013:AAD}
+A.~Shoulson, N.~Marshak, M.~Kapadia, and N.~I. Badler.
+\newblock Adapt: the agent development and prototyping testbed.
+\newblock In {\em Proceedings of the ACM SIGGRAPH Symposium on Interactive 3D
+  Graphics and Games}, I3D '13, pages 9--18, New York, NY, USA, 2013. ACM.
 
 \bibitem{DBLP:journals/tvcg/ShoulsonMKB14}
 A.~Shoulson, N.~Marshak, M.~Kapadia, and N.~I. Badler.
 \newblock {ADAPT:} the agent developmentand prototyping testbed.
 \newblock {\em {IEEE} Trans. Vis. Comput. Graph.}, 20(7):1035--1047, 2014.
+
+\bibitem{Spierling02}
+U.~Spierling, D.~Grasbon, N.~Braun, and I.~Iurgel.
+\newblock Setting the scene: playing digital director in interactive
+  storytelling and creation.
+\newblock {\em Computers {\&} Graphics}, 26(1):31--44, 2002.
 
 \bibitem{Sreenivasa09}
 M.~Sreenivasa, P.~Sou\`eres, J.-P. Laumond, and A.~Berthoz.
@@ -248,6 +579,41 @@ J.~Tanenbaum, M.~S. El-Nasr, and M.~Nixon.
 \newblock {\em Nonverbal Communication in Virtual Worlds: Understanding and
   Designing Expressive Characters}.
 \newblock ETC Press, 2014.
+
+\bibitem{Thiebaux:2008:SBR}
+M.~Thiebaux, S.~Marsella, A.~N. Marshall, and M.~Kallmann.
+\newblock Smartbody: Behavior realization for embodied conversational agents.
+\newblock In {\em Proceedings of the 7th International Joint Conference on
+  Autonomous Agents and Multiagent Systems - Volume 1}, AAMAS '08, pages
+  151--158, Richland, SC, 2008. International Foundation for Autonomous Agents
+  and Multiagent Systems.
+
+\bibitem{Toro12}
+M.~Toro-Bermudez, M.~Desainte-Catherine, and J.~Castet.
+\newblock An extension of interactive scores for multimedia scenarios with
+  temporal relations for micro and macro controls.
+\newblock In {\em Sound and Music Computing}, 2012.
+
+\bibitem{Unzueta:2008:FPA}
+L.~Unzueta, M.~Peinado, R.~Boulic, and A.~Suescun.
+\newblock Full-body performance animation with sequential inverse kinematics.
+\newblock {\em Graph. Models}, 70:87--104, September 2008.
+
+\bibitem{vaillant:hal-00819270}
+R.~Vaillant, L.~Barthe, G.~Guennebaud, M.-P. Cani, D.~Rohmer, B.~Wyvill,
+  O.~Gourmel, and M.~Paulin.
+\newblock {Implicit Skinning: Real-Time Skin Deformation with Contact
+  Modeling}.
+\newblock {\em {ACM Transactions on Graphics}}, 32(4):Article No. 125, July
+  2013.
+\newblock SIGGRAPH 2013 Conference Proceedings.
+
+\bibitem{VanRijsselbergen2009}
+D.~Van~Rijsselbergen, B.~Van De~Keer, M.~Verwaest, E.~Mannens, and R.~Van~de
+  Walle.
+\newblock Movie script markup language.
+\newblock In {\em Proceedings of the 9th ACM Symposium on Document
+  Engineering}, DocEng '09, pages 161--170, New York, NY, USA, 2009. ACM.
 
 \bibitem{DBLP:conf/iva/VilhjalmssonCCCKKMMMPRTWW07}
 H.~H. Vilhj{\'{a}}lmsson, N.~Cantelmo, J.~Cassell, N.~E. Chafai, M.~Kipp,
@@ -264,6 +630,11 @@ J.~M. Wang, D.~J. Fleet, and A.~Hertzmann.
 \newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 30(2):283--298,
   2008.
 
+\bibitem{Wang:2003:LKH}
+T.-S. Wang, N.-N. Zheng, Y.~Li, Y.-Q. Xu, and H.-Y. Shum.
+\newblock Learning kernel-based hmms for dynamic sequence synthesis.
+\newblock {\em Graph. Models}, 65(4):206--221, July 2003.
+
 \bibitem{Weinland07}
 D.~Weinland, E.~Boyer, and R.~Ronfard.
 \newblock {Action Recognition from Arbitrary Views using 3D Exemplars}.
@@ -277,11 +648,16 @@ D.~Weinland, R.~Ronfard, and E.~Boyer.
   Conference on Computer Vision and Pattern Recognition (CVPR '06)}}, pages
   1639--1645, New York, United States, June 2006. {IEEE Computer Society}.
 
-\bibitem{Wiggins1979}
-J.~Wiggins.
-\newblock A psychological taxonomy of trait-descriptive terms: The
-  interpersonal domain.
-\newblock 33, 1979.
+\bibitem{Yuan:2001:LSI}
+J.~Yuan.
+\newblock Local svd inverse of robot jacobians.
+\newblock {\em Robotica}, 19(1):79--86, Jan. 2001.
+
+\bibitem{Zhao:1994:IKP}
+J.~Zhao and N.~I. Badler.
+\newblock Inverse kinematics positioning using nonlinear programming for highly
+  articulated figures.
+\newblock {\em ACM Trans. Graph.}, 13:313--336, October 1994.
 
 \bibitem{DBLP:conf/mm/ZhongLL11}
 S.~Zhong, Y.~Liu, and Y.~Liu.

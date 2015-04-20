@@ -15,12 +15,6 @@ Task 11 & Full body animation  \\\hline
 Task12 &  Interaction animation \\\hline
 Task13 &  Learning from few samples  \\\hline
 \end{tabular}
-\begin{tabular}{|l|l|l|}\hline
-Deliverables & Name and content  & Date  \\\hline
-L1.1  & Report on the state of the art for statistical models for animation synthesis & \\\hline
-L1.2  &  & \\\hline
-L1.3  &  & \\\hline
-\end{tabular}
 \end{center}
 
 
@@ -72,7 +66,7 @@ The second task focuses on learning models of gesture and facial expressions in 
 All of these models types have pros and cons. While statically-driven models are more prone to produce natural looking animation, cognitive
 models capture more precisely the semantic emotional behaviors to communicate. These latter ones are often event-driven; that is they compute a behavior only when a given communicative function is specified. Statically driven models produce animation continuously that captures the communicative colour of the message to convey but they have difficulty to compute behaviors which have specific meaning. As a result, virtual agents driven by cognitive-like system are able to convey more precise displays while those driven by statistical models look more natural and lively \cite{DBLP:conf/iva/LeeM12}.
 
-We will explore ways to combine few such animation models which remains an open question today, be it for animating the face ot the full body \cite{...}. We will explore strategies and implement these within the Greta framework where communicative intentions and emotions are represented with the FLM language while multimodal behaviors with BML \cite{DBLP:conf/iva/VilhjalmssonCCCKKMMMPRTWW07}. The merge of multiple animation models may be performed as a weighted blend of the animations produced where the weights might be context dependent and tuned either manually or automatically, alike in \cite{DBLP:journals/tvcg/ShoulsonMKB14}. Alternatively the animation models may be merged earlier, when deciding which kind of motion to launch, or may have asymetric role. For instance, the procedural animation model (or semantically-driven?) might act as the main animatyion model and use when neccessary animatyions produced by the other models.
+We will explore ways to combine few such animation models which remains an open question today, be it for animating the face ot the full body \cite{...}. We will explore strategies and implement these within the Greta framework where communicative intentions and emotions are represented with the FLM language while multimodal behaviors with BML \cite{DBLP:conf/iva/VilhjalmssonCCCKKMMMPRTWW07}. The merge of multiple animation models may be performed as a weighted blend of the animations produced where the weights might be context dependent and tuned either manually or automatically, alike in \cite{DBLP:journals/tvcg/ShoulsonMKB14}. Alternatively the animation models may be merged earlier, when deciding which kind of motion to launch, or may have asymetric role. For instance, the procedural animation model (or semantically-driven?) might act as the main animation model and use when neccessary animatyions produced by the other models.
 
 
 
@@ -92,16 +86,16 @@ that modify the gaussian densities. We will first investigate this strategy deep
 
 Second we will explore the use of using continuous state space models with a low dimensional state space (e.g. corresponding to the degree of freedom of body poses or to the neuro muscular commands) which should permit characterizing a particular motion or gesture as its dynamic in this latent space whose limited dimension would enable learning from few samples...
 
+\paragraph{Deliverables}
 
-\paragraph{Task14} Thierry : this should probably be moved to WP3\\
-\begin{itemize}
-  \item Combining full 	body animation and interaction animation
-  \item Mettre de la diversité dans l'animation pour ne jamais reproduire la même animation\\
-  
-We will pay particular attention to design models capable of generating real animations. Indeed synthezing from statistical models usually resumes to finding the most likely animation sequence in a given situation, which may yield to too similar and unrealistic animations. 
-Actually one would be pretty much interested in synthezing animations that are both likely given the learnt statistical models but also exhibiting the variability one can observe in human motion and gestures. Introducing such a stochastic component in the synthesis while maintaining a high quality animation level is not 
-straightforward and is an open question that we will have to solve.
-\end{itemize}
+bla bla bla
+
+\begin{tabular}{|l|l|l|}\hline
+Deliverables & Name and content  & Date  \\\hline
+L1.1  & Report on the state of the art for statistical models for animation synthesis & \\\hline
+L1.2  &  & \\\hline
+L1.3  &  & \\\hline
+\end{tabular}
 
 \paragraph{Partners' roles}
 
