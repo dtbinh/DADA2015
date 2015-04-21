@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.18)  21 APR 2015 08:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.18)  21 APR 2015 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -279,7 +279,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 
 Package Fancyhdr Warning: \fancyhfoffset's `E' option without twoside option is
- useless on input line 30.
+ useless on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/generic/xcomment/xcomment.sty
 Package: xcomment 2010/05/13 package wrapper for xcomment.tex (hv)
@@ -293,28 +293,28 @@ File: xcomment.tex 10/05/14 v1.3 `xcomment' (tvz)
 ) (./dada_science.aux)
 \openout1 = `dada_science.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-LaTeX Info: Redefining \degres on input line 59.
-LaTeX Info: Redefining \dots on input line 59.
-LaTeX Info: Redefining \up on input line 59.
+LaTeX Info: Redefining \degres on input line 57.
+LaTeX Info: Redefining \dots on input line 57.
+LaTeX Info: Redefining \up on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -354,7 +354,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 59.
+Package hyperref Info: Link coloring ON on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -364,9 +364,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count111
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
 
 (./dada_science.out) (./dada_science.out)
 \@outlinefile=\write4
@@ -413,20 +413,20 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 59.
+(lastpage)             ! on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 62.
+(Font)              <12> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 62.
+(Font)              <8> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 62.
+(Font)              <6> on input line 60.
 
 LaTeX Warning: No \author given.
 
 \openout3 = `dada_science.tmp'.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 75.
 (./dada_science.toc
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 2.
@@ -487,49 +487,75 @@ LaTeX Warning: Citation `KoppBML2006 ' on page 9 undefined on input line 222.
 ) (./WP1.tex
 \openout3 = `dada_science.tmp'.
 
- [11]
 
-LaTeX Warning: Citation `YuThesis' on page 12 undefined on input line 152.
 
-) (./WP2.tex [12]) (./WP3.tex) (./WP4.tex [13]) (./Management.tex
+LaTeX Warning: Citation `YuThesis' on page 11 undefined on input line 165.
+
+
+LaTeX Warning: Citation `INRIA' on page 11 undefined on input line 165.
+
+
+LaTeX Warning: Citation `DBLP:journals/pami/ArtieresMG07' on page 11 undefined 
+on input line 171.
+
+[11]) (./WP2.tex) (./WP3.tex [12]) (./WP4.tex) (./Management.tex
 \openout3 = `dada_science.tmp'.
 
-)
+ [13])
 (./Taches.tex
 \openout3 = `dada_science.tmp'.
 
- (./Taches_WP1.tex [14] [15]
+ (./Taches_WP1.tex [14]
+Overfull \hbox (3.62793pt too wide) in paragraph at lines 61--62
+[]\T1/phv/m/n/10.95 Firstly we will ex-plore how to ex-tend \T1/phv/m/sl/10.95 
+contex-tual mar-ko-vian mo-dels \T1/phv/m/n/10.95 whose pa-ra-me-ters (means
+ []
 
-LaTeX Warning: Citation `TheseINRIA' on page 16 undefined on input line 64.
+
+LaTeX Warning: Citation `TheseINRIA' on page 15 undefined on input line 80.
 
 
-LaTeX Warning: Citation `...' on page 16 undefined on input line 69.
+LaTeX Warning: Citation `...' on page 15 undefined on input line 85.
 
-[16]
-Overfull \hbox (38.96977pt too wide) in paragraph at lines 93--99
+[15]
+
+LaTeX Warning: Citation `RadenenThesis' on page 16 undefined on input line 99.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 
+      
+? 
+
+Overfull \hbox (11.9208pt too wide) in paragraph at lines 108--114
 [][] 
  []
 
-) (./Taches_WP2.tex [17] [18]
+[16]) (./Taches_WP2.tex [17]
 Overfull \hbox (35.92596pt too wide) in paragraph at lines 45--51
 [][] 
  []
 
-) (./Taches_WP3.tex [19] [20]) (./Taches_WP4.tex) [21]
-\openout3 = `dada_science.tmp'.
-
-) (./Valorisation.tex
+) (./Taches_WP3.tex [18] [19]) (./Taches_WP4.tex [20]) [21]
 \openout3 = `dada_science.tmp'.
 
 )
-(./Team.tex
+(./Valorisation.tex
+\openout3 = `dada_science.tmp'.
+
+) (./Team.tex
+\openout3 = `dada_science.tmp'.
+
 \openout3 = `dada_science.tmp'.
 
 \openout3 = `dada_science.tmp'.
 
  [22]
-\openout3 = `dada_science.tmp'.
-
 \openout3 = `dada_science.tmp'.
 
 
@@ -557,7 +583,7 @@ Underfull \hbox (badness 2293) in paragraph at lines 60--60
 \T1/phv/m/n/10.95 and Si-gnal
  []
 
-[23] [24]
+[23]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 87.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -567,7 +593,7 @@ Overfull \hbox (5.13911pt too wide) in paragraph at lines 87--88
 http : / / www . gmem . org / index . php ? option = com _ content&view =
  []
 
-[25]) (./Justif.tex
+[24]) (./Justif.tex
 \openout3 = `dada_science.tmp'.
 
 \openout3 = `dada_science.tmp'.
@@ -585,14 +611,15 @@ http : / / www . gmem . org / index . php ? option = com _ content&view =
 )
 \openout3 = `dada_science.tmp'.
 
- (./dada_science.bbl
+ (./dada_science.bbl [25]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 10.
- [26] [27]
+ [26]
 ! Text line contains an invalid character.
 l.152 Y.~Ding, C.~Pelachaud, and T.~Arti^^@
                                            res.
 ? 
+[27]
 ! Text line contains an invalid character.
 l.211 G.~Gagner^^@
                    and C.~Plessiet.
@@ -624,40 +651,41 @@ l.215   s'apprendre^^@
 l.447 ...kay, M.~Kipp, A.~Nijholt, and H.~Vilhj^^@
                                                   lmsson, editors,
 ? 
-[30] [31] [32]) 
+[30] [31]) 
 AED: lastpage setting LastPage
-[33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+[32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (./dada_science.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `dada_science.out' has not changed.
 (rerunfilecheck)             Checksum: 81EF15F5251C635F51A1C6CF987CCFDA;814.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 7228 strings out of 493485
- 105461 string characters out of 3143526
- 207760 words of memory out of 3000000
- 10153 multiletter control sequences out of 15000+200000
+ 7231 strings out of 493485
+ 105520 string characters out of 3143526
+ 208760 words of memory out of 3000000
+ 10156 multiletter control sequences out of 15000+200000
  46958 words of font info for 54 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  29i,12n,43p,1574b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-ftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dada_science.pdf (33 pages, 198799 bytes).
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt109
+5.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on dada_science.pdf (32 pages, 205126 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 584 compressed objects within 6 object streams
+ 632 PDF objects out of 1000 (max. 8388607)
+ 586 compressed objects within 6 object streams
  232 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
