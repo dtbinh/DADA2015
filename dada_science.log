@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.18)  21 APR 2015 18:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2015.3.18)  21 APR 2015 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,8 +495,8 @@ LaTeX Warning: Citation `YuThesis' on page 11 undefined on input line 165.
 LaTeX Warning: Citation `INRIA' on page 11 undefined on input line 165.
 
 
-LaTeX Warning: Citation `DBLP:journals/pami/ArtieresMG07' on page 11 undefined 
-on input line 171.
+LaTeX Warning: Citation `ArtieresPAMI07' on page 11 undefined on input line 171
+.
 
 [11]) (./WP2.tex) (./WP3.tex [12]) (./WP4.tex) (./Management.tex
 \openout3 = `dada_science.tmp'.
@@ -559,43 +559,64 @@ Overfull \hbox (35.92596pt too wide) in paragraph at lines 45--51
 \openout3 = `dada_science.tmp'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\T1/phv/m/n/10.95 Machine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\T1/phv/m/n/10.95 Assistant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\T1/phv/m/n/10.95 Machine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 \T1/phv/m/n/10.95 Lear-ning
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 60--60
+Underfull \hbox (badness 2293) in paragraph at lines 63--63
+\T1/phv/m/n/10.95 and Si-gnal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\T1/phv/m/n/10.95 Ph.D.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\T1/phv/m/n/10.95 Machine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\T1/phv/m/n/10.95 Lear-ning
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 63--63
 \T1/phv/m/n/10.95 and Si-gnal
  []
 
 [23]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 87.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 90.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (5.13911pt too wide) in paragraph at lines 87--88
-\T1/phv/m/n/10.95 Na-tio-nal de CrÃ©a-tion Mu-si-cale ([][]$\T1/cmtt/m/n/10.95 
-http : / / www . gmem . org / index . php ? option = com _ content&view =
+Overfull \hbox (0.15695pt too wide) in paragraph at lines 90--91
+\T1/phv/m/n/10.95 Na-tio-nal de Créa-tion Mu-si-cale ([][]$\T1/cmtt/m/n/10.95 h
+ttp : / / www . gmem . org / index . php ? option = com _ content&view =
  []
 
 [24]) (./Justif.tex
 \openout3 = `dada_science.tmp'.
 
+ [25]
 \openout3 = `dada_science.tmp'.
 
 \openout3 = `dada_science.tmp'.
@@ -611,7 +632,7 @@ http : / / www . gmem . org / index . php ? option = com _ content&view =
 )
 \openout3 = `dada_science.tmp'.
 
- (./dada_science.bbl [25]
+ (./dada_science.bbl
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 10.
  [26]
@@ -669,7 +690,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
  7231 strings out of 493485
- 105520 string characters out of 3143526
+ 105503 string characters out of 3143526
  208760 words of memory out of 3000000
  10156 multiletter control sequences out of 15000+200000
  46958 words of font info for 54 fonts, out of 3000000 for 9000
@@ -682,7 +703,7 @@ ublic/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt109
 5.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dada_science.pdf (32 pages, 205126 bytes).
+Output written on dada_science.pdf (32 pages, 205344 bytes).
 PDF statistics:
  632 PDF objects out of 1000 (max. 8388607)
  586 compressed objects within 6 object streams

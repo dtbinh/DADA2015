@@ -67,7 +67,7 @@
 \contentsline {paragraph}{ECM}{24}{section*.33}
 \contentsline {paragraph}{Paris 8}{24}{section*.34}
 \contentsline {paragraph}{LTCI}{25}{section*.35}
-\contentsline {section}{\numberline {6}Justification scientifique des moyens demand\'es / Scientific justification of requested ressources}{25}{section.6}
+\contentsline {section}{\numberline {6}Justification scientifique des moyens demand\'es / Scientific justification of requested ressources}{26}{section.6}
 \contentsline {subsection}{\numberline {6.1}\'equipement / Equipment}{26}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Personnel / Staff}{26}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Prestation de service externe / Subcontracting}{26}{subsection.6.3}
