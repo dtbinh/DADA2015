@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dada_science.aux
 The style file: abbrv.bst
@@ -6,22 +6,28 @@ White space in argument---line 93 of file dada_science.aux
  : \citation{Kopp
  :                et al}
 I'm skipping whatever remains of this command
-White space in argument---line 134 of file dada_science.aux
+White space in argument---line 139 of file dada_science.aux
  : \citation{KoppBML2006
  :                       }
 I'm skipping whatever remains of this command
 Database file #1: dada_science.bib
-I was expecting a `,' or a `}'---line 936 of file dada_science.bib
+I was expecting a `,' or a `}'---line 1135 of file dada_science.bib
  : 
  : year = {1999}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1623 of file dada_science.bib
+Repeated entry---line 1318 of file dada_science.bib
+ : @inproceedings{DBLP:conf/icfhr/FischerPOS14
+ :                                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1822 of file dada_science.bib
  : @inproceedings{Ronfard2012
  :                           ,
 I'm skipping whatever remains of this entry
 A bad cross reference---entry "DBLP:conf/atal/ChiuM14"
 refers to entry "DBLP:conf/atal/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/icassp/DingRAP13"
+refers to entry "DBLP:conf/icassp/2013", which doesn't exist
 A bad cross reference---entry "DBLP:conf/nips/HochreiterS96"
 refers to entry "DBLP:conf/nips/1996N", which doesn't exist
 A bad cross reference---entry "DBLP:conf/nips/GravesS08"
@@ -32,6 +38,8 @@ A bad cross reference---entry "Ding2014"
 refers to entry "DBLP:conf/atal/2014", which doesn't exist
 A bad cross reference---entry "DBLP:conf/icfhr/FischerPOS14"
 refers to entry "DBLP:conf/icfhr/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/interspeech/Abdel-HamidDYJ13"
+refers to entry "DBLP:conf/interspeech/2013", which doesn't exist
 A bad cross reference---entry "DBLP:conf/mm/ZhongLL11"
 refers to entry "DBLP:conf/mm/2011", which doesn't exist
 A bad cross reference---entry "Greta"
@@ -41,22 +49,17 @@ refers to entry "DBLP:conf/iva/2012", which doesn't exist
 A bad cross reference---entry "DBLP:conf/iva/VilhjalmssonCCCKKMMMPRTWW07"
 refers to entry "DBLP:conf/iva/2007", which doesn't exist
 Warning--I didn't find a database entry for "Bourassa2013"
-Warning--I didn't find a database entry for "WitkinAndPopovic1995"
-Warning--I didn't find a database entry for "LeeEtAl2002"
-Warning--I didn't find a database entry for "NOUS"
 Warning--I didn't find a database entry for "06"
 Warning--I didn't find a database entry for "Ishida02"
 Warning--I didn't find a database entry for "bauer:hal-0098743"
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "YuThesis"
-Warning--I didn't find a database entry for "HintonDeepSpeech"
-Warning--I didn't find a database entry for "Deng_Speech_Reco"
-Warning--I didn't find a database entry for "DBLP:conf/icfhr/FischerPOS1"
 Warning--I didn't find a database entry for "TheseINRIA"
 Warning--I didn't find a database entry for "..."
-Warning--I didn't find a database entry for "DBLP:conf/interspeech/2001"
-Warning--I didn't find a database entry for "DBLP:conf/mm/2011"
 Warning--I didn't find a database entry for "DBLP:conf/icfhr/2014"
+Warning--I didn't find a database entry for "DBLP:conf/interspeech/2013"
+Warning--I didn't find a database entry for "DBLP:conf/interspeech/2001"
+Warning--I didn't find a database entry for "DBLP:conf/icassp/2013"
+Warning--I didn't find a database entry for "DBLP:conf/mm/2011"
 Warning--I didn't find a database entry for "DBLP:conf/iva/2012"
 Warning--I didn't find a database entry for "DBLP:conf/atal/2009-2"
 Warning--I didn't find a database entry for "DBLP:conf/iva/2007"
@@ -69,45 +72,45 @@ Warning--to sort, need author or key in XsensSystem
 Name 2 in "N. Dael and M. Mortillaro, and K. Scherer" has a comma at the end for entry Dael12b
 while executing---line 1090 of file abbrv.bst
 Warning--empty year in Reynolds99
-You've used 106 entries,
+You've used 116 entries,
             2118 wiz_defined-function locations,
-            1232 strings with 27348 characters,
-and the built_in function-call counts, 43378 in all, are:
-= -- 4221
-> -- 2270
-< -- 48
-+ -- 891
-- -- 773
-* -- 3122
-:= -- 6949
-add.period$ -- 348
-call.type$ -- 106
-change.case$ -- 679
+            1276 strings with 29550 characters,
+and the built_in function-call counts, 47477 in all, are:
+= -- 4617
+> -- 2505
+< -- 51
++ -- 983
+- -- 855
+* -- 3432
+:= -- 7617
+add.period$ -- 378
+call.type$ -- 116
+change.case$ -- 750
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 1718
-empty$ -- 3282
-format.name$ -- 773
-if$ -- 9326
+cite$ -- 118
+duplicate$ -- 1866
+empty$ -- 3568
+format.name$ -- 855
+if$ -- 10179
 int.to.chr$ -- 0
-int.to.str$ -- 106
-missing$ -- 111
-newline$ -- 533
-num.names$ -- 232
-pop$ -- 783
+int.to.str$ -- 116
+missing$ -- 121
+newline$ -- 583
+num.names$ -- 252
+pop$ -- 849
 preamble$ -- 1
-purify$ -- 581
+purify$ -- 642
 quote$ -- 0
-skip$ -- 1242
+skip$ -- 1361
 stack$ -- 0
-substring$ -- 2493
-swap$ -- 511
-text.length$ -- 48
+substring$ -- 2736
+swap$ -- 555
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 410
+type$ -- 450
 warning$ -- 2
-while$ -- 384
-width$ -- 109
-write$ -- 1218
-(There were 16 error messages)
+while$ -- 421
+width$ -- 119
+write$ -- 1328
+(There were 19 error messages)
