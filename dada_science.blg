@@ -1,0 +1,94 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dada_science.aux
+The style file: abbrv.bst
+Database file #1: dada_science.bib
+A bad cross reference---entry "DBLP:conf/atal/ChiuM14"
+refers to entry "DBLP:conf/atal/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/icassp/DingRAP13"
+refers to entry "DBLP:conf/icassp/2013", which doesn't exist
+A bad cross reference---entry "DBLP:conf/nips/HochreiterS96"
+refers to entry "DBLP:conf/nips/1996N", which doesn't exist
+A bad cross reference---entry "DBLP:conf/nips/GravesS08"
+refers to entry "DBLP:conf/nips/2008", which doesn't exist
+A bad cross reference---entry "Kipp01"
+refers to entry "DBLP:conf/interspeech/2001", which doesn't exist
+A bad cross reference---entry "Ding2014"
+refers to entry "DBLP:conf/atal/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/icfhr/FischerPOS14"
+refers to entry "DBLP:conf/icfhr/2014", which doesn't exist
+A bad cross reference---entry "DBLP:conf/interspeech/Abdel-HamidDYJ13"
+refers to entry "DBLP:conf/interspeech/2013", which doesn't exist
+A bad cross reference---entry "Greta"
+refers to entry "DBLP:conf/atal/2009-2", which doesn't exist
+A bad cross reference---entry "DBLP:conf/iva/LeeM12"
+refers to entry "DBLP:conf/iva/2012", which doesn't exist
+A bad cross reference---entry "DBLP:conf/iva/VilhjalmssonCCCKKMMMPRTWW07"
+refers to entry "DBLP:conf/iva/2007", which doesn't exist
+Warning--I didn't find a database entry for "Bourassa2013"
+Warning--I didn't find a database entry for "Kopp2006"
+Warning--I didn't find a database entry for "Ishida02"
+Warning--I didn't find a database entry for "bauer:hal-0098743"
+Warning--I didn't find a database entry for "YuThesis"
+Warning--I didn't find a database entry for "INRIA"
+Warning--I didn't find a database entry for "TheseINRIA"
+Warning--I didn't find a database entry for "..."
+Warning--I didn't find a database entry for "RadenenThesis"
+Warning--I didn't find a database entry for "DBLP:conf/icfhr/2014"
+Warning--I didn't find a database entry for "DBLP:conf/interspeech/2013"
+Warning--I didn't find a database entry for "DBLP:conf/interspeech/2001"
+Warning--I didn't find a database entry for "DBLP:conf/icassp/2013"
+Warning--I didn't find a database entry for "DBLP:conf/iva/2012"
+Warning--I didn't find a database entry for "DBLP:conf/atal/2009-2"
+Warning--I didn't find a database entry for "DBLP:conf/iva/2007"
+Warning--I didn't find a database entry for "DBLP:conf/atal/2014"
+Warning--I didn't find a database entry for "DBLP:conf/nips/1996N"
+Warning--I didn't find a database entry for "DBLP:conf/nips/2008"
+Name 2 in "N. Dael and M. Mortillaro, and K. Scherer" has a comma at the end for entry Dael12b
+while executing---line 1049 of file abbrv.bst
+Warning--to sort, need author or key in XsensSystem
+Name 2 in "N. Dael and M. Mortillaro, and K. Scherer" has a comma at the end for entry Dael12b
+while executing---line 1090 of file abbrv.bst
+Warning--empty journal in Wiggins1979
+You've used 122 entries,
+            2118 wiz_defined-function locations,
+            1307 strings with 30001 characters,
+and the built_in function-call counts, 48821 in all, are:
+= -- 4743
+> -- 2542
+< -- 51
++ -- 1000
+- -- 865
+* -- 3497
+:= -- 7847
+add.period$ -- 395
+call.type$ -- 122
+change.case$ -- 774
+chr.to.int$ -- 0
+cite$ -- 124
+duplicate$ -- 1932
+empty$ -- 3704
+format.name$ -- 865
+if$ -- 10464
+int.to.chr$ -- 0
+int.to.str$ -- 122
+missing$ -- 128
+newline$ -- 613
+num.names$ -- 262
+pop$ -- 877
+preamble$ -- 1
+purify$ -- 661
+quote$ -- 0
+skip$ -- 1407
+stack$ -- 0
+substring$ -- 2792
+swap$ -- 561
+text.length$ -- 51
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 472
+warning$ -- 2
+while$ -- 434
+width$ -- 125
+write$ -- 1388
+(There were 13 error messages)
