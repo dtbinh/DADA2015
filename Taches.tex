@@ -35,14 +35,6 @@ actors and their actions in real movies ; and extract visual signatures of the c
 analysis, we will learn joint statistical models for driving gesture controllers from those video signals.
 
 
-Combining proxemics and kinesics components can be done along the lines of Mitake et al. \cite{Mitake09}, where
-the degrees of freedom of a virtual character are separated into six parameters for rigid body simulations,  and four parameters
-for encoding multi-dimensional keyframe animations. Similarly, we would like to hide the complexity of high-dimensional 
-character animation (with 40-60 degrees of freedom) behind a small number of control parameters. We will extend
-rigid body simulations  to include proxemic interaction forces in WP2. And we will replace keyframe animations with statistical models learned from data in WP1. 
-
-One promising avenue for research will be to design strategies for controlling the proxemic components of character animation
-using the rigid motion of the head, rather than the full body.  Sreenivasa et al. \cite{Sreenivasa09} have proposed inverse kinematics methods for computing  the body motion of a humanoid robot, including footsteps and walking patterns of motion, given its head motion. In the context of DADA, the head motion of the virtual actors could similarly be put under the direct control of the director because it plays such an important expressive and dramatic function. The full body motion could then be computed with the constraints that the actor's head motion matches the director's directions, and the prescribed actions (walking, sitting, standing, etc.) and attitudes (sadly, swiftly, merrily, etc.).
 
 
 
