@@ -46,42 +46,33 @@ across different  groups.
 \paragraph{Task32: Authoring tools.}
 
 For the DADA platform to be accepted by theatre directors, it is important that we offer authoring tools that make sense to them. 
-Although we are focusing Petri nets or related frameworks as an internal representation, our goal in task 32 will be to hide this internal representation as much as possible, and instead to offer three modes of interaction: didascalia, storyboard sketches, and timelines.
+Although we are targeting  Petri nets as an internal representation, our goal in task 32 will be to hide this internal representation 
+from users. Instead, we we will offer three modes of interaction: didascalia, storyboard sketches, and timelines. Didascalia will
+be offered as blocks of text with a controled vocabulary and a choice of parameters allowing the director to define cues, actions and their parameters 
+in plain text.  Storyboard sketches will be used to represent the actors positions, orientations and trajectories using a combination of floor-plan views 
+and audience views. Timelines will be used to set the starting and ending points of performing events by direct manipulation. There will likely be
+one timeline per actor per animation component (proxemic behaviors, kinesic actions, kinesic moods, speech acts, etc.).
 
-Even if the internal representation of Design and implementation of authoring tools for creating animation with the dramatic language.
-with natural interaction, taking inspiration from existing practices in theatre (prompt-books, cue sheet, storyboards, etc.).
+As a result, the authoring tools will include multimodal interaction with the director: sketching tools for designing actor trajectories and meeting points; 
+writing tools for adding didascalia to dialogues; timeline-driven interaction for defining cue points, actions and timing. 
 
-\paragraph{Didascalia} bla bla bla
+%User interface  for directing actors by sketching stage floor plans and composing the performing score ; 
 
-\paragraph{Storyboard sketches} bla bla bla
-
-\paragraph{Timelines} bla bla bla
-
-The authoring tool may include multimodal interaction with the director: sketching tools for designing actor trajectories
-and meeting points; writing tools for adding didascalia to dialogues; timeline-driven interaction for defining cue points
-and actions, timing, etc. User interface for directing actors by sketching stage floor plans and composing the dramatic score ; one line per actor per motion component (proxemic behaviors, kinesic actions, kinesic moods, speech acts, etc.) Compilation of the language into a finite state machine and/or Petri net ; allowing real-time execution of the dramatic score.
+% Compilation of the language into a finite state machine and/or Petri net ; allowing real-time execution of the performance score.
 
 
-\paragraph{Task33: Real-time execution of the dramatic score.} 
+\paragraph{Task33: Real-time execution of the performance score.} 
 
-While task 31 focuses on defining the vocabulary and syntax of the dramatic score, and task 32 focuses on implementing 
-a score-writing application, the role of task 33 will be to implement a realizer/synthesizer for executing the dramatic score.
-
+While task 31 focuses on defining the vocabulary and syntax of the performance score, and task 32 focuses on implementing 
+a score-writing application, the role of task 33 will be to implement a realizer/synthesizer for executing the performance score.
 This should include real-time combination of proxemic (procedural) and kinesic components of motion ; non-deterministic motion generation ; synchronization to cues ; real-time skinning and advanced 3D animation ; integration of physically-based secondary animation (skin, hair, clothes, etc.).  This includes integration of the GRETA BML realizer with IMAGINE animation ; and real-time integration of the statistical models of motion with the procedural animation components.
 
+Another challenge to be overcome is in combining full body animation and interaction animation at runtime. We believe it will be an important asset for the DADA platform that each performance is unique, and can be controled in real time by cues given by the director.  We will pay particular attention to design models capable of generating real animations. Indeed synthezing from statistical models usually resumes to finding the most likely animation sequence in a given situation, which may yield to too similar and unrealistic animations.  Actually one would be pretty much interested in synthezing animations that are both likely given the learnt statistical models but also exhibiting the variability one can observe in human motion and gestures. Introducing such a stochastic component in the synthesis while maintaining a high quality animation level is not  straightforward and is an open question that we will have to solve.
 
-One challenge to be overcome is in combining full 	body animation and interaction animation at runtime. We believe it will be an importa asset for the DADA platform that each performance is unique, and can be controled in real time by cues given by the director. 
-  We will pay particular attention to design models capable of generating real animations. Indeed synthezing from statistical models usually resumes to finding the most likely animation sequence in a given situation, which may yield to too similar and unrealistic animations.  Actually one would be pretty much interested in synthezing animations that are both likely given the learnt statistical models but also exhibiting the variability one can observe in human motion and gestures. Introducing such a stochastic component in the synthesis while maintaining a high quality animation level is not  straightforward and is an open question that we will have to solve.
+Special care will be needed for combining the proxemic and kinesic components of animation at runtime along the lines of Mitake et al. \cite{Mitake09}, 
+where the degrees of freedom of a virtual character are separated into six parameters for rigid body simulations,  and four parameters for encoding multi-dimensional keyframe animations. Similarly, we would like to hide the complexity of high-dimensional  character animation (with 40-60 degrees of freedom) behind a small number of control parameters. We will extend rigid body simulations  to include proxemic interaction forces in WP2. And we will replace keyframe animations with statistical models learned from data in WP1. 
 
-Combining proxemics and kinesics components can be done along the lines of Mitake et al. \cite{Mitake09}, where
-the degrees of freedom of a virtual character are separated into six parameters for rigid body simulations,  and four parameters
-for encoding multi-dimensional keyframe animations. Similarly, we would like to hide the complexity of high-dimensional 
-character animation (with 40-60 degrees of freedom) behind a small number of control parameters. We will extend
-rigid body simulations  to include proxemic interaction forces in WP2. And we will replace keyframe animations with statistical models learned from data in WP1. 
-
-One promising avenue for research will be to design strategies for controlling the proxemic components of character animation
-using the rigid motion of the head, rather than the full body.  Sreenivasa et al. \cite{Sreenivasa09} have proposed inverse kinematics methods for computing  the body motion of a humanoid robot, including footsteps and walking patterns of motion, given its head motion. In the context of DADA, the head motion of the virtual actors could similarly be put under the direct control of the director because it plays such an important expressive and dramatic function. The full body motion could then be computed with the constraints that the actor's head motion matches the director's directions, and the prescribed actions (walking, sitting, standing, etc.) and attitudes (sadly, swiftly, merrily, etc.).
-
+Another research issue that will be investigated in this task  is the possibility  of  controlling the proxemic components of character animation using the rigid motion of the head, rather than the full body.  Sreenivasa et al. \cite{Sreenivasa09} have proposed inverse kinematics methods for computing  the body motion of a humanoid robot, including footsteps and walking patterns of motion, given its head motion. In the context of DADA, the head motion of the virtual actors could similarly be put under the direct control of the director because it plays such an important expressive and dramatic function. The full body motion could then be computed with the constraints that the actor's head motion matches the director's directions, and the prescribed actions (walking, sitting, standing, etc.) and attitudes (sadly, swiftly, merrily, etc.).
 
 \paragraph{Partners' roles}
 
