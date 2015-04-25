@@ -8,75 +8,55 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Single-character animation}{4}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Multiple-character animation}{5}{subsubsection.2.3.2}
 \contentsline {paragraph}{ECAs gathering in groups}{5}{section*.3}
-\contentsline {paragraph}{Forward Kinematics (FK) and Inverse Kinematics (IK)}{6}{section*.4}
-\contentsline {paragraph}{Data-driven animation}{6}{section*.5}
-\contentsline {paragraph}{Systems embedding different animation techniques}{6}{section*.6}
-\contentsline {paragraph}{Beyond State of the Art}{7}{section*.7}
-\contentsline {subsubsection}{\numberline {2.3.3}Authoring tools and metaphors}{7}{subsubsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.4}Autonomous agents and non-player characters (NPC)}{8}{subsubsection.2.3.4}
-\contentsline {subsubsection}{\numberline {2.3.5}Robotic actors}{8}{subsubsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.3}Authoring tools and metaphors}{6}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Robotic actors}{7}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.5}Prior art at LITC}{7}{subsubsection.2.3.5}
 \contentsline {subsubsection}{\numberline {2.3.6}Prior art at Inria}{8}{subsubsection.2.3.6}
-\contentsline {subsubsection}{\numberline {2.3.7}Software foundation}{8}{subsubsection.2.3.7}
-\contentsline {paragraph}{GRETA}{9}{section*.8}
-\contentsline {paragraph}{EMILYA}{9}{section*.9}
-\contentsline {subsection}{\numberline {2.4}Objectifs et caract\`ere ambitieux/novateur du projet / Objectives, originality and novelty of the project}{10}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Virtual theatre company}{10}{subsubsection.2.4.1}
-\contentsline {paragraph}{Proxemic models}{10}{section*.10}
-\contentsline {paragraph}{Kinesic models}{10}{section*.11}
-\contentsline {subsubsection}{\numberline {2.4.2}Directing tools}{10}{subsubsection.2.4.2}
-\contentsline {paragraph}{Real-time animation and synchronization}{10}{section*.12}
-\contentsline {section}{\numberline {3}Programme scientifique et technique, organisation du projet / Scientific and technical programme, Project organisation}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}Programme scientifique et structuration du projet / Scientific programme, project structure}{11}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}WP1. Kinesic component}{11}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}WP2. Proxemic component: procedural animation models for interaction between actors.}{12}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}WP3. Performance authoring and real-time execution. }{13}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}WP4. Evaluation and validation. }{13}{subsubsection.3.1.4}
-\contentsline {subsection}{\numberline {3.2}Management du projet / Project management}{14}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}WP0. Coordination}{14}{subsubsection.3.2.1}
-\contentsline {subsection}{\numberline {3.3}Description des travaux par t√¢che / Description by task}{14}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}WP1 Kinesics}{14}{subsubsection.3.3.1}
-\contentsline {paragraph}{Task 1.1. Generic full body animation model}{15}{section*.13}
-\contentsline {paragraph}{Task 1.2. Combining models for face animation }{15}{section*.14}
-\contentsline {paragraph}{Task 1.3. Learning from few samples}{16}{section*.15}
-\contentsline {paragraph}{Deliverables}{16}{section*.16}
-\contentsline {paragraph}{Partners' roles}{17}{section*.17}
-\contentsline {paragraph}{Risks}{17}{section*.18}
-\contentsline {subsubsection}{\numberline {3.3.2}WP2 Proxemics}{17}{subsubsection.3.3.2}
-\contentsline {paragraph}{Task 2.1: Group behaviors during multi-way conversation}{17}{section*.19}
-\contentsline {paragraph}{Task 2.2 : Group behaviors during stage movements ? implementation of advanced ´ steering behaviors ª such as follow, flee, separate, join, merge, enter stage, exit stage, etc. }{18}{section*.20}
-\contentsline {paragraph}{Task 2.3: Combination of statistical and procedural models.}{18}{section*.21}
-\contentsline {paragraph}{Deliverables}{18}{section*.22}
-\contentsline {subsubsection}{\numberline {3.3.3}WP3 Authoring}{19}{subsubsection.3.3.3}
-\contentsline {paragraph}{Task31: Specification of a dramatic language for virtual actors.}{19}{section*.23}
-\contentsline {paragraph}{Task32: Authoring tools.}{20}{section*.24}
-\contentsline {paragraph}{Didascalia}{20}{section*.25}
-\contentsline {paragraph}{Storyboard sketches}{20}{section*.26}
-\contentsline {paragraph}{Timelines}{20}{section*.27}
-\contentsline {paragraph}{Task33: Real-time execution of the dramatic score.}{20}{section*.28}
-\contentsline {paragraph}{Partners' roles}{21}{section*.29}
-\contentsline {paragraph}{Deliverables}{21}{section*.30}
-\contentsline {subsubsection}{\numberline {3.3.4}WP4 User evaluation and validation}{22}{subsubsection.3.3.4}
-\contentsline {paragraph}{Task41}{22}{section*.31}
-\contentsline {paragraph}{Task42}{22}{section*.32}
-\contentsline {paragraph}{Task43}{22}{section*.33}
-\contentsline {paragraph}{Deliverable L4.1:}{23}{section*.34}
-\contentsline {paragraph}{Deliverable L4.2:}{23}{section*.35}
-\contentsline {paragraph}{Deliverable L4.3:}{23}{section*.36}
-\contentsline {subsection}{\numberline {3.4}Calendrier des t√¢ches, livrables et jalons / Tasks schedule, deliverables and milestones}{24}{subsection.3.4}
-\contentsline {section}{\numberline {4}Strat\'egie de valorisation, de protection et d'exploitation des r\'esultats / Dissemination and exploitation of results. intellectual property}{24}{section.4}
-\contentsline {section}{\numberline {5}Description de l'equipe / Team description}{25}{section.5}
-\contentsline {subsection}{\numberline {5.1}Description, ad\'equation et compl\'ementarit\'e des participants / Partners description, relevance and complementarity}{25}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Qualification du coordinateur du projet / Qualification of the project coordinator}{25}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Qualification, r√¥le et implication des participants / Qualification and contribution of each partner}{26}{subsection.5.3}
-\contentsline {paragraph}{INRIA EPI IMAGINE}{26}{section*.37}
-\contentsline {paragraph}{ECM}{26}{section*.38}
-\contentsline {paragraph}{Paris 8}{27}{section*.39}
-\contentsline {paragraph}{LTCI}{28}{section*.40}
-\contentsline {section}{\numberline {6}Justification scientifique des moyens demand\'es / Scientific justification of requested ressources}{28}{section.6}
-\contentsline {subsection}{\numberline {6.1}\'equipement / Equipment}{29}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Personnel / Staff}{29}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Prestation de service externe / Subcontracting}{29}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Missions / Travel}{29}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}D\'epenses justifi\'ees sur une proc\'edure de facturation interne / Costs justified by internal procedures of invoicing}{29}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Autres d\'epenses de fonctionnement / Other expenses}{29}{subsection.6.6}
-\contentsline {section}{\numberline {7}R\'ef\'erences bibliographiques / References}{29}{section.7}
+\contentsline {subsubsection}{\numberline {2.3.7}Prior art at LIF}{8}{subsubsection.2.3.7}
+\contentsline {subsection}{\numberline {2.4}Objectifs et caract\`ere ambitieux/novateur du projet / Objectives, originality and novelty of the project}{8}{subsection.2.4}
+\contentsline {section}{\numberline {3}Programme scientifique et technique, organisation du projet / Scientific and technical programme, Project organisation}{9}{section.3}
+\contentsline {subsection}{\numberline {3.1}Programme scientifique et structuration du projet / Scientific programme, project structure}{9}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}WP1. Kinesic component}{9}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}WP2. Proxemic component: procedural animation models for interaction between actors.}{11}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}WP3. Performance authoring and real-time execution. }{11}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}WP4. Evaluation and validation. }{12}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Management du projet / Project management}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Description des travaux par t‚che / Description by task}{13}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}WP1 Kinesics}{13}{subsubsection.3.3.1}
+\contentsline {paragraph}{Task 1.1. Generic full body animation model}{13}{section*.4}
+\contentsline {paragraph}{Task 1.2. Combining models for face animation }{14}{section*.5}
+\contentsline {paragraph}{Task 1.3. Learning from few samples}{14}{section*.6}
+\contentsline {paragraph}{Partners' roles}{15}{section*.7}
+\contentsline {paragraph}{Risks}{15}{section*.8}
+\contentsline {subsubsection}{\numberline {3.3.2}WP2 Proxemics}{15}{subsubsection.3.3.2}
+\contentsline {paragraph}{Task 2.1: Group behaviors during multi-way conversation}{15}{section*.9}
+\contentsline {paragraph}{Task 2.2 : Group behaviors during stage movements}{16}{section*.10}
+\contentsline {paragraph}{Task 2.3: Combination of statistical and procedural models.}{16}{section*.11}
+\contentsline {paragraph}{Partner's roles}{17}{section*.12}
+\contentsline {subsubsection}{\numberline {3.3.3}WP3 Authoring}{17}{subsubsection.3.3.3}
+\contentsline {paragraph}{Task 3.1 : Specification of a dramatic score language}{17}{section*.13}
+\contentsline {paragraph}{Task3.2 : Authoring tools}{18}{section*.14}
+\contentsline {paragraph}{Task 3.3 : Real-time execution of the dramatic score}{18}{section*.15}
+\contentsline {paragraph}{Partners' roles}{19}{section*.16}
+\contentsline {paragraph}{Risks}{19}{section*.17}
+\contentsline {subsubsection}{\numberline {3.3.4}WP4 User evaluation and validation}{19}{subsubsection.3.3.4}
+\contentsline {paragraph}{Task 4.1 : Exercices and rehearsal scenarios}{19}{section*.18}
+\contentsline {paragraph}{Task 4.2 : User evaluation of interaction with a single virtual actor}{20}{section*.19}
+\contentsline {paragraph}{Task 4.3 : User evaluation of interaction with multiple virtual actors}{20}{section*.20}
+\contentsline {subsection}{\numberline {3.4}Calendrier des t‚ches, livrables et jalons / Tasks schedule, deliverables and milestones}{21}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Milestones}{21}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Deliverables}{22}{subsubsection.3.4.2}
+\contentsline {section}{\numberline {4}Strat\'egie de valorisation, de protection et d'exploitation des r\'esultats / Dissemination and exploitation of results. intellectual property}{22}{section.4}
+\contentsline {section}{\numberline {5}Description de l'equipe / Team description}{23}{section.5}
+\contentsline {subsection}{\numberline {5.1}Description, ad\'equation et compl\'ementarit\'e des participants / Partners description, relevance and complementarity}{23}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Qualification of the project coordinator}{23}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Qualification and contribution of each partner}{23}{subsection.5.3}
+\contentsline {paragraph}{INRIA EPI IMAGINE}{23}{section*.21}
+\contentsline {paragraph}{LIF}{24}{section*.22}
+\contentsline {paragraph}{Paris 8}{25}{section*.23}
+\contentsline {paragraph}{LTCI}{25}{section*.24}
+\contentsline {section}{\numberline {6}Justification scientifique des moyens demand\'es / Scientific justification of requested ressources}{26}{section.6}
+\contentsline {subsection}{\numberline {6.1}\'Equipement / Equipment}{27}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Personnel / Staff}{27}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Missions / Travel}{27}{subsection.6.3}
+\contentsline {section}{\numberline {7}Bibliographie / References}{27}{section.7}
