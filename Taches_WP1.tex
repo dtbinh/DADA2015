@@ -95,8 +95,9 @@ This last task concerns strategies that we will design for learning our controll
 We will mainly investigate two approches. The first strategy consists in extending the idea of context variables that models of task T1.1 rely on in order to design a global model for all actions. In the case of markovian models for instance this means that instead of defining one model per action one could define a unique global markovian model where every state would stand for a particular position of the body and performing an action would correspond to following a path (i.e. a state sequence) in this big model. 
 One idea is to make transition probablities dependent on the action to perform so that an action model would correspond to a bundle of paths only in this model.  Doing so one could expect that all the training data (whatever the action it corresponds to) could be exploited to learn all the states of this big markovian model, hence implementing some kind of transfer learning between actions.  Preliminary works that we did let us expect that such a strategy would work with statistical markovian models \cite{DBLP:conf/icassp/DingRAP13, Radenen2014}. We will then extend this kind of ideas to recurrent neural networks and continuous state space models. Indeed in such models, a particular motion correspond to a dynamic behaviour in the latent space. Relying on a low dimensional state space (e.g. corresponding to the degrees of freedom of body poses or to the neuro muscular commands) will mechanically reduce the dynamic model complexity (e.g. number of parameters) and would favor learning from few samples.
 
+\vspace{1cm}
 
-\begin{tabular}{|p{3cm}|p{10cm}|p{1.5cm}|}\hline
+\begin{tabular}{|p{2cm}|p{10cm}|p{1.5cm}|}\hline
 Deliverables & Name and content  & Date  \\\hline
 L1.1  & Report on the state of the art for statistical models for animation synthesis &  $T_0+12$ \\\hline
 L1.2  & First version of the models : Prototype (software) and its documentation (Report on the models developed) & $T_0+24$ \\\hline
